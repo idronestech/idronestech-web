@@ -1,0 +1,24 @@
+﻿
+/* WARRANTY LIST STYLES */
+
+#forlifewarranty {width: 500px;}
+
+.redbox {width: 96%; background-color: #EE2E24; padding: 2%;}
+
+.bluebox {display:block; width: 96%; background-color: #2d2c70; padding: 2%; padding-bottom:4%;}
+
+.whitetext {color: white !important;}
+
+.bluebox img {display:block; margin-right: 10px; margin-bottom:10px;}
+
+.redbox p {margin-top:0; }
+
+#forlifewarranty h2 {text-align:left; font-weight:normal; margin-top:10px;}
+
+#forlifewarranty ul {list-style-type: none !important; margin: 0; padding: 0; clear: both;}
+
+#forlifewarranty li {background: url(/Styles/Warranty/images/tick-green.jpg) no-repeat 0 2px; padding-left: 25px; margin-top: 10px; width: auto; height: auto; list-style-type: none !important;}
+
+h2.xl {font-size: 350%; line-height: 0; margin-bottom: 20px; text-align: center !important;}
+
+#forlifewarranty p {text-align:left; font-weight:normal;}
