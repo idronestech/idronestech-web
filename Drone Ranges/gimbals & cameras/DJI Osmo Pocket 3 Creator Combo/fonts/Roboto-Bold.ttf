@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>NoSuchBucket</Code><Message>The specified bucket does not exist</Message><BucketName>reevoo-mark-assets-production</BucketName><RequestId>D10ZZR3KDMQS818T</RequestId><HostId>EEx/RAQ3ABC3QXjBrrHt34oxkhvgOTpe+c6X53Vbva9D6VlyyPNIjnvVAjwXDXhhxhAYLHophE4=</HostId></Error>
