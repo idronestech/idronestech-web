@@ -1779,8 +1779,7 @@ $(document).ready(function() {
     var footerList = secondBCol.find('.footer__list');
 
     // Define the new HTML you want to insert
-    var newListItem = '<li class="footer-stu-discount"><a href="/content/student-discount" class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" onclick="ga(\'send\', \'event\', \'Footer\', \'Student Discount\'); return true;" title="Student Discount">Student and Key Worker Discount</a></li>';
-
+   
     // Append the new list item after the last item in the UL
     footerList.append(newListItem);
 });
@@ -2031,7 +2030,7 @@ $(window).on("load", function() {
 
         <div class="caccountheader">
                     <div class="acc-enabled float-left">
-                        <a class="accountheader" onclick="openCustomLoginWindow()"><strong><span class="customername" id="head_customer_greeting"></span> </strong><i class="fa-regular fa-user fa-lg text-black padding-right-05"></i><span class="manageaccount">My Account</span></a>
+                        
                         <script> 
                             $(function() {
                                 ShowCustomerGreeting("head_customer_greeting", "lastCustomerInfo");
@@ -2040,11 +2039,7 @@ $(window).on("load", function() {
                         <p id="head_customer_balance" class="clear-both margin-0"></p>
                     </div>
 
-            <a class="ordertracker" href="https://www.dronesdirect.co.uk/orderstatus/login.aspx" title="Drones Direct Order Tracking"><i class="fa-regular fa-location-dot fa-lg text-black padding-right-05"></i><span>Track Order</span></a>
-
-            <a class="trade" href="/content/business-solutions" title="Business Enquiries"><i class="fa-regular fa-briefcase fa-lg text-black padding-right-05"></i><span>Business Enquiries</span></a>
-
-            <a class="trade" href="/content/public-sector-drones-solutions" title="Public Sector Enquiries"><i class="fa-regular fa-briefcase fa-lg text-black padding-right-05"></i><span>Public Sector Enquiries</span></a>
+            
 
         </div>
         
@@ -2053,10 +2048,7 @@ $(window).on("load", function() {
 
                     
 			
-                <div id="VATPrice" class="VATPRICENEW">
-                    <span id="VATPriceSpanon" class="VATPriceSpan" onclick="updateURLParameters('switcht','ex')"><span>Inc. VAT </span><img loading="lazy" class="headerswitch" src="images/apd-switch-off.png" alt="vat switch show inc"><span> Ex. VAT</span></span>
-                    <span id="VATPriceSpanoff" class="VATPriceSpan" onclick="updateURLParameters('switcht','inc')"><span>Inc. VAT </span><img loading="lazy" class="headerswitch" src="images/apd-switch-on.png" alt="vat switch show ex"><span> Ex. VAT</span></span>
-                </div>
+                
 
                 <div id="phCurrency">
 
@@ -2144,10 +2136,7 @@ $(window).on("load", function() {
 			</div>
 			<div id="headersearch">
                 <div id="prodsearch">
-    <form id="keywordSearchForm" action="" method="POST">
-       <input class="searchbox" id="searchCriteria" type="text" data-type="search" value="Search for Anything..." onblur="if (this.value == '') {this.value = 'Search for Anything...';}" onfocus="if (this.value == 'Search for Anything...') {this.value = '';}" name="searchCriteria" size="17" style="text-align: left;" aria-label="Search">
-       <button type="submit" value=" " class="headersearchbutton" title="Search" id="KeywordSearchSubmit" name="KeywordSearchSubmit" onclick="if($('#searchCriteria').val()  == 'Search for Anything...' || $('#searchCriteria').val() == '' ){return false;}"><i class="fa-solid fa-magnifying-glass fa-lg"></i></button>
-    </form>
+    
 
 <script type="text/javascript">
 
@@ -2444,25 +2433,10 @@ $(window).on("load", function() {
                         </ul>
                     </div>
                     <div class="col_3">
-                        <ul>
-                          <li class="header"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'Popular Searches'}); return true;" href="/ct/uavs/drones">Popular Searches</a></li>
-                          <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'Follow Me Mode'}); return true;" href="/ct/uavs/drones/follow-me-mode">Follow Me Mode</a></li>
-                          <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'Photography'}); return true;" href="/ct/uavs/drones/photography">Photography</a></li>                          
-                          <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'First Person View'}); return true;" href="/ct/uavs/drones/first-person-view">First Person View</a></li>
-                        </ul>
+                        
                     </div>
                     <div class="col_3">
-                        <ul>
-                          <li class="header"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'DJI Drones' ,'eventLabel' : 'Drone Training'}); return true;" href="/content/drone-training-and-courses">Drone Training</a></li>
-                          <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'DJI Drones' ,'eventLabel' : 'A2 Drone'}); return true;" href="/content/a2-cofc-course">A2 Drone</a></li>
-                          <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'DJI Drones' ,'eventLabel' : 'Drone Training Enquiries'}); return true;" href="/content/business-solutions">Drone Training Enquiries</a></li>
-                        </ul>                        
-                        <ul>
-                          <li class="header"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'Business Enquiries'}); return true;" href="/content/business-solutions">Business Enquiries</a></li>
-                        </ul>
-                         <ul>
-                          <li class="header"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'Refurbished Drones'}); return true;" style="color: #0096FF;" href="/ct/uavs/drones/refurbished">Refurbished Drones</a></li>
-                        </ul>
+                        
                     </div>
                     <div class="clear"></div>
 
@@ -2495,14 +2469,7 @@ $(window).on("load", function() {
                           <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'Thermal Drones'}); return true;" href="/ct/uavs/drones/thermal/commercial">Thermal Drones</a></li>
                           <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'View All Ranges'}); return true;" href="/ct/uavs/drones/commercial">View All Ranges</a></li>
                         </ul>
-                        <ul>
-                          <li class="header"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'Commercial Industries'}); return true;" href="/content/business-solutions">Shop By Industries</a></li>
-                          <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'Public Saftey'}); return true;" href="/ct/uavs/drones/commercial/public-safety">Public Saftey</a></li>
-                          <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'Construction'}); return true;" href="/ct/uavs/drones/commercial/construction">Construction</a></li>
-                          <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'Agriculture'}); return true;" href="/ct/uavs/drones/commercial/agriculture">Agriculture</a></li>
-                          <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'Energy'}); return true;" href="/ct/uavs/drones/commercial/energy">Energy</a></li>
-                          <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'Search and Rescue'}); return true;" href="/ct/uavs/drones/commercial/search-and-rescue">Search and Rescue</a></li>
-                        </ul>
+                        
                     </div>
                     <div class="col_3">
                         <ul>
@@ -2540,19 +2507,7 @@ $(window).on("load", function() {
                         </ul>
                     </div>
                     <div class="col_3">
-                        <ul>
-                          <li class="header"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'DJI Drones' ,'eventLabel' : 'Drone Training'}); return true;" href="/content/drone-training-and-courses">Drone Training</a></li>
-                          <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'DJI Drones' ,'eventLabel' : 'A2 Drone'}); return true;" href="/content/a2-cofc-course">A2 Drone</a></li>
-                          <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'DJI Drones' ,'eventLabel' : 'GVC'}); return true;" href="/content/caa-gvc-course">GVC</a></li>
-                          <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'DJI Drones' ,'eventLabel' : 'Survey Training'}); return true;" href="/content/drone-survey-training-course">Survey Training</a></li>
-                          <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'DJI Drones' ,'eventLabel' : 'All Courses'}); return true;" href="/content/drone-training-and-courses">All Courses</a></li>
-                        </ul>                        
-                        <ul>
-                          <li class="header"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'Business Enquiries'}); return true;" href="/content/business-solutions">Business Enquiries</a></li>
-                        </ul>
-                         <ul>
-                          <li class="header"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'Refurbished Drones'}); return true;" style="color: #0096FF;" href="/ct/uavs/drones/refurbished">Refurbished Drones</a></li>
-                        </ul>
+                       
                     </div>
                     <div class="clear"></div>
                 </div>
@@ -2692,59 +2647,14 @@ $(window).on("load", function() {
             </li>
             <!-- End Item -->           
 
-            <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Cinematography' ,'eventLabel' : 'Header'}); return true;" class="drop" href="/content/refurbished-centre">Refurbished</a><!-- Begin Item -->
-       
-                <div class="drop3columns dropcontent">
-                    <!-- Begin Item Container -->
-
-                    <div class="col_3">
-                          <ul>
-                           <li class="header"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Refurbished' ,'eventLabel' : 'Drones'}); return true;" href="/st/refurbished-drones">Drones</a></li>    
-                           <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Refurbished' ,'eventLabel' : 'Accessories'}); return true;" href="/ct/drone-parts-and-accessories/refurbished">Accessories</a></li>  
-                           <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Refurbished' ,'eventLabel' : 'Shop all'}); return true;" href="/content/refurbished-centre">Shop all</a></li>
-                         </ul>
-                         </div>
-
-
-                    <div class="clear"></div>
-
-                </div>
+            
                 <!-- End Item Container -->
 
             </li>
             <!-- End Item -->   
             
 
-            <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drone Training' ,'eventLabel' : 'Header'});return true;" class="drop" href="/content/drone-training-and-courses">Training</a><!-- Begin Item -->
-        
-                <div class="drop6columns dropcontent align_right">
-                    <!-- Begin Item Container -->
-
-                <div class="col_3">
-                  <ul>
-                   <li class="header"><a>Our Courses</a></li>
-                   <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drone Training' ,'eventLabel' : 'A2 CofC Course'}); return true;" href="/content/a2-cofc-course">A2 CofC Course</a></li>
-                   <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drone Training' ,'eventLabel' : 'CAA GVC Course'}); return true;" href="/content/caa-gvc-course">CAA GVC Course</a></li>
-                   <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drone Training' ,'eventLabel' : 'Surveying Course'}); return true;" href="/content/drone-survey-training-course">Surveying Course</a></li>
-                   <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drone Training' ,'eventLabel' : 'All Courses'}); return true;" href="/content/drone-training-and-courses">All Courses</a></li>
-                  </ul>
-                  </div>
-
-                <div class="col_3">               
-                 <ul>
-                    <li class="header"><a>Research and Learning</a></li>
-                    <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drone Training' ,'eventLabel' : 'UK Drone Regulations'}); return true;" href="/content/flying-zones">UK Drone Regulations</a></li>
-                    <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drone Training' ,'eventLabel' : 'FAQ'}); return true;" href="/content/FAQ">FAQ</a></li>
-                    <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'Business Enquiries'}); return true;" style="color: #0096FF;" href="/content/business-solutions">Business Enquiries</a></li>
-                </ul>
-                 </div>
-                    
-   
-
-                    <div class="clear"></div>
-
-
-                </div>
+            
                 <!-- End Item Container -->
 
             </li>
@@ -2788,7 +2698,7 @@ $(window).on("load", function() {
           
     <li class="final background-red-500">
               
-                <a href="/content/sale" class="drop" onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Top Navigation' ,'eventAction' : 'Sale' ,'eventLabel' : 'toplink - sale'}); return true;">Sale</a>
+                
                 <!--<div class="drop3columns dropcontent align_right">
                     
 
@@ -2822,8 +2732,8 @@ $(window).on("load", function() {
     <div class="offerbar clear-both">
  <div class="wrapper">
   <div class="weekday-reassurance">
-   <div class="delivery"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Tracking' ,'eventAction' : 'Reassurance Bar' ,'eventLabel' : 'delivery'});" href="/content/delivery">
-    <div><img id="reevoo-reviews" src="images/reassurance-icon-del.png"> <span><strong>Choose your delivery day</strong><br>on 100's of items</span></div>
+   <div class="delivery"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Tracking' ,'eventAction' : 'Reassurance Bar' ,'eventLabel' : 'delivery'});" >
+    <div><img id="reevoo-reviews" src="images/reassurance-icon-del.png"> <span><strong></strong><br>on 100's of items</span></div>
     </a></div>
    <!--
 <div class="reviews">
@@ -2832,20 +2742,20 @@ $(window).on("load", function() {
 </a>
 </div>
 -->
-   <div class="b2b"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Tracking' ,'eventAction' : 'Reassurance Bar' ,'eventLabel' : 'b2b'});" href="/content/business-solutions">
+   <div class="b2b"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Tracking' ,'eventAction' : 'Reassurance Bar' ,'eventLabel' : 'b2b'});" >
     <div><img id="finance" src="images/reassurance-icon-b2b.png"> <span><strong>B2B Account Managers</strong><br>Call us today!</span></div>
     </a></div>
    <!--<div class="finance"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Tracking' ,'eventAction' : 'Reassurance Bar' ,'eventLabel' : 'finance'});" href="/content/finance">
     <div><img id="delivery" src="/files/images/dd/reassurance-bar-paypaltest.png" /> <span><strong>0% Interest Free Finance</strong><br />for 4 months on orders over £99</span></div>
     </a></div>-->
-    <div class="finance"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Tracking' ,'eventAction' : 'Reassurance Bar' ,'eventLabel' : 'finance'});" href="/content/finance">
+    <div class="finance"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Tracking' ,'eventAction' : 'Reassurance Bar' ,'eventLabel' : 'finance'});" >
     <div><img id="delivery" src="images/reassurance-bar-paypaltest.png"> <span><strong>0% interest available</strong><br>on orders over £99</span></div>
     </a></div>
-   <div class="sell"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Tracking' ,'eventAction' : 'Reassurance Bar' ,'eventLabel' : 'sell'});" href="/content/our-promise">
+   <div class="sell"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Tracking' ,'eventAction' : 'Reassurance Bar' ,'eventLabel' : 'sell'});">
     <div><img id="install" src="images/reassurance-icon-returns.png"> <span><strong>Our Promise</strong><br> 50 day returns</span></div>
     </a></div>
     
-    <div class="tp"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Tracking' ,'eventAction' : 'Reassurance Bar' ,'eventLabel' : 'Trust Pilot'});" href="https://uk.trustpilot.com/review/dronesdirect.co.uk" target="_blank">
+    <div class="tp"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Tracking' ,'eventAction' : 'Reassurance Bar' ,'eventLabel' : 'Trust Pilot'});"  target="_blank">
     <div><img id="delivery" src="images/trustpilot-reassurance-excellent.png"> <span>Rated Excellent</span></div>
     </a></div>
     
@@ -3115,28 +3025,13 @@ $(window).on("load", function() {
         <div id="sr_view_sort" class="viewbyprice b-row margin-x-0 flex-nowrap border-radius-large background-neutral-100 padding-1 align-items-center">
 
 <div class="sr_sort b-col padding-left-0">
-    <p class="font-semibold margin-top-0 margin-bottom-05">Sort by</p>
-    <div class="select">
-<select class="form-input form-input-small cursor-pointer" id="sortOrder" name="sortOrder" onchange="searchLoadAjax('?sortOrder=' + this.options[this.selectedIndex].value + '');"><option value="1">Price (Low to High)</option>
-<option value="2">Price (High to Low)</option>
-<option value="3">Alphabetical</option>
-<option value="7">Saving (High to Low)</option>
-<option selected="selected" value="8">Popularity</option>
-</select>
+   
     </div>
 </div>
     <div class="sli_searchwithin b-col">
-        <p class="font-semibold margin-top-0 margin-bottom-05">Refine your results</p>
+       
 
-        <div class="input-with-button margin-right-1">
-            <input type="text" id="subSearchCriteria" value="" onblur="if (this.value == '') {this.value = 'Model, Accessory etc...';}" onfocus="if (this.value == 'Model, Accessory etc...') {this.value = '';}" class="form-input form-input-small border-right-0" placeholder="Enter search term..." aria-label="Search" aria-describedby="input">
-            <div class="input-button-right">
-                <a href="" id="KeywordSubSearchSubmit" class="button">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </a>
-                <input type="text" id="dummyinputpreventautosubmit" style="display:none;">
-            </div>
-        </div>
+       
     </div>
     <script type="text/javascript">
         var myRegexp = /\/fts\/(.+)\/fts/g;
@@ -3275,7 +3170,7 @@ $(window).on("load", function() {
                     "image": "/Images/BUNCP.EN.00000411.0192858_2_Classic.jpg?v=82",
                     "offers": {
                         "@type": "Offer",
-                        "price": 3080.00,
+                        "price": 1999.00,
                         "priceCurrency": "GBP"
                     },
                     "aggregateRating": {
@@ -3295,7 +3190,7 @@ $(window).on("load", function() {
                     "image": "/Images/CP.EN.00000415.01_1_Classic.jpg?v=64",
                     "offers": {
                         "@type": "Offer",
-                        "price": 4839.00,
+                        "price": 3339.00,
                         "priceCurrency": "GBP"
                     },
                     "aggregateRating": {
@@ -3342,7 +3237,7 @@ $(window).on("load", function() {
 
 
 
-                    <a class="productHref_1793472" href="/p/cp.en.00000411.01/dji-mavic-3-enterprise-drone" title="DJI Mavic 3 Enterprise" onclick="EnEcomProdClick('CP.EN.00000411.01', 'p/cp.en.00000411.01/dji-mavic-3-enterprise-drone', '1');">
+                    <a class="productHref_1793472" href="../../toy drones/DJI Mavic 3 Enterprise/index.html" title="DJI Mavic 3 Enterprise" onclick="EnEcomProdClick('CP.EN.00000411.01', 'p/cp.en.00000411.01/dji-mavic-3-enterprise-drone', '1');">
 
                         <img id="productImage_1793472" pid="1793472" class="offerImage" src="images/BUNCP.EN.00000411.0192858_2_Classic.jpg" border="0" alt="" title="DJI Mavic 3 Enterprise">
 
@@ -3382,7 +3277,7 @@ $(window).on("load", function() {
 
                 <div class="OfferBoxTitle">
                     <h3 class="font-semibold font-size-12 margin-0 line-height-normal">
-                        <a class="offerboxtitle" href="/p/cp.en.00000411.01/dji-mavic-3-enterprise-drone" onclick="EnEcomProdClick('CP.EN.00000411.01', 'p/cp.en.00000411.01/dji-mavic-3-enterprise-drone', '1');" title="DJI Mavic 3 Enterprise">DJI Mavic 3 Enterprise</a>
+                        <a class="offerboxtitle" href="../../toy drones/DJI Mavic 3 Enterprise/index.html" onclick="EnEcomProdClick('CP.EN.00000411.01', 'p/cp.en.00000411.01/dji-mavic-3-enterprise-drone', '1');" title="DJI Mavic 3 Enterprise">DJI Mavic 3 Enterprise</a>
                     </h3>
 
                     <div class="display-flex align-items-center margin-top-05 flex-wrap">
@@ -3445,7 +3340,7 @@ $(window).on("load", function() {
             <div>
                             </div>
             <span class="offerprice">
-                    <span id="offerprice-1793472" data-related="null">�3080.00</span>
+                    <span id="offerprice-1793472" data-related="null">�1999.00</span>
                 <span class="tilesUnitText"></span>
                 <span class="tilesUnitText"></span>
             </span>
@@ -3508,7 +3403,7 @@ $(window).on("load", function() {
         font-weight: 400 !important;
     }
 </style>
-                    <a aria-label="view product" role="link" class="margin-top-05 button button-dark-blue width-100 productHref_1793472" href="/p/cp.en.00000411.01/dji-mavic-3-enterprise-drone" onclick="document.location.href='/p/cp.en.00000411.01/dji-mavic-3-enterprise-drone'; EnEcomProdClick('CP.EN.00000411.01', 'p/cp.en.00000411.01/dji-mavic-3-enterprise-drone', '1');" title="DJI Mavic 3 Enterprise">View product</a>
+                    <a aria-label="view product" role="link" class="margin-top-05 button button-dark-blue width-100 productHref_1793472" href="../../toy drones/DJI Mavic 3 Enterprise/index.html" onclick="document.location.href='/p/cp.en.00000411.01/dji-mavic-3-enterprise-drone'; EnEcomProdClick('CP.EN.00000411.01', 'p/cp.en.00000411.01/dji-mavic-3-enterprise-drone', '1');" title="DJI Mavic 3 Enterprise">View product</a>
 
                 </div>
 
@@ -3540,7 +3435,7 @@ $(window).on("load", function() {
 
 
 
-                    <a class="productHref_1795193" href="/p/cp.en.00000415.01/dji-mavic-3-thermal-enterprise-drone" title="DJI Mavic 3 Thermal Enterprise Drone Universal Edition" onclick="EnEcomProdClick('CP.EN.00000415.01', 'p/cp.en.00000415.01/dji-mavic-3-thermal-enterprise-drone', '2');">
+                    <a class="productHref_1795193" href="../../toy drones/DJI Mavic 3 Thermal Enterprise Drone Universal Edition/index.html" title="DJI Mavic 3 Thermal Enterprise Drone Universal Edition" onclick="EnEcomProdClick('CP.EN.00000415.01', 'p/cp.en.00000415.01/dji-mavic-3-thermal-enterprise-drone', '2');">
 
                         <img id="productImage_1795193" pid="1795193" class="offerImage" src="images/CP.EN.00000415.01_1_Classic.jpg" border="0" alt="" title="DJI Mavic 3 Thermal Enterprise Drone Universal Edition">
 
@@ -3580,7 +3475,7 @@ $(window).on("load", function() {
 
                 <div class="OfferBoxTitle">
                     <h3 class="font-semibold font-size-12 margin-0 line-height-normal">
-                        <a class="offerboxtitle" href="/p/cp.en.00000415.01/dji-mavic-3-thermal-enterprise-drone" onclick="EnEcomProdClick('CP.EN.00000415.01', 'p/cp.en.00000415.01/dji-mavic-3-thermal-enterprise-drone', '2');" title="DJI Mavic 3 Thermal Enterprise Drone Universal Edition">DJI Mavic 3 Thermal Enterprise Drone Universal Edition</a>
+                        <a class="offerboxtitle" href="../../toy drones/DJI Mavic 3 Thermal Enterprise Drone Universal Edition/index.html" onclick="EnEcomProdClick('CP.EN.00000415.01', 'p/cp.en.00000415.01/dji-mavic-3-thermal-enterprise-drone', '2');" title="DJI Mavic 3 Thermal Enterprise Drone Universal Edition">DJI Mavic 3 Thermal Enterprise Drone Universal Edition</a>
                     </h3>
 
                     <div class="display-flex align-items-center margin-top-05 flex-wrap">
@@ -3643,7 +3538,7 @@ $(window).on("load", function() {
             <div>
                             </div>
             <span class="offerprice">
-                    <span id="offerprice-1795193" data-related="null">�4839.00</span>
+                    <span id="offerprice-1795193" data-related="null">�3339.00</span>
                 <span class="tilesUnitText"></span>
                 <span class="tilesUnitText"></span>
             </span>
@@ -3703,7 +3598,7 @@ $(window).on("load", function() {
         font-weight: 400 !important;
     }
 </style>
-                    <a aria-label="view product" role="link" class="margin-top-05 button button-dark-blue width-100 productHref_1795193" href="/p/cp.en.00000415.01/dji-mavic-3-thermal-enterprise-drone" onclick="document.location.href='/p/cp.en.00000415.01/dji-mavic-3-thermal-enterprise-drone'; EnEcomProdClick('CP.EN.00000415.01', 'p/cp.en.00000415.01/dji-mavic-3-thermal-enterprise-drone', '2');" title="DJI Mavic 3 Thermal Enterprise Drone Universal Edition">View product</a>
+                    <a aria-label="view product" role="link" class="margin-top-05 button button-dark-blue width-100 productHref_1795193" href="../../toy drones/DJI Mavic 3 Thermal Enterprise Drone Universal Edition/index.html" onclick="document.location.href='/p/cp.en.00000415.01/dji-mavic-3-thermal-enterprise-drone'; EnEcomProdClick('CP.EN.00000415.01', 'p/cp.en.00000415.01/dji-mavic-3-thermal-enterprise-drone', '2');" title="DJI Mavic 3 Thermal Enterprise Drone Universal Edition">View product</a>
 
                 </div>
 
@@ -3810,7 +3705,7 @@ $(window).on("load", function() {
 'name': 'DJI Mavic 3 Enterprise',
 'id': 'CP.EN.00000411.01',
 'parentid': 'CP.EN.00000411.01',
-'price': '3080.00',
+'price': '1999.00',
 'brand': 'DJI',
 'category': 'Drones',
 'list': 'Navigation',
@@ -3820,7 +3715,7 @@ $(window).on("load", function() {
 'name': 'DJI Mavic 3 Thermal Enterprise Drone Universal Edition',
 'id': 'CP.EN.00000415.01',
 'parentid': 'CP.EN.00000415.01',
-'price': '4839.00',
+'price': '3339.00',
 'brand': 'DJI',
 'category': 'Drones',
 'list': 'Navigation',
@@ -4184,9 +4079,9 @@ jQuery("div.sr_container").attr("ID", "sr_404");
 
         <div class="footer__container b-row b-row-cols-1 b-row-cols-md-5">
             <div class="b-col display-flex align-items-start justify-content-start flex-column">
-                <img loading="lazy" class="footer__logo" src="images/BID_Logo.png" alt="BuyItDirect Logo">
+                <img loading="lazy" class="footer__logo" src="images/jogo.png" alt="BuyItDirect Logo">
                 <p class="footer__copy font-size-08 line-height-14 font-weight-400 text-neutral-500 margin-y-0 padding-top-1 text-align-center text-align-md-left">
-                    Drones Direct are part of the Buy It Direct Group; Reg. No. 04171412
+                     At iDro nes,your satisfaction comes first-quality drones, trusted servce.
                 </p>
             </div>
 
@@ -4196,20 +4091,9 @@ jQuery("div.sr_container").attr("ID", "sr_404");
                         Help and advice
                     </li>
                     <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="/content/customer-service" title="Contact Drones Direct">Customer service</a>
+                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="../../essentials/custormer service/index.html" title="Contact Drones Direct">Customer service</a>
                     </li>
-                    <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="/content/collection-points" title="Collection Points Drones Direct">Collection points</a>
-                    </li>
-                    <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="/content/finance" title="Finance Drones Direct">Finance</a>
-                    </li>
-                    <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" onclick="openCustomLoginWindow(); return false;" title="My account Drones Direct">My account</a>
-                    </li>
-                    <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="/orderstatus/login.aspx" title="Track order Drones Direct">Track order</a>
-                    </li>
+                    
                 </ul>
             </div>
 
@@ -4219,17 +4103,9 @@ jQuery("div.sr_container").attr("ID", "sr_404");
                         Services
                     </li>
                     <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="/content/delivery" title="Delivery Drones Direct">Delivery</a>
+                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="../../essentials/delivery/index.html" title="Delivery Drones Direct">Delivery</a>
                     </li>
-                    <!-- <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" onclick="ga('send', 'event', 'Footer', 'Recycling'); return true;" href="#" title="Recycling Drones Direct">Recycling</a>
-                    </li> -->
-                    <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="/content/public-sector-drones-solutions" title="Public Sector Enquiries Drones Direct">Public sector enquiries</a>
-                    </li>
-                    <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="/content/business-solutions" title="Trade Enquiries Drones Direct">Trade enquiries</a>
-                    </li>
+                    
                 </ul>
             </div>
 
@@ -4239,17 +4115,9 @@ jQuery("div.sr_container").attr("ID", "sr_404");
                         About us
                     </li>
                     <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="/content/about-us" title="About us Drones Direct">About us</a>
+                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="../../essentials/about us/index.html" title="About us Drones Direct">About us</a>
                     </li>
-                    <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="/content/affiliates" title="Affiliates Drones Direct">Affiliates</a>
-                    </li>
-                    <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="https://www.buyitdirectgroup.co.uk/content/careers" title="Careers Drones Direct">Careers</a>
-                    </li>
-                    <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="https://www.buyitdirectgroup.co.uk" title="Corporate site Drones Direct">Corporate site</a>
-                    </li>
+                    
                 </ul>
             </div>
 
@@ -4268,13 +4136,12 @@ jQuery("div.sr_container").attr("ID", "sr_404");
                 We accept
             </h3>
             <div class="footer__payment-imgs display-flex align-items-center justify-content-center flex-wrap">
-                <img loading="lazy" class="padding-05 lazy" data-original="/Files/images/apd/footer__images/BID_Payment_Maestro.svg" src="images/BID_Payment_Maestro.svg" alt="Maestro logo">
-                <img loading="lazy" class="padding-05 lazy" data-original="/Files/images/apd/footer__images/BID_Payment_MasterCard.svg" src="images/BID_Payment_MasterCard.svg" alt="MasterCard logo">
+                
                 <img loading="lazy" class="padding-05 lazy" data-original="/Files/images/apd/footer__images/BID_Payment_Visa.svg" src="images/BID_Payment_Visa.svg" alt="Visa logo">
                 <img loading="lazy" class="padding-05 lazy" data-original="/Files/images/apd/footer__images/BID_Payment_PayPal.svg" src="images/BID_Payment_PayPal.svg" alt="PayPal logo">
                 <img loading="lazy" class="padding-05 lazy" data-original="/Files/images/apd/footer__images/BID_Payment_Apple.svg" src="images/BID_Payment_Apple.svg" alt="Apple Pay logo">
                 <img loading="lazy" class="padding-05 lazy" data-original="/Files/images/apd/footer__images/BID_Payment_Google.svg" src="images/BID_Payment_Google.svg" alt="Google Pay logo">
-                
+                                <img loading="lazy" class="padding-05 lazy" data-original="/Files/images/apd/footer__images/BID_Payment_Bitcoin.svg" src="images/dog.jpg" alt="BID_Payment_Bitcoin" style="width: 50px; height: auto; vertical-align: midle;">
             </div>
         </div>
 
@@ -4282,35 +4149,8 @@ jQuery("div.sr_container").attr("ID", "sr_404");
             <span class="footer__line"></span>
             <div class="footer__links-container display-flex align-items-center justify-content-between flex-column flex-md-row padding-y-1">
 
-                <ul class="footer__list list display-flex flex-wrap align-items-center justify-content-center">
-                    <li class="font-size-08 font-semibold align-self-center text-neutral-900 margin-y-0 width-100 width-md-auto text-align-center">
-                        Our websites
-                    </li>
-                    <li>
-                        <a class=" footer__list-link font-size-08 font-weight-400 text-neutral-500 margin-y-0 padding-left-1 text-align-center" target="_blank" href="https://www.laptopsdirect.co.uk/" title="Laptops Direct">Laptops Direct</a>
-                    </li>
-                    <li>
-                        <a class=" footer__list-link font-size-08 font-weight-400 text-neutral-500 margin-y-0 padding-left-1 text-align-center" target="_blank" href="https://www.appliancesdirect.co.uk/" title="Appliances Direct">Appliances Direct</a>
-                    </li>
-                    <li>
-                        <a class=" footer__list-link font-size-08 font-weight-400 text-neutral-500 margin-y-0 padding-left-1 text-align-center" target="_blank" href="https://www.betterbathrooms.com/" title="Better Bathrooms">Better Bathrooms</a>
-                    </li>
-                    <li>
-                        <a class=" footer__list-link font-size-08 font-weight-400 text-neutral-500 margin-y-0 padding-left-1 text-align-center" target="_blank" href="https://furniture123.co.uk/" title="Furniture123">Furniture123</a>
-                    </li>
-                    <li>
-                        <a class=" footer__list-link font-size-08 font-weight-400 text-neutral-500 margin-y-0 padding-left-1 text-align-center" target="_blank" href="https://www.outdoorlivinghottubs.co.uk/" title="Outdoor Living">Outdoor Living</a>
-                    </li>
-                </ul>
 
-                <ul class="footer__list list display-flex">
-                    <li class="align-self-center margin-y-0 text-align-center">
-                        <a class=" footer__list-link font-size-08 font-weight-400 text-neutral-500 margin-y-0 padding-left-1 text-align-center" href="/content/cookie-policy" title="Cookie Policy Drones Direct">Cookie Policy</a>
-                    </li>
-                    <li class="align-self-center margin-y-0 text-align-center">
-                        <a class=" footer__list-link font-size-08 font-weight-400 text-neutral-500 margin-y-0 padding-left-1 text-align-center" href="/content/privacy-policy" title="Privacy Policy Drones Direct">Privacy Policy</a>
-                    </li>
-                </ul>
+               
             </div>
             <span class="footer__line"></span>
         </div>
@@ -4344,10 +4184,7 @@ jQuery("div.sr_container").attr("ID", "sr_404");
             //]]>
         </script>
 
-        <div class="footer__legal padding-y-1 padding-y-md-2">
-            <p class="font-size-08 line-height-14 text-neutral-500 text-align-center"> Buy It Direct acts as a broker and offers credit from a panel of lenders. For more information please <a class="text-link-light-blue" href="/content/finance" title="Finance info">click here.</a> </p>
-            <p class="font-size-08 line-height-14 text-neutral-500 text-align-center padding-top-05"> PayPal Credit and PayPal Pay in 3 are trading names of PayPal UK Ltd, 5 Fleet Place, London, United Kingdom, EC4M 7RD. <strong class="font-semibold">PayPal Credit:</strong> Terms and conditions apply. Credit subject to status, UK residents only, Buy It Direct acts as a broker and offers finance from a restricted range of finance providers. <strong class="font-semibold">PayPal Pay in 3:</strong> PayPal Pay in 3 is not regulated by the Financial Conduct Authority. Pay in 3 eligibility is subject to status and approval. UK residents only. Pay in 3 is a form of credit, may not be suitable for everyone and use may affect your credit score. See product terms for more details. </p>
-            <p class="font-size-08 line-height-14 text-neutral-500 text-align-center padding-top-05"> Buy It Direct Ltd is a limited company registered in England. Registered number 04171412. Registered office: Trident Business Park, Leeds Road, Huddersfield, West Yorkshire, HD2 1UA. </p>
+       
         </div>
 
     </div>
