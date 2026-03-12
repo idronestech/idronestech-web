@@ -1303,8 +1303,7 @@ $(document).ready(function() {
     var footerList = secondBCol.find('.footer__list');
 
     // Define the new HTML you want to insert
-    var newListItem = '<li class="footer-stu-discount"><a href="/content/student-discount" class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" onclick="ga(\'send\', \'event\', \'Footer\', \'Student Discount\'); return true;" title="Student Discount">Student and Key Worker Discount</a></li>';
-
+   
     // Append the new list item after the last item in the UL
     footerList.append(newListItem);
 });
@@ -1571,7 +1570,7 @@ $(window).on("load", function() {
         <div id="oursitetabs">
             <div class="apd-tab"><a title="Appliances Direct" target="_blank" rel="nofollow" href="https://www.appliancesdirect.co.uk/?tref=apdtabdrones"><img loading="lazy" src="images/APD-logo-masthead.svg" alt="Appliances Direct"></a></div>
             <div class="ld-tab"><a title="Laptops Direct" target="_blank" rel="nofollow" href="https://www.laptopsdirect.co.uk/?tref=ldtabdrones"><img loading="lazy" src="images/toptab-ld-logo-min.png" alt="Laptops Direct"></a></div>
-            <div class="dd-tab mainsitetab"><a title="Drones Direct" href="/"><img loading="lazy" src="images/toptab-dd-logo-min.png" alt="Drones Direct"></a></div>
+            <div class="dd-tab mainsitetab"><a title="Drones Direct" href="/"><img loading="lazy"  src="images/jogo.png" width="100px" height="50px" alt="iDronestech"></a></div>
             <div class="bb-tab"><a title="Better Bathrooms" target="_blank" rel="nofollow" href="https://www.betterbathrooms.com/?tref=bbtabdrones"><img loading="lazy" src="images/toptab-bb-logo-min.png" alt="Better Bathrooms"></a></div>
             <div class="f123-tab"><a title="Furniture 123" target="_blank" rel="nofollow" href="https://furniture123.co.uk/?tref=f123tabdrones"><img loading="lazy" alt="Furniture 123" src="images/toptab-F123-logo-min.png"></a></div>
             <div class="dehum-tab"><a title="Dehumidifiers" rel="nofollow" target="_blank" href="https://www.appliancesdirect.co.uk/ct/heating-and-air-conditioning/dehumidifiers?tref=apdtabacdrones"><img loading="lazy" alt="Dehumidifiers" src="images/top-tab-dehum-tab-new-min.png"></a></div>
@@ -1593,7 +1592,7 @@ $(window).on("load", function() {
 
         <div class="caccountheader">
                     <div class="acc-enabled float-left">
-                        <a class="accountheader" onclick="openCustomLoginWindow()"><strong><span class="customername" id="head_customer_greeting"></span> </strong><i class="fa-regular fa-user fa-lg text-black padding-right-05"></i><span class="manageaccount">My Account</span></a>
+                        
                         <script> 
                             $(function() {
                                 ShowCustomerGreeting("head_customer_greeting", "lastCustomerInfo");
@@ -1602,12 +1601,7 @@ $(window).on("load", function() {
                         <p id="head_customer_balance" class="clear-both margin-0"></p>
                     </div>
 
-            <a class="ordertracker" href="https://www.dronesdirect.co.uk/orderstatus/login.aspx" title="Drones Direct Order Tracking"><i class="fa-regular fa-location-dot fa-lg text-black padding-right-05"></i><span>Track Order</span></a>
-
-            <a class="trade" href="/content/business-solutions" title="Business Enquiries"><i class="fa-regular fa-briefcase fa-lg text-black padding-right-05"></i><span>Business Enquiries</span></a>
-
-            <a class="trade" href="/content/public-sector-drones-solutions" title="Public Sector Enquiries"><i class="fa-regular fa-briefcase fa-lg text-black padding-right-05"></i><span>Public Sector Enquiries</span></a>
-
+            
         </div>
         
 
@@ -1615,15 +1609,12 @@ $(window).on("load", function() {
 
                     
 			
-                <div id="VATPrice" class="VATPRICENEW">
-                    <span id="VATPriceSpanon" class="VATPriceSpan" onclick="updateURLParameters('switcht','ex')"><span>Inc. VAT </span><img loading="lazy" class="headerswitch" src="images/apd-switch-off.png" alt="vat switch show inc"><span> Ex. VAT</span></span>
-                    <span id="VATPriceSpanoff" class="VATPriceSpan" onclick="updateURLParameters('switcht','inc')"><span>Inc. VAT </span><img loading="lazy" class="headerswitch" src="images/apd-switch-on.png" alt="vat switch show ex"><span> Ex. VAT</span></span>
-                </div>
+               
 
                 <div id="phCurrency">
 
-                    <span id="CurrencyPriceSpanoff" class="CurrencyPriceSpan" onclick="updateURLParameters('switchc','p')"><span class="headercurrency">£ <img loading="lazy" src="images/unionjack.gif" width="16" height="11"></span><img loading="lazy" class="headerswitch" src="images/apd-switch-on.png" alt="currency switch"><span class="headercurrency">¬ <img loading="lazy" src="images/euroflag.gif" width="16" height="11" alt="EU flag"></span></span>
-				    <span id="CurrencyPriceSpanon" class="CurrencyPriceSpan" onclick="updateURLParameters('switchc','e')"><span class="headercurrency">£ <img loading="lazy" src="images/unionjack.gif" width="16" height="11"></span><img loading="lazy" class="headerswitch" src="images/apd-switch-off.png" alt="currency switch"><span class="headercurrency">¬ <img loading="lazy" src="images/euroflag.gif" width="16" height="11" alt="EU flag"></span></span>
+                    <span id="CurrencyPriceSpanoff" class="CurrencyPriceSpan" onclick="updateURLParameters('switchc','p')"><span class="headercurrency">ï¿½ <img loading="lazy" src="images/unionjack.gif" width="16" height="11"></span><img loading="lazy" class="headerswitch" src="images/apd-switch-on.png" alt="currency switch"><span class="headercurrency">ï¿½ <img loading="lazy" src="images/euroflag.gif" width="16" height="11" alt="EU flag"></span></span>
+				    <span id="CurrencyPriceSpanon" class="CurrencyPriceSpan" onclick="updateURLParameters('switchc','e')"><span class="headercurrency">ï¿½ <img loading="lazy" src="images/unionjack.gif" width="16" height="11"></span><img loading="lazy" class="headerswitch" src="images/apd-switch-off.png" alt="currency switch"><span class="headercurrency">ï¿½ <img loading="lazy" src="images/euroflag.gif" width="16" height="11" alt="EU flag"></span></span>
                
                 </div>
 
@@ -1646,8 +1637,8 @@ $(window).on("load", function() {
     <div class="wrapper">
 
  <div id="header">
-		
-			<div id="logo" title="Drones Direct">
+		<img src="images/jogo.png" width="350" height="150" alt="jogo" style="margin-right: 300px; padding: 0px; margin-top: 0px;" class="logo-max">
+			<div id="" title="iDronestech">
 				<a href="/">
              <!--?xml version="1.0" encoding="utf-8"?-->
 <!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
@@ -1713,10 +1704,7 @@ $(window).on("load", function() {
 			</div>
 			<div id="headersearch">
                 <div id="prodsearch">
-    <form id="keywordSearchForm" action="" method="POST">
-       <input class="searchbox" id="searchCriteria" type="text" data-type="search" value="Search for Anything..." onblur="if (this.value == '') {this.value = 'Search for Anything...';}" onfocus="if (this.value == 'Search for Anything...') {this.value = '';}" name="searchCriteria" size="17" style="text-align: left;" aria-label="Search">
-       <button type="submit" value=" " class="headersearchbutton" title="Search" id="KeywordSearchSubmit" name="KeywordSearchSubmit" onclick="if($('#searchCriteria').val()  == 'Search for Anything...' || $('#searchCriteria').val() == '' ){return false;}"><i class="fa-solid fa-magnifying-glass fa-lg"></i></button>
-    </form>
+    
 
 <script type="text/javascript">
 
@@ -1903,13 +1891,7 @@ $(window).on("load", function() {
 		
             </div>
 		
-			<div id="phone-ap" onclick="location.href='/content/customer-service#openinghrs'">
-                <div id="phonenumber">
-
-                    <p>Weâ€™re not robots, get sales advice 7 days a week</p>
-                    <span class="SalesContactTelNo">08719713141</span>
-                    <div class="CallCostIdentifier">Calls cost 13p per min plus your network access charge</div>
-            </div>
+			<img src="images/jogo.png" width="350" height="150" alt="jogo" style="margin-left: 150px; padding: 0px; margin-top: 0px;" class="logo-max">
 		
 		</div>
 
@@ -2019,25 +2001,10 @@ $(window).on("load", function() {
                         </ul>
                     </div>
                     <div class="col_3">
-                        <ul>
-                          <li class="header"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'Popular Searches'}); return true;" href="/ct/uavs/drones">Popular Searches</a></li>
-                          <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'Follow Me Mode'}); return true;" href="/ct/uavs/drones/follow-me-mode">Follow Me Mode</a></li>
-                          <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'Photography'}); return true;" href="/ct/uavs/drones/photography">Photography</a></li>                          
-                          <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'First Person View'}); return true;" href="/ct/uavs/drones/first-person-view">First Person View</a></li>
-                        </ul>
+                        
                     </div>
                     <div class="col_3">
-                        <ul>
-                          <li class="header"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'DJI Drones' ,'eventLabel' : 'Drone Training'}); return true;" href="/content/drone-training-and-courses">Drone Training</a></li>
-                          <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'DJI Drones' ,'eventLabel' : 'A2 Drone'}); return true;" href="/content/a2-cofc-course">A2 Drone</a></li>
-                          <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'DJI Drones' ,'eventLabel' : 'Drone Training Enquiries'}); return true;" href="/content/business-solutions">Drone Training Enquiries</a></li>
-                        </ul>                        
-                        <ul>
-                          <li class="header"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'Business Enquiries'}); return true;" href="/content/business-solutions">Business Enquiries</a></li>
-                        </ul>
-                         <ul>
-                          <li class="header"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'Refurbished Drones'}); return true;" style="color: #0096FF;" href="/ct/uavs/drones/refurbished">Refurbished Drones</a></li>
-                        </ul>
+                        
                     </div>
                     <div class="clear"></div>
 
@@ -2070,14 +2037,7 @@ $(window).on("load", function() {
                           <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'Thermal Drones'}); return true;" href="/ct/uavs/drones/thermal/commercial">Thermal Drones</a></li>
                           <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'View All Ranges'}); return true;" href="/ct/uavs/drones/commercial">View All Ranges</a></li>
                         </ul>
-                        <ul>
-                          <li class="header"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'Commercial Industries'}); return true;" href="/content/business-solutions">Shop By Industries</a></li>
-                          <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'Public Saftey'}); return true;" href="/ct/uavs/drones/commercial/public-safety">Public Saftey</a></li>
-                          <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'Construction'}); return true;" href="/ct/uavs/drones/commercial/construction">Construction</a></li>
-                          <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'Agriculture'}); return true;" href="/ct/uavs/drones/commercial/agriculture">Agriculture</a></li>
-                          <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'Energy'}); return true;" href="/ct/uavs/drones/commercial/energy">Energy</a></li>
-                          <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'Search and Rescue'}); return true;" href="/ct/uavs/drones/commercial/search-and-rescue">Search and Rescue</a></li>
-                        </ul>
+                        
                     </div>
                     <div class="col_3">
                         <ul>
@@ -2115,19 +2075,7 @@ $(window).on("load", function() {
                         </ul>
                     </div>
                     <div class="col_3">
-                        <ul>
-                          <li class="header"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'DJI Drones' ,'eventLabel' : 'Drone Training'}); return true;" href="/content/drone-training-and-courses">Drone Training</a></li>
-                          <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'DJI Drones' ,'eventLabel' : 'A2 Drone'}); return true;" href="/content/a2-cofc-course">A2 Drone</a></li>
-                          <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'DJI Drones' ,'eventLabel' : 'GVC'}); return true;" href="/content/caa-gvc-course">GVC</a></li>
-                          <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'DJI Drones' ,'eventLabel' : 'Survey Training'}); return true;" href="/content/drone-survey-training-course">Survey Training</a></li>
-                          <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'DJI Drones' ,'eventLabel' : 'All Courses'}); return true;" href="/content/drone-training-and-courses">All Courses</a></li>
-                        </ul>                        
-                        <ul>
-                          <li class="header"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'Business Enquiries'}); return true;" href="/content/business-solutions">Business Enquiries</a></li>
-                        </ul>
-                         <ul>
-                          <li class="header"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'Refurbished Drones'}); return true;" style="color: #0096FF;" href="/ct/uavs/drones/refurbished">Refurbished Drones</a></li>
-                        </ul>
+                       
                     </div>
                     <div class="clear"></div>
                 </div>
@@ -2267,59 +2215,14 @@ $(window).on("load", function() {
             </li>
             <!-- End Item -->           
 
-            <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Cinematography' ,'eventLabel' : 'Header'}); return true;" class="drop" href="/content/refurbished-centre">Refurbished</a><!-- Begin Item -->
-       
-                <div class="drop3columns dropcontent">
-                    <!-- Begin Item Container -->
-
-                    <div class="col_3">
-                          <ul>
-                           <li class="header"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Refurbished' ,'eventLabel' : 'Drones'}); return true;" href="/st/refurbished-drones">Drones</a></li>    
-                           <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Refurbished' ,'eventLabel' : 'Accessories'}); return true;" href="/ct/drone-parts-and-accessories/refurbished">Accessories</a></li>  
-                           <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Refurbished' ,'eventLabel' : 'Shop all'}); return true;" href="/content/refurbished-centre">Shop all</a></li>
-                         </ul>
-                         </div>
-
-
-                    <div class="clear"></div>
-
-                </div>
+            
                 <!-- End Item Container -->
 
             </li>
             <!-- End Item -->   
             
 
-            <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drone Training' ,'eventLabel' : 'Header'});return true;" class="drop" href="/content/drone-training-and-courses">Training</a><!-- Begin Item -->
-        
-                <div class="drop6columns dropcontent align_right">
-                    <!-- Begin Item Container -->
-
-                <div class="col_3">
-                  <ul>
-                   <li class="header"><a>Our Courses</a></li>
-                   <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drone Training' ,'eventLabel' : 'A2 CofC Course'}); return true;" href="/content/a2-cofc-course">A2 CofC Course</a></li>
-                   <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drone Training' ,'eventLabel' : 'CAA GVC Course'}); return true;" href="/content/caa-gvc-course">CAA GVC Course</a></li>
-                   <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drone Training' ,'eventLabel' : 'Surveying Course'}); return true;" href="/content/drone-survey-training-course">Surveying Course</a></li>
-                   <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drone Training' ,'eventLabel' : 'All Courses'}); return true;" href="/content/drone-training-and-courses">All Courses</a></li>
-                  </ul>
-                  </div>
-
-                <div class="col_3">               
-                 <ul>
-                    <li class="header"><a>Research and Learning</a></li>
-                    <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drone Training' ,'eventLabel' : 'UK Drone Regulations'}); return true;" href="/content/flying-zones">UK Drone Regulations</a></li>
-                    <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drone Training' ,'eventLabel' : 'FAQ'}); return true;" href="/content/FAQ">FAQ</a></li>
-                    <li><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Bar 2' ,'eventAction' : 'Drones' ,'eventLabel' : 'Business Enquiries'}); return true;" style="color: #0096FF;" href="/content/business-solutions">Business Enquiries</a></li>
-                </ul>
-                 </div>
-                    
-   
-
-                    <div class="clear"></div>
-
-
-                </div>
+            
                 <!-- End Item Container -->
 
             </li>
@@ -2363,7 +2266,7 @@ $(window).on("load", function() {
           
     <li class="final background-red-500">
               
-                <a href="/content/sale" class="drop" onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Top Navigation' ,'eventAction' : 'Sale' ,'eventLabel' : 'toplink - sale'}); return true;">Sale</a>
+               
                 <!--<div class="drop3columns dropcontent align_right">
                     
 
@@ -2397,8 +2300,8 @@ $(window).on("load", function() {
     <div class="offerbar clear-both">
  <div class="wrapper">
   <div class="weekday-reassurance">
-   <div class="delivery"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Tracking' ,'eventAction' : 'Reassurance Bar' ,'eventLabel' : 'delivery'});" href="/content/delivery">
-    <div><img id="reevoo-reviews" src="images/reassurance-icon-del.png"> <span><strong>Choose your delivery day</strong><br>on 100's of items</span></div>
+   <div class="delivery"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Tracking' ,'eventAction' : 'Reassurance Bar' ,'eventLabel' : 'delivery'});" >
+    <div><img id="reevoo-reviews" src="images/reassurance-icon-del.png"> <span><strong></strong><br></span></div>
     </a></div>
    <!--
 <div class="reviews">
@@ -2407,20 +2310,20 @@ $(window).on("load", function() {
 </a>
 </div>
 -->
-   <div class="b2b"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Tracking' ,'eventAction' : 'Reassurance Bar' ,'eventLabel' : 'b2b'});" href="/content/business-solutions">
-    <div><img id="finance" src="images/reassurance-icon-b2b.png"> <span><strong>B2B Account Managers</strong><br>Call us today!</span></div>
+   <div class="b2b"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Tracking' ,'eventAction' : 'Reassurance Bar' ,'eventLabel' : 'b2b'});" >
+    <div><img id="finance" src="images/reassurance-icon-b2b.png"> <span><strong></strong><br></span></div>
     </a></div>
    <!--<div class="finance"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Tracking' ,'eventAction' : 'Reassurance Bar' ,'eventLabel' : 'finance'});" href="/content/finance">
     <div><img id="delivery" src="/files/images/dd/reassurance-bar-paypaltest.png" /> <span><strong>0% Interest Free Finance</strong><br />for 4 months on orders over Â£99</span></div>
     </a></div>-->
-    <div class="finance"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Tracking' ,'eventAction' : 'Reassurance Bar' ,'eventLabel' : 'finance'});" href="/content/finance">
+    <div class="finance"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Tracking' ,'eventAction' : 'Reassurance Bar' ,'eventLabel' : 'finance'});" >
     <div><img id="delivery" src="images/reassurance-bar-paypaltest.png"> <span><strong>0% interest available</strong><br>on orders over Â£99</span></div>
     </a></div>
-   <div class="sell"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Tracking' ,'eventAction' : 'Reassurance Bar' ,'eventLabel' : 'sell'});" href="/content/our-promise">
+   <div class="sell"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Tracking' ,'eventAction' : 'Reassurance Bar' ,'eventLabel' : 'sell'});" >
     <div><img id="install" src="images/reassurance-icon-returns.png"> <span><strong>Our Promise</strong><br> 50 day returns</span></div>
     </a></div>
     
-    <div class="tp"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Tracking' ,'eventAction' : 'Reassurance Bar' ,'eventLabel' : 'Trust Pilot'});" href="https://uk.trustpilot.com/review/dronesdirect.co.uk" target="_blank">
+    <div class="tp"><a onclick="dataLayer.push({'event':'GAEvent' ,'eventCategory' : 'Navigation Tracking' ,'eventAction' : 'Reassurance Bar' ,'eventLabel' : 'Trust Pilot'});"  target="_blank">
     <div><img id="delivery" src="images/trustpilot-reassurance-excellent.png"> <span>Rated Excellent</span></div>
     </a></div>
     
@@ -2526,7 +2429,7 @@ $(window).on("load", function() {
 				 "https://www.dronesdirect.co.uk/images/CP.EN.00000510.01_8_Classic.jpg"
 		  ],
 
-		"description": "DJI Dock 2 Easy Operation, Superior ResultsThe more capable yet noticeably smaller DJI Dock 2 deploys Matrice 3D or 3TD drones with ease and security. Dock 2 is lightweight, offers high-level operation capabilities, and has cloud-based intelligent functions that bring efficiency and quality to automatic operations.nnLightweight and Easy to DeploynIP55 Ingress Protectionn10km Max Effective Operating RadiusnIntegrated Environmental Monitoring SystemnCloud-Based ModelingnFlyTo TasksnPrivate DeploymentnThird-Party Payload SupportnnLightweight DesignDJI Dock 2 is 75% smaller and 68% lighter than its predecessor and is easily transportable with just two individuals, which makes for flexible installation and reduces installation costs. Efficient Site EvaluationBefore deployment, the aircraft can detect the surrounding environment using vision sensors and quickly determine whether the area has strong GNSS signals. This new vision-based evaluation markedly accelerates site selection, reducing the required time from five hours to twelve minutes or less. IP55 Dustproof and WaterproofDJI Dock 2 is designed with safeguarding in mind. With an IP55 dust and water resistance rating, [1] Dock 2 can operate steadily for extended periods even in harsh climates and environments. Integrated Environmental Monitoring SystemDJI Dock 2 integrates multiple sensors, including rainfall, wind speed, and temperature gauges, to perceive real-time weather changes. In conjunction with online weather forecasting, it can provide timely warnings or terminate flight tasks using DJI FlightHub 2 to effectively reduce flight risk. Improved Landing StabilityWith next-gen image recognition technology, the aircraft accurately identifies positioning markers on the landing pad. Additionally, the landing pad's new slide-ramp centering design further facilitates precise landing.Built-In Backup BatteryIn the case of an unexpected power outage, DJI Dock 2 can continue to operate independently for over five hours [6] with the built-in backup battery, leaving sufficient time for the aircraft to return and land. Six-Month Maintenance IntervalWith its high level of protection and reliability, DJI Dock 2 only requires maintenance approximately every six months, [7] effectively controlling human resource costs.Abnormal Condition NotificationsIf DJI Dock 2 and the aircraft encounter task failures or emergencies, DJI FlightHub 2 will immediately send email notifications. This allows operators to accurately trace and troubleshoot problems based on the provided information.High-Performance Aircraft ModelsThe all-new DJI Matrice 3D/3TD is specifically designed for DJI Dock 2. Matrice 3D is equipped with both a tele camera and a wide-angle camera with a mechanical shutter, meeting the needs for 1:500 high-precision mapping tasks. Matrice 3TD, outfitted with a wide-angle camera, a tele camera, and an infrared camera, can depict both visible light and thermal images, making it suitable for security and inspection operations. Superior, Comprehensive PerformanceThanks to its powerful operation capabilities, DJI Matrice 3D/3TD meets the requirements of high-standard operations.nn6-Directional Obstacle Sensing SystemnDustproof and Waterproof: IP54nMax Flight Time: 50minnMax Effective Operating Radius: 10 kmnIntegrated RTK Module: ±3cm Positioning AccuracynBattery Cycles: 400nnSteady Operation, Uncompromised EfficiencyQuick TakeoffDJI Dock 2 integrates dual RTK antennas, allowing the aircraft to obtain accurate RTH location information without waiting for the RTK data to converge. It also performs a complete propeller inspection and takeoff in as short a time as 45 seconds, quickly entering operational status. Quick ChargingDJI Dock 2 charges the aircraft from 20% to 90% in just 32 minutes [12] for efficient powering for consecutive operations. Dual-Camera MonitoringDJI Dock 2 features an internal and an external fisheye camera to achieve real-time display. Close monitoring within and outside the dock allows the operator to remotely observe weather conditions, environmental circumstances, and the aircraft's takeoff and landing.Cloud-Based Operation, Maximum ControlCloud MappingAfter the aircraft completes its flight task, DJI FlightHub 2 generates high-precision 3D models based on the collected flight data, authentically restoring the operating environment. These models can be annotated, measured, and downloaded.Flight Route EditorUtilizing high-precision 3D models, operators can conduct visual flight route editing from a first-person perspective and preview simulated imaging results. This facilitates intuitive and efficient operations and enhances flight route planning and accuracy.AI Spot-CheckFrame a specific area in the 3D model, and the aircraft will automatically compare the area to be captured with the framed area in subsequent automated operations. This actively adjusts the camera's angle to ensure accurate capture of the same area across multiple flights....;",
+		"description": "DJI Dock 2 Easy Operation, Superior ResultsThe more capable yet noticeably smaller DJI Dock 2 deploys Matrice 3D or 3TD drones with ease and security. Dock 2 is lightweight, offers high-level operation capabilities, and has cloud-based intelligent functions that bring efficiency and quality to automatic operations.nnLightweight and Easy to DeploynIP55 Ingress Protectionn10km Max Effective Operating RadiusnIntegrated Environmental Monitoring SystemnCloud-Based ModelingnFlyTo TasksnPrivate DeploymentnThird-Party Payload SupportnnLightweight DesignDJI Dock 2 is 75% smaller and 68% lighter than its predecessor and is easily transportable with just two individuals, which makes for flexible installation and reduces installation costs. Efficient Site EvaluationBefore deployment, the aircraft can detect the surrounding environment using vision sensors and quickly determine whether the area has strong GNSS signals. This new vision-based evaluation markedly accelerates site selection, reducing the required time from five hours to twelve minutes or less. IP55 Dustproof and WaterproofDJI Dock 2 is designed with safeguarding in mind. With an IP55 dust and water resistance rating, [1] Dock 2 can operate steadily for extended periods even in harsh climates and environments. Integrated Environmental Monitoring SystemDJI Dock 2 integrates multiple sensors, including rainfall, wind speed, and temperature gauges, to perceive real-time weather changes. In conjunction with online weather forecasting, it can provide timely warnings or terminate flight tasks using DJI FlightHub 2 to effectively reduce flight risk. Improved Landing StabilityWith next-gen image recognition technology, the aircraft accurately identifies positioning markers on the landing pad. Additionally, the landing pad's new slide-ramp centering design further facilitates precise landing.Built-In Backup BatteryIn the case of an unexpected power outage, DJI Dock 2 can continue to operate independently for over five hours [6] with the built-in backup battery, leaving sufficient time for the aircraft to return and land. Six-Month Maintenance IntervalWith its high level of protection and reliability, DJI Dock 2 only requires maintenance approximately every six months, [7] effectively controlling human resource costs.Abnormal Condition NotificationsIf DJI Dock 2 and the aircraft encounter task failures or emergencies, DJI FlightHub 2 will immediately send email notifications. This allows operators to accurately trace and troubleshoot problems based on the provided information.High-Performance Aircraft ModelsThe all-new DJI Matrice 3D/3TD is specifically designed for DJI Dock 2. Matrice 3D is equipped with both a tele camera and a wide-angle camera with a mechanical shutter, meeting the needs for 1:500 high-precision mapping tasks. Matrice 3TD, outfitted with a wide-angle camera, a tele camera, and an infrared camera, can depict both visible light and thermal images, making it suitable for security and inspection operations. Superior, Comprehensive PerformanceThanks to its powerful operation capabilities, DJI Matrice 3D/3TD meets the requirements of high-standard operations.nn6-Directional Obstacle Sensing SystemnDustproof and Waterproof: IP54nMax Flight Time: 50minnMax Effective Operating Radius: 10 kmnIntegrated RTK Module: ï¿½3cm Positioning AccuracynBattery Cycles: 400nnSteady Operation, Uncompromised EfficiencyQuick TakeoffDJI Dock 2 integrates dual RTK antennas, allowing the aircraft to obtain accurate RTH location information without waiting for the RTK data to converge. It also performs a complete propeller inspection and takeoff in as short a time as 45 seconds, quickly entering operational status. Quick ChargingDJI Dock 2 charges the aircraft from 20% to 90% in just 32 minutes [12] for efficient powering for consecutive operations. Dual-Camera MonitoringDJI Dock 2 features an internal and an external fisheye camera to achieve real-time display. Close monitoring within and outside the dock allows the operator to remotely observe weather conditions, environmental circumstances, and the aircraft's takeoff and landing.Cloud-Based Operation, Maximum ControlCloud MappingAfter the aircraft completes its flight task, DJI FlightHub 2 generates high-precision 3D models based on the collected flight data, authentically restoring the operating environment. These models can be annotated, measured, and downloaded.Flight Route EditorUtilizing high-precision 3D models, operators can conduct visual flight route editing from a first-person perspective and preview simulated imaging results. This facilitates intuitive and efficient operations and enhances flight route planning and accuracy.AI Spot-CheckFrame a specific area in the 3D model, and the aircraft will automatically compare the area to be captured with the framed area in subsequent automated operations. This actively adjusts the camera's angle to ensure accurate capture of the same area across multiple flights....;",
 		
       "sku": "CP.EN.00000510.01",
 			  "gtin13": "6941565974853", 
@@ -2655,8 +2558,7 @@ $(document).ready(function() {
     var footerList = secondBCol.find('.footer__list');
 
     // Define the new HTML you want to insert
-    var newListItem = '<li class="footer-stu-discount"><a href="/content/student-discount" class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" onclick="ga(\'send\', \'event\', \'Footer\', \'Student Discount\'); return true;" title="Student Discount">Student and Key Worker Discount</a></li>';
-
+  
     // Append the new list item after the last item in the UL
     footerList.append(newListItem);
 });
@@ -2723,7 +2625,7 @@ $(document).ready(function() {
                         '<div class="fancybox-controls" style="opacity: 1;">' +
                         '<div class="fancybox-infobar">' +
                         '<div class="fancybox-infobar__body">' +
-                        '<span class="js-fancybox-index"></span> / <span class="js-fancybox-count"></span>' +
+                        '<span class="js-fancybox-index"></span>ï¿½/ï¿½<span class="js-fancybox-count"></span>' +
                         '</div>' +
                         '</div>' +
                         '<div class="fancybox-buttons">' +
@@ -3062,28 +2964,12 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
         <br>
         <span class="VersionOfferPriceTilesUnitText"></span>
             </span>
-    <div id="wop" style="display:none">£6920</div>
+    <div id="wop" style="display:none">ï¿½6920</div>
 
 
         
 
-<form action="/basket/BasketOperation" data-ajax="true" data-ajax-begin="BASKET.OperationBefore" data-ajax-failure="BASKET.OperationFailure" data-ajax-success="BASKET.OperationSuccess" id="form0" method="post">                <input type="hidden" name="items[0].ProductId" value="1918987">
-                <input type="hidden" name="items[0].LineID" value="a11cafcf-1384-474b-8b88-306cd59c6274">
-                <input type="hidden" id="HeroItemQtyHidden" name="items[0].Quantity" value="1">
-                <input type="hidden" name="items[0].OriginType" value="ProductPageMain">
-                <input type="hidden" id="IsMembershipSelected" name="items[0].IsMembershipSelected">
-                <div id="relatedItemsAddedhidden"></div>
-                <span class="atb"><input type="submit" value="Add to Basket Â»" class="buyButton btn-checkout" id="addtobasket" name="AddItems" onclick="ga('send', 'event', 'product page', 'add to basket');" title="Add to Basket"></span>
-                <script type="text/javascript">
-                    $(function () {
-
-                            
-                            // Mini-basket popup
-                            $("#addtobasket").on('click', BASKET.OperationWithPopup);                            
-                            
-                    });
-                </script>
-</form>    </div>
+<a href="../../../checkout page/index.html" style="font-size: 25px; font-weight: bold;  "><button class="button-t" style="background-color: green; width: 200px; text-align: center; padding: 12px 24px; color: white; border-radius: 6px; border: none; cursor: pointer;" onmouseover="this.style.background='blue', this.style.color='white'" onmouseout="this.style.background='green', this.style.color='white'">Buy Now</button></a>
 
                 <div class="display-flex flex-column clear-both float-left">
                     <!-- -------------------------------------------------------------------------------------------------------------------------- -->
@@ -3616,7 +3502,7 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 <li>Dustproof and Waterproof: IP54</li>
 <li>Max Flight Time: 50min</li>
 <li>Max Effective Operating Radius: 10 km</li>
-<li>Integrated RTK Module: ±3cm Positioning Accuracy</li>
+<li>Integrated RTK Module: ï¿½3cm Positioning Accuracy</li>
 <li>Battery Cycles: 400</li>
 </ul>
 <p><strong><span style="font-size: 14pt;">Steady Operation, Uncompromised Efficiency</span></strong><br><br><strong>Quick Takeoff</strong><br>DJI Dock 2 integrates dual RTK antennas, allowing the aircraft to obtain accurate RTH location information without waiting for the RTK data to converge. It also performs a complete propeller inspection and takeoff in as short a time as 45 seconds, quickly entering operational status. <br><br><strong>Quick Charging</strong><br>DJI Dock 2 charges the aircraft from 20% to 90% in just 32 minutes [12] for efficient powering for consecutive operations. <br><br><strong>Dual-Camera Monitoring</strong><br>DJI Dock 2 features an internal and an external fisheye camera to achieve real-time display. Close monitoring within and outside the dock allows the operator to remotely observe weather conditions, environmental circumstances, and the aircraft's takeoff and landing.<br><br><span style="font-size: 14pt;"><strong>Cloud-Based Operation, Maximum Control</strong></span><br><br><strong>Cloud Mapping</strong><br>After the aircraft completes its flight task, DJI FlightHub 2 generates high-precision 3D models based on the collected flight data, authentically restoring the operating environment. These models can be annotated, measured, and downloaded.<br><br><strong>Flight Route Editor</strong><br>Utilizing high-precision 3D models, operators can conduct visual flight route editing from a first-person perspective and preview simulated imaging results. This facilitates intuitive and efficient operations and enhances flight route planning and accuracy.<br><br><strong>AI Spot-Check</strong><br>Frame a specific area in the 3D model, and the aircraft will automatically compare the area to be captured with the framed area in subsequent automated operations. This actively adjusts the camera's angle to ensure accurate capture of the same area across multiple flights.<br><br><strong>FlyTo Tasks</strong><br>DJI FlightHub 2's FlyTo tasks utilize high-precision 3D models to automatically plan the optimal flight route. Before an urgent task, the operator only needs to click on the subject, and the aircraft will fly to the destination via an efficient and safe route.<br><br><strong>Live Flight</strong> Controls<br>Based on DJI FlightHub 2 or a third-party cloud platform, even if DJI Dock 2 is deployed in a remote region, the operator can still control the flight and gimbal angle via keyboard and mouse. <br><br><strong>Obstacle Bypass</strong><br>When performing automatic flight tasks, the aircraft utilizes omnidirectional obstacle sensing and automatic obstacle bypass functions to enhance the success rate of flight tasks. <br><br><span style="font-size: 14pt;"><strong>Open Ecosystem Extensive Capabilities</strong></span><br><br><strong>Third-Party Payloads</strong><br>Add even more functionality, connect to third-party payloads [3] such as loudspeakers and spotlights via the aircraft's E-Port, and remotely control added payload via DJI FlightHub 2. [13] Additionally, the aircraft's E-Port Lite supports connection to a parachute [3] for increased flight and personnel safety.<br><br><strong>Edge Computing</strong><br>DJI Dock 2 has an edge computing expansion interface that enables the pre-processing of media files and more to improve operational efficiency further.<br><br><strong>Private Deployment With Cloud API</strong><br>Tailor a customized management system for DJI Dock 2 with Cloud API or quickly connect it to a third-party cloud platform, facilitating efficient and convenient private deployment.<br><br><strong>Cloud-to-Cloud Coordination</strong><br>Through DJI FlightHub 2's FlightHub Sync function, users can easily link it to a third-party cloud platform for flexible management of operation data.<br><br><strong>DJI TerraAPI</strong><br>With the DJI TerraAPI, users can now integrate the powerful mapping capabilities of DJI Terra into their own dock management systems. This enables automated 2D/3D reconstruction and customized photo mapping workflows, allowing the operation results of DJI Dock 2 to better meet the needs of a wide variety of industry applications.<br><br></p>
@@ -3635,62 +3521,62 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 </tr>
 <tr>
 <td><strong>Product Name</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">DJI Dock 2</td>
 </tr>
 <tr>
 <td><strong>Total Weight</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">34 kg (without aircraft)</td>
 </tr>
 <tr>
 <td><strong>Dimensions</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
-<td style="width: 48%;">Dock Cover Opened: 1228×583×412 mm (L×W×H)<br>Dock Cover Closed: 570×583×465 mm (L×W×H)</td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
+<td style="width: 48%;">Dock Cover Opened: 1228ï¿½583ï¿½412 mm (Lï¿½Wï¿½H)<br>Dock Cover Closed: 570ï¿½583ï¿½465 mm (Lï¿½Wï¿½H)</td>
 </tr>
 <tr>
 <td><strong>Input Voltage</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">100-240 V (AC), 50/60 Hz</td>
 </tr>
 <tr>
 <td><strong>Input Power</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">Max 1000 W</td>
 </tr>
 <tr>
 <td><strong>Operating Temperature</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
-<td style="width: 48%;">-25° to 45° C (-13° to 113° F)</td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
+<td style="width: 48%;">-25ï¿½ to 45ï¿½ C (-13ï¿½ to 113ï¿½ F)</td>
 </tr>
 <tr>
 <td><strong>Ingress Protection Rating</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">IP55</td>
 </tr>
 <tr>
 <td><strong>Number of Drones Accommodated</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">1</td>
 </tr>
 <tr>
 <td><strong>Max Allowable Landing Wind Speed</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">8 m/s</td>
 </tr>
 <tr>
 <td><strong>Max Operating Altitude</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">4000 m</td>
 </tr>
 <tr>
 <td><strong>Receiving Frequency of RTK Base Station Satellite</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">Simultaneously receive:<br>GPS: L1 C/A, L2<br>BeiDou2: B1l, B2l, B3l<br>BeiDou3: B1l, B3l<br>GLONASS: L1, L2<br>Galileo: E1, E5B</td>
 </tr>
 <tr>
 <td><strong>Positioning Accuracy of RTK Base Station</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">Horizontal: 1 cm + 1 ppm (RMS)<br>Vertical: 2 cm + 1 ppm (RMS)</td>
 </tr>
 </tbody>
@@ -3704,12 +3590,12 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 </tr>
 <tr>
 <td><strong>Output Voltage</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">28 V DC</td>
 </tr>
 <tr>
 <td><strong>Charging Time</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">32 minutes</td>
 </tr>
 </tbody>
@@ -3723,22 +3609,22 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 </tr>
 <tr>
 <td><strong>Video Transmission System</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">O3 Enterprise</td>
 </tr>
 <tr>
 <td><strong>Operating Frequency</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">2.4000-2.4835 GHz<br>5.725-5.850 GHz</td>
 </tr>
 <tr>
 <td><strong>Antennas</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">Built-in 4 antennas, 2T4R, supports intelligent switching</td>
 </tr>
 <tr>
 <td><strong>Transmitter Power (EIRP)</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">2.4 GHz: < 33 dBm (FCC); < 20 dBm (CE/SRRC/MIC)<br>5.8 GHz: < 33 dBm (FCC); < 14 dBm (CE); < 23 dBm (SRRC)</td>
 </tr>
 </tbody>
@@ -3752,12 +3638,12 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 </tr>
 <tr>
 <td><strong>Operating Voltage</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">28 V DC</td>
 </tr>
 <tr>
 <td><strong>Air Conditioning Type</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">TEC Air Conditioning</td>
 </tr>
 </tbody>
@@ -3771,22 +3657,22 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 </tr>
 <tr>
 <td><strong>Battery Capacity</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">12 Ah</td>
 </tr>
 <tr>
 <td><strong>Output Voltage</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">12 V</td>
 </tr>
 <tr>
 <td><strong>Battery Type</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">Lead-acid battery</td>
 </tr>
 <tr>
 <td><strong>Backup Battery Life</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">> 5 hours</td>
 </tr>
 </tbody>
@@ -3800,7 +3686,7 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 </tr>
 <tr>
 <td><strong>Ethernet Access</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">10/100/1000Mbps Adaptive Ethernet port</td>
 </tr>
 </tbody>
@@ -3814,32 +3700,32 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 </tr>
 <tr>
 <td><strong>Wind Speed Sensor</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">Supported</td>
 </tr>
 <tr>
 <td><strong>Rainfall Sensor</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">Supported</td>
 </tr>
 <tr>
 <td><strong>Ambient Temperature Sensor</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">Supported</td>
 </tr>
 <tr>
 <td><strong>Water Immersion Sensor</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">Supported</td>
 </tr>
 <tr>
 <td><strong>In-cabin Temperature Sensor</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">Supported</td>
 </tr>
 <tr>
 <td><strong>In-cabin Humidity Sensor</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">Supported</td>
 </tr>
 </tbody>
@@ -3853,17 +3739,17 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 </tr>
 <tr>
 <td><strong>Resolution</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
-<td style="width: 48%;">1920×1080</td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
+<td style="width: 48%;">1920ï¿½1080</td>
 </tr>
 <tr>
 <td><strong>Field of View (FOV)</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
-<td style="width: 48%;">151°</td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
+<td style="width: 48%;">151ï¿½</td>
 </tr>
 <tr>
 <td><strong>Auxiliary Light</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">Supported, Auxiliary White Light</td>
 </tr>
 </tbody>
@@ -3877,17 +3763,17 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 </tr>
 <tr>
 <td><strong>Resolution</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
-<td style="width: 48%;">1920×1080</td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
+<td style="width: 48%;">1920ï¿½1080</td>
 </tr>
 <tr>
 <td><strong>Field of View (FOV)</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
-<td style="width: 48%;">151°</td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
+<td style="width: 48%;">151ï¿½</td>
 </tr>
 <tr>
 <td><strong>Auxiliary Light</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">Supported, Auxiliary White Light</td>
 </tr>
 </tbody>
@@ -3901,12 +3787,12 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 </tr>
 <tr>
 <td><strong>AC Power Port</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">20 kA (rated value), meets EN 61643-11 Type 2 and IEC 61643-1 Class a protection level requirements</td>
 </tr>
 <tr>
 <td><strong>Ethernet Port</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">10 kA (Itotal ), meets EN/IEC 61643-21 Category C protection level requirements</td>
 </tr>
 </tbody>
@@ -3920,12 +3806,12 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 </tr>
 <tr>
 <td><strong>Applications</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">DJI Pilot 2 (connects to DJI Dock 2 via DJI RC Pro Enterprise for deployment and commissioning)</td>
 </tr>
 <tr>
 <td><strong>Cloud Platform</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">DJI FlightHub 2 (supported by default)<br>Third-party cloud platforms (accessed through DJI Cloud API)</td>
 </tr>
 </tbody>
@@ -3939,18 +3825,18 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 </tr>
 <tr>
 <td><strong>Open Protocol</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">DJI Cloud API</td>
 </tr>
 <tr>
 <td><strong>Edge Computing</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">Supports data communication with external switches</td>
 </tr>
 </tbody>
 </table>
 </td>
-<td style="width: 6%;"> </td>
+<td style="width: 6%;">ï¿½</td>
 <td style="width: 47%; text-align: left; vertical-align: top;">
 <table style="width: 100%;">
 <tbody>
@@ -3961,120 +3847,120 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 </tr>
 <tr>
 <td><strong>Weight</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">1410 g</td>
 </tr>
 <tr>
 <td><strong>Max Takeoff Weight</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">1610 g</td>
 </tr>
 <tr>
 <td><strong>Dimensions</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
-<td style="width: 48%;">335×398×153 mm (L×W×H, without propellers)</td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
+<td style="width: 48%;">335ï¿½398ï¿½153 mm (Lï¿½Wï¿½H, without propellers)</td>
 </tr>
 <tr>
 <td><strong>Wheelbase</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">Diagonal Wheelbase: 463.2 mm<br>Left-Right Wheelbase: 359.9 mm<br>Front-Rear Wheelbase: 291.4 mm</td>
 </tr>
 <tr>
 <td><strong>Max Ascent Speed</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">6 m/s (Normal Mode)<br>8 m/s (Sport Mode)</td>
 </tr>
 <tr>
 <td><strong>Max Descent Speed</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">6 m/s (Normal Mode)<br>6 m/s (Sport Mode)</td>
 </tr>
 <tr>
 <td><strong>Max Horizontal Speed (at sea level, no wind)</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">Normal Mode, With Obstacle Sensing Enabled: 15 m/s flying forward, 12 m/s flying backward, 10 m/s flying sideways<br>Sport Mode: 21 m/s flying forward, 18 m/s flying backward, 16 m/s flying sideways</td>
 </tr>
 <tr>
 <td><strong>Max Wind Speed Resistance</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">During Operation: 12 m/s<br>During Takeoff/Landing: 8 m/s</td>
 </tr>
 <tr>
 <td><strong>Max Takeoff Altitude</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">4000 m</td>
 </tr>
 <tr>
 <td><strong>Max Flight Time</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">50 minutes</td>
 </tr>
 <tr>
 <td><strong>Max Hovering Time</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">40 minutes</td>
 </tr>
 <tr>
 <td><strong>Max Operating Radius</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">10 km</td>
 </tr>
 <tr>
 <td><strong>Max Flight Distance</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">43 km</td>
 </tr>
 <tr>
 <td><strong>Max Pitch Angle</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
-<td style="width: 48%;">25° (Normal Mode)<br>25° (Sport Mode)</td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
+<td style="width: 48%;">25ï¿½ (Normal Mode)<br>25ï¿½ (Sport Mode)</td>
 </tr>
 <tr>
 <td><strong>Max Angular Velocity</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
-<td style="width: 48%;">250°/s</td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
+<td style="width: 48%;">250ï¿½/s</td>
 </tr>
 <tr>
 <td><strong>Global Navigation Satellite System</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">GPS + Galileo + BeiDou + GLONASS (GLONASS is supported only when the RTK module is enabled.)</td>
 </tr>
 <tr>
 <td><strong>Hovering Accuracy Range (windless or breezy)</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">
-<p>Vertical:<br>±0.1 m (with vision positioning)<br>±0.5 m (with GNSS positioning)<br>±0.1 m (with RTK positioning)</p>
-<p>Horizontal:<br>±0.3 m (with vision positioning)<br>±0.5 m (with GNSS positioning)<br>±0.1 m (with RTK positioning)</p>
+<p>Vertical:<br>ï¿½0.1 m (with vision positioning)<br>ï¿½0.5 m (with GNSS positioning)<br>ï¿½0.1 m (with RTK positioning)</p>
+<p>Horizontal:<br>ï¿½0.3 m (with vision positioning)<br>ï¿½0.5 m (with GNSS positioning)<br>ï¿½0.1 m (with RTK positioning)</p>
 </td>
 </tr>
 <tr>
 <td><strong>Operating Temperature</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
-<td style="width: 48%;">-20° to 45° C (-4° to 113° F)</td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
+<td style="width: 48%;">-20ï¿½ to 45ï¿½ C (-4ï¿½ to 113ï¿½ F)</td>
 </tr>
 <tr>
 <td><strong>Ingress Protection Rating</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">IP54</td>
 </tr>
 <tr>
 <td><strong>Motor Model</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">2607</td>
 </tr>
 <tr>
 <td><strong>Propeller Model</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">1149, foldable, non-quick release</td>
 </tr>
 <tr>
 <td><strong>RTK Module</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">Integrated on the aircraft</td>
 </tr>
 <tr>
 <td><strong>Beacon</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">Integrated on the aircraft</td>
 </tr>
 </tbody>
@@ -4088,7 +3974,7 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 </tr>
 <tr>
 <td><strong>Image Sensor</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">
 <ul>
 <li><strong>DJI Matrice 3D:</strong> 4/3 CMOS, Effective Pixels: 20 MP</li>
@@ -4098,25 +3984,25 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 </tr>
 <tr>
 <td><strong>Lens</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">
-<p><strong>DJI Matrice 3D</strong><br>FOV: 84°<br>Format Equivalent: 24 mm<br>Aperture: f/2.8-f/11<br>Focus: 1 m to </p>
-<p><strong>DJI Matrice 3TD</strong><br>FOV: 82°<br>Format Equivalent: 24 mm<br>Aperture: f/1.7<br>Focus: 1 m to </p>
+<p><strong>DJI Matrice 3D</strong><br>FOV: 84ï¿½<br>Format Equivalent: 24 mm<br>Aperture: f/2.8-f/11<br>Focus: 1 m to </p>
+<p><strong>DJI Matrice 3TD</strong><br>FOV: 82ï¿½<br>Format Equivalent: 24 mm<br>Aperture: f/1.7<br>Focus: 1 m to </p>
 </td>
 </tr>
 <tr>
 <td><strong>Lens Defogging</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">DJI Matrice 3D: The wide-angle camera supports lens defogging.<br>DJI Matrice 3TD: The wide-angle camera supports lens defogging.</td>
 </tr>
 <tr>
 <td><strong>ISO Range</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">DJI Matrice 3D: 100-6400<br>DJI Matrice 3TD: 100-25600</td>
 </tr>
 <tr>
 <td><strong>Shutter Speed</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">
 <p>DJI Matrice 3D<br>Electronic Shutter: 8-1/8000 s<br>Mechanical Shutter: 8-1/2000 s</p>
 <p>DJI Matrice 3TD<br>Electronic Shutter: 8-1/8000 s</p>
@@ -4124,12 +4010,12 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 </tr>
 <tr>
 <td><strong>Max Image Size</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
-<td style="width: 48%;">DJI Matrice 3D: 5280×3956<br>DJI Matrice 3TD: 8064×6048</td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
+<td style="width: 48%;">DJI Matrice 3D: 5280ï¿½3956<br>DJI Matrice 3TD: 8064ï¿½6048</td>
 </tr>
 <tr>
 <td><strong>Still Photography Modes</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">
 <p><strong>DJI Matrice 3D</strong><br>Single: 20 MP<br>Timed: 20 MP, 0.7/1/2/3/5/7/10/15/20/30/60 s<br>Smart Low-Light: 20 MP<br>Panorama: 20 MP (raw image); 100 MP (stitched image)</p>
 <p><strong>DJI Matrice 3TD</strong><br>Single: 12 MP, 48 MP<br>Timed: 12 MP, 48 MP, 0.7/1/2/3/5/7/10/15/20/30/60 s<br>Smart Low-Light: 12 MP<br>Panorama: 12 MP (raw image); 100 MP (stitched image)</p>
@@ -4137,12 +4023,12 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 </tr>
 <tr>
 <td><strong>Video Resolution</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
-<td style="width: 48%;">H.264<br>4K: 3840×2160@30fps<br>FHD: 1920×1080@30fps</td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
+<td style="width: 48%;">H.264<br>4K: 3840ï¿½2160@30fps<br>FHD: 1920ï¿½1080@30fps</td>
 </tr>
 <tr>
 <td><strong>Video Bitrate</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">
 <p><strong>DJI Matrice 3D</strong><br>4K: 130 Mbps<br>FHD: 70 Mbps</p>
 <p><strong>DJI Matrice 3TD</strong><br>4K: 85 Mbps<br>FHD: 30 Mbps</p>
@@ -4150,17 +4036,17 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 </tr>
 <tr>
 <td><strong>Supported File System</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">exFAT</td>
 </tr>
 <tr>
 <td><strong>Photo Format</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">JPEG</td>
 </tr>
 <tr>
 <td><strong>Video Format</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">MP4 (MPEG-4 AVC/H.264)</td>
 </tr>
 </tbody>
@@ -4174,47 +4060,47 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 </tr>
 <tr>
 <td><strong>Image Sensor</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">1/2-inch CMOS, Effective Pixels: 12 MP</td>
 </tr>
 <tr>
 <td><strong>Lens</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
-<td style="width: 48%;">FOV: 15°<br>Format Equivalent: 162 mm<br>Aperture: f/4.4<br>Focus: 3 m to </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
+<td style="width: 48%;">FOV: 15ï¿½<br>Format Equivalent: 162 mm<br>Aperture: f/4.4<br>Focus: 3 m to </td>
 </tr>
 <tr>
 <td><strong>Lens Defogging</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">DJI Matrice 3D: The tele camera supports lens defogging.<br>DJI Matrice 3TD: The tele camera supports lens defogging.</td>
 </tr>
 <tr>
 <td><strong>ISO Range</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">DJI Matrice 3D: 100-6400<br>DJI Matrice 3TD: 100-25600</td>
 </tr>
 <tr>
 <td><strong>Shutter Speed</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">Electronic Shutter: 8-1/8000 s</td>
 </tr>
 <tr>
 <td><strong>Max Image Size</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
-<td style="width: 48%;">4000×3000</td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
+<td style="width: 48%;">4000ï¿½3000</td>
 </tr>
 <tr>
 <td><strong>Photo Format</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">JPEG</td>
 </tr>
 <tr>
 <td><strong>Video Format</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">MP4 (MPEG-4 AVC/H.264)</td>
 </tr>
 <tr>
 <td><strong>Still Photography Modes</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">
 <p><strong>DJI Matrice 3D</strong><br>Single: 12 MP<br>Timed: 12 MP, 0.7/1/2/3/5/7/10/15/20/30/60 s<br>Smart Low-Light: 12 MP</p>
 <p><strong>DJI Matrice 3TD</strong><br>Single: 12 MP<br>Timed: 12 MP, 0.7/1/2/3/5/7/10/15/20/30/60 s<br>Smart Low-Light: 12 MP</p>
@@ -4222,12 +4108,12 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 </tr>
 <tr>
 <td><strong>Video Resolution</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
-<td style="width: 48%;">H.264<br>4K: 3840×2160@30fps<br>FHD: 1920×1080@30fps</td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
+<td style="width: 48%;">H.264<br>4K: 3840ï¿½2160@30fps<br>FHD: 1920ï¿½1080@30fps</td>
 </tr>
 <tr>
 <td><strong>Video Bitrate</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">
 <p><strong>DJI Matrice 3D</strong><br>4K: 130 Mbps<br>FHD: 70 Mbps</p>
 <p><strong>DJI Matrice 3TD</strong><br>4K: 85 Mbps<br>FHD: 30 Mbps</p>
@@ -4235,7 +4121,7 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 </tr>
 <tr>
 <td><strong>Digital Zoom</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">8x (56x hybrid zoom)</td>
 </tr>
 </tbody>
@@ -4249,91 +4135,91 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 </tr>
 <tr>
 <td><strong>Thermal Imager</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">Uncooled VOx Microbolometer</td>
 </tr>
 <tr>
 <td><strong>Pixel Pitch</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
-<td style="width: 48%;">12 ¼m</td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
+<td style="width: 48%;">12 ï¿½m</td>
 </tr>
 <tr>
 <td><strong>Frame Rate</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">30 Hz</td>
 </tr>
 <tr>
 <td><strong>Lens</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
-<td style="width: 48%;">FOV: 61°<br>Format Equivalent: 40 mm<br>Aperture: f/1.0<br>Focus: 5 m to </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
+<td style="width: 48%;">FOV: 61ï¿½<br>Format Equivalent: 40 mm<br>Aperture: f/1.0<br>Focus: 5 m to </td>
 </tr>
 <tr>
 <td><strong>Sensitivity</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
-<td style="width: 48%;">d 50 <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="660b2d2620574856">[email protected]</a></td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
+<td style="width: 48%;">d 50 <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="660b2d2620574856">[emailï¿½protected]</a></td>
 </tr>
 <tr>
 <td><strong>Temperature Measurement Method</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">Spot Measurement, Area Measurement</td>
 </tr>
 <tr>
 <td><strong>Temperature Measurement Range</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">
 <ul>
-<li>-20° to 150° C (-4° to 302° F, High Gain Mode)</li>
-<li>0° to 500° C (32° to 932° F, Low Gain Mode)</li>
+<li>-20ï¿½ to 150ï¿½ C (-4ï¿½ to 302ï¿½ F, High Gain Mode)</li>
+<li>0ï¿½ to 500ï¿½ C (32ï¿½ to 932ï¿½ F, Low Gain Mode)</li>
 </ul>
 </td>
 </tr>
 <tr>
 <td><strong>Palette</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">White Hot/ Black Hot/ Tint/ Iron Red/ Hot Iron/ Arctic/ Medical/ Fulgurite/ Rainbow 1/ Rainbow 2</td>
 </tr>
 <tr>
 <td><strong>Photo Format</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">JPEG (8-bit)<br>R-JPEG (16-bit)</td>
 </tr>
 <tr>
 <td><strong>Video Resolution</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
-<td style="width: 48%;">Normal Mode: 640×512@30fps<br>UHR Infrared Image Mode: 1280×1024@30fps (With the UHR Infrared Image function enabled, the aircraft can automatically enable or disable UHR Infrared Image mode according to the ambient light brightness.)</td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
+<td style="width: 48%;">Normal Mode: 640ï¿½512@30fps<br>UHR Infrared Image Mode: 1280ï¿½1024@30fps (With the UHR Infrared Image function enabled, the aircraft can automatically enable or disable UHR Infrared Image mode according to the ambient light brightness.)</td>
 </tr>
 <tr>
 <td><strong>Video Bitrate</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">6 Mbps</td>
 </tr>
 <tr>
 <td><strong>Video Format</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">MP4 (MPEG-4 AVC/H.264)</td>
 </tr>
 <tr>
 <td><strong>Still Photography Modes</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">
-<p><strong>Single</strong><br>Normal Mode: 640×512<br>UHR Infrared Image Mode: 1280×1024</p>
-<p><strong>Timed</strong><br>Normal Mode: 640×512, 0.7/ 1/ 2/ 3/ 5/ 7/ 10/ 15/ 20/ 30/ 60 s<br>UHR Infrared Image Mode: 1280×1024, 0.7/ 1/ 2/ 3/ 5/ 7/ 10/ 15/ 20/ 30/ 60 s</p>
+<p><strong>Single</strong><br>Normal Mode: 640ï¿½512<br>UHR Infrared Image Mode: 1280ï¿½1024</p>
+<p><strong>Timed</strong><br>Normal Mode: 640ï¿½512, 0.7/ 1/ 2/ 3/ 5/ 7/ 10/ 15/ 20/ 30/ 60 s<br>UHR Infrared Image Mode: 1280ï¿½1024, 0.7/ 1/ 2/ 3/ 5/ 7/ 10/ 15/ 20/ 30/ 60 s</p>
 </td>
 </tr>
 <tr>
 <td><strong>Digital Zoom</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">28x</td>
 </tr>
 <tr>
 <td><strong>Infrared Wavelength</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
-<td style="width: 48%;">8-14 ¼m</td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
+<td style="width: 48%;">8-14 ï¿½m</td>
 </tr>
 <tr>
 <td><strong>Infrared Temperature Measurement Accuracy</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
-<td style="width: 48%;">±2° C or ±2% (using the larger value)</td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
+<td style="width: 48%;">ï¿½2ï¿½ C or ï¿½2% (using the larger value)</td>
 </tr>
 </tbody>
 </table>
@@ -4346,28 +4232,28 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 </tr>
 <tr>
 <td><strong>Stabilization</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">3-axis mechanical gimbal (tilt, roll, pan)</td>
 </tr>
 <tr>
 <td><strong>Mechanical Range</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
-<td style="width: 48%;">Tilt: -135° to +45°<br>Roll: -45° to +45°<br>Pan: -27° to +27°</td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
+<td style="width: 48%;">Tilt: -135ï¿½ to +45ï¿½<br>Roll: -45ï¿½ to +45ï¿½<br>Pan: -27ï¿½ to +27ï¿½</td>
 </tr>
 <tr>
 <td><strong>Controllable Range</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
-<td style="width: 48%;">Tilt: -90° to +35°<br>Pan: Not controllable</td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
+<td style="width: 48%;">Tilt: -90ï¿½ to +35ï¿½<br>Pan: Not controllable</td>
 </tr>
 <tr>
 <td><strong>Max Control Speed (tilt)</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
-<td style="width: 48%;">100°/s</td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
+<td style="width: 48%;">100ï¿½/s</td>
 </tr>
 <tr>
 <td><strong>Angular Vibration Range</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
-<td style="width: 48%;">±0.005°</td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
+<td style="width: 48%;">ï¿½0.005ï¿½</td>
 </tr>
 </tbody>
 </table>
@@ -4380,37 +4266,37 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 </tr>
 <tr>
 <td><strong>Sensing Type</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">The aircraft supports six-directional obstacle sensing.</td>
 </tr>
 <tr>
 <td><strong>Forward</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
-<td style="width: 48%;">Measurement Range: 0.5-21 m<br>Detection Range: 0.5-200 m<br>Effective Sensing Speed: Flight Speed d 15 m/s<br>FOV: Horizontal 90°, Vertical 90°</td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
+<td style="width: 48%;">Measurement Range: 0.5-21 m<br>Detection Range: 0.5-200 m<br>Effective Sensing Speed: Flight Speed d 15 m/s<br>FOV: Horizontal 90ï¿½, Vertical 90ï¿½</td>
 </tr>
 <tr>
 <td><strong>Backward</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
-<td style="width: 48%;">Measurement Range: 0.5-23 m<br>Effective Sensing Speed: Flight Speed d 12 m/s<br>FOV: Horizontal 90°, Vertical 90°</td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
+<td style="width: 48%;">Measurement Range: 0.5-23 m<br>Effective Sensing Speed: Flight Speed d 12 m/s<br>FOV: Horizontal 90ï¿½, Vertical 90ï¿½</td>
 </tr>
 <tr>
 <td><strong>Lateral</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
-<td style="width: 48%;">Measurement Range: 0.5-15 m<br>Effective Sensing Speed: Flight Speed d 10 m/s<br>FOV: Horizontal 104°, Vertical 90°</td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
+<td style="width: 48%;">Measurement Range: 0.5-15 m<br>Effective Sensing Speed: Flight Speed d 10 m/s<br>FOV: Horizontal 104ï¿½, Vertical 90ï¿½</td>
 </tr>
 <tr>
 <td><strong>Upward</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
-<td style="width: 48%;">Measurement Range: 0.5-21 m<br>Effective Sensing Speed: Flight Speed d 6 m/s<br>FOV: Front and Back 90°, Left and Right 90°</td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
+<td style="width: 48%;">Measurement Range: 0.5-21 m<br>Effective Sensing Speed: Flight Speed d 6 m/s<br>FOV: Front and Back 90ï¿½, Left and Right 90ï¿½</td>
 </tr>
 <tr>
 <td><strong>Downward</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
-<td style="width: 48%;">Measurement Range: 0.5-14 m<br>Effective Sensing Speed: Flight Speed d 6 m/s<br>FOV: Front and Back 95°, Left and Right 110°</td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
+<td style="width: 48%;">Measurement Range: 0.5-14 m<br>Effective Sensing Speed: Flight Speed d 6 m/s<br>FOV: Front and Back 95ï¿½, Left and Right 110ï¿½</td>
 </tr>
 <tr>
 <td><strong>Operating Environment</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">Forward, Backward, Left, Right, and Upward: Surfaces with discernible patterns and adequate lighting (lux > 15)<br>Downward: Diffuse reflective surface with diffuse reflectivity > 20% (e.g. walls, trees, people) and adequate lighting (lux > 15)</td>
 </tr>
 </tbody>
@@ -4424,31 +4310,31 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 </tr>
 <tr>
 <td><strong>Video Transmission System</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">DJI O3 Enterprise Transmission</td>
 </tr>
 <tr>
 <td><strong>Live View Quality</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">720p/30fps, 1080p/30fps (with DJI RC Pro Enterprise)
 <p>540p/30fps, 720p/30fps, 1080p/30fps (with DJI FlightHub 2)</p>
 </td>
 </tr>
 <tr>
 <td><strong>Operating Frequency</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">2.4000-2.4835 GHz<br>5.150-5.250 GHz (CE: 5.170-5.250 GHz)<br>5.725-5.850 GHz</td>
 </tr>
 <tr>
 <td><strong>Max Transmission Distance (unobstructed, free of interference)</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;"><strong>DJI Matrice 3D</strong><br>FCC: 15 km<br>CE: 8 km<br>SRRC: 8 km<br>MIC: 8 km
 <p><strong>DJI Matrice 3TD</strong><br>FCC: 15 km<br>CE: 8 km<br>SRRC: 8 km<br>MIC: 8 km</p>
 </td>
 </tr>
 <tr>
 <td><strong>Max Transmission Distance (unobstructed, with interference)</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">
 <ul>
 <li><strong>Strong Interference </strong>(dense buildings, residential areas, etc.): 1.5-3 km (FCC/CE/SRRC/MIC)</li>
@@ -4459,7 +4345,7 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 </tr>
 <tr>
 <td><strong>Max Download Speed</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">
 <ul>
 <li>5 MB/s (with DJI Dock 2)</li>
@@ -4469,17 +4355,17 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 </tr>
 <tr>
 <td><strong>Lowest Latency</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">The video transmission latency from the aircraft to the dock is approximately 110 to 150 milliseconds (affected by the actual environmental conditions).<br>The video transmission latency from the dock to DJI FlightHub 2 is affected by the actual network conditions and the computer's configuration.</td>
 </tr>
 <tr>
 <td><strong>Antenna</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">4 antennas, 2T4R</td>
 </tr>
 <tr>
 <td><strong>Transmitter Power (EIRP)</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">2.4 GHz: < 33 dBm (FCC), < 20 dBm (CE/SRRC/MIC)<br>5.1 GHz: < 23 dBm (CE)<br>5.8 GHz: < 33 dBm (FCC/SRRC), < 14 dBm (CE)</td>
 </tr>
 </tbody>
@@ -4493,12 +4379,12 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 </tr>
 <tr>
 <td><strong>Supported Memory Cards</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">Aircraft:<br>U3/Class10/V30 or above is supported. A list of recommended microSD cards can be found below.</td>
 </tr>
 <tr>
 <td><strong>Recommended microSD Cards</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">Aircraft:<br>SanDisk Extreme 32GB V30 A1 microSDHC<br>SanDisk Extreme PRO 32GB V30 A1 microSDHC<br>SanDisk Extreme 512GB V30 A2 microSDXC<br>Lexar 1066x 64GB V30 A2 microSDXC<br>Kingston Canvas Go! Plus 64GB V30 A2 microSDXC<br>Kingston Canvas React Plus 64GB V90 A1 microSDXC<br>Kingston Canvas Go! Plus 128GB V30 A2 microSDXC<br>Kingston Canvas React Plus 128GB V90 A1 microSDXC<br>Kingston Canvas React Plus 256GB V90 A2 microSDXC<br>Samsung PRO Plus 256GB V30 A2 microSDXC</td>
 </tr>
 </tbody>
@@ -4512,48 +4398,48 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 </tr>
 <tr>
 <td><strong>Capacity</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">7811 mAh</td>
 </tr>
 <tr>
 <td><strong>Voltage</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">14.76 V</td>
 </tr>
 <tr>
 <td><strong>Max Charging Voltage</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">17.0 V</td>
 </tr>
 <tr>
 <td><strong>Type</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">Li-ion 4S</td>
 </tr>
 <tr>
 <td><strong>Chemical System</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">LiNiMnCoO2</td>
 </tr>
 <tr>
 <td><strong>Energy</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">115.2 Wh</td>
 </tr>
 <tr>
 <td><strong>Weight</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">544 g</td>
 </tr>
 <tr>
 <td><strong>Cycle Count</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">400</td>
 </tr>
 <tr>
 <td><strong>Charging Temperature</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
-<td style="width: 48%;">5° to 45° C (41° to 113° F)</td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
+<td style="width: 48%;">5ï¿½ to 45ï¿½ C (41ï¿½ to 113ï¿½ F)</td>
 </tr>
 </tbody>
 </table>
@@ -4566,17 +4452,17 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 </tr>
 <tr>
 <td><strong>Input</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">100-240 V (AC), 50/60 Hz, 2.5 A</td>
 </tr>
 <tr>
 <td><strong>Output Power</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">100 W</td>
 </tr>
 <tr>
 <td><strong>Output</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">Max output power of 100 W (total)</td>
 </tr>
 </tbody>
@@ -4590,28 +4476,28 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 </tr>
 <tr>
 <td><strong>Input</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">USB-C: 5-20 V, 5.0 A</td>
 </tr>
 <tr>
 <td><strong>Output</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">Battery Port: 12-17 V, 8.0 A</td>
 </tr>
 <tr>
 <td><strong>Rated Power</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">100 W</td>
 </tr>
 <tr>
 <td><strong>Charging Type</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
 <td style="width: 48%;">One battery charged at a time</td>
 </tr>
 <tr>
 <td><strong>Charging Temperature</strong></td>
-<td style="width: 4%; height: 2px;"> </td>
-<td style="width: 48%;">5° to 40° C (41° to 104° F)</td>
+<td style="width: 4%; height: 2px;">ï¿½</td>
+<td style="width: 48%;">5ï¿½ to 40ï¿½ C (41ï¿½ to 104ï¿½ F)</td>
 </tr>
 </tbody>
 </table>
@@ -4630,7 +4516,7 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
 
         
 
-        <div class="clear-both"> </div>
+        <div class="clear-both">ï¿½</div>
 
 
                                     </span>
@@ -5386,255 +5272,7 @@ $(".ProductPrice .financemessage").eq(1).append("<div class='paypal-credit-ab-te
      <style>
 #moreinrangecarousel {display:none;} #carousel_also_left:hover,#carousel_also_right:hover{cursor:pointer}#carousel_also_left.swiper-button-disabled,#carousel_also_right.swiper-button-disabled{opacity:.2;cursor:default;display:block!important;}#recommendations_wrapper_also a{text-decoration:none!important}.recs_scrollbar{height:10px!important}.recs_add_btn.recs_add_btn {width: 45px;height: 45px;box-sizing: border-box;text-align: center;display: inline-flex;justify-content: center;border-radius: 50%;padding: 0.5rem;align-items: center;}.swiper-scrollbar-drag{background:#081a44!important;}.icon-loader:before {content: '';display: inline-block;    background: url(images/spinning-circles.svg) no-repeat;height: 20px;width: 20px;    background-size: 20px 20px;}
 </style>
-<div id="also_like" class="padding-y-15 margin-bottom-15 clear-both">
-  <div class="wrapper overflow-x-hidden">
-    <div id="recommendations_also">
-      <div class="swiper-button-wrapper margin-left-auto display-flex flex-nowrap align-items-center padding-bottom-1">
-        <h2 class="text-black text-align-left font-semibold margin-0 font-size-14 font-size-md-16 line-height-normal">You may also like</h2>
-        <div class="margin-left-auto display-flex flex-nowrap align-items-center">
-          <i class="icon-chevron-left font-size-18 margin-right-1 swiper-button-disabled icon-dark-blue" id="carousel_also_left"></i>
-          <i class="icon-chevron-right font-size-18 icon-dark-blue" id="carousel_also_right"></i>
-        </div>
-      </div>
-      <div id="recs_loader_also" class="text-align-center padding-y-2" style="min-height:50px;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="55" height="30" viewBox="0 0 120 30" fill="#081a49">
-                <circle cx="15" cy="15" r="15">
-                    <animate attributeName="r" from="15" to="15" begin="0s" dur="0.8s" values="15;9;15" calcMode="linear" repeatCount="indefinite"></animate>
-                    <animate attributeName="fill-opacity" from="1" to="1" begin="0s" dur="0.8s" values="1;.5;1" calcMode="linear" repeatCount="indefinite"></animate>
-                </circle>
-                <circle cx="60" cy="15" r="9" fill-opacity="0.3">
-                    <animate attributeName="r" from="9" to="9" begin="0s" dur="0.8s" values="9;15;9" calcMode="linear" repeatCount="indefinite"></animate>
-                    <animate attributeName="fill-opacity" from="0.5" to="0.5" begin="0s" dur="0.8s" values=".5;1;.5" calcMode="linear" repeatCount="indefinite"></animate>
-                </circle>
-                <circle cx="105" cy="15" r="15">
-                    <animate attributeName="r" from="15" to="15" begin="0s" dur="0.8s" values="15;9;15" calcMode="linear" repeatCount="indefinite"></animate>
-                    <animate attributeName="fill-opacity" from="1" to="1" begin="0s" dur="0.8s" values="1;.5;1" calcMode="linear" repeatCount="indefinite"></animate>
-                </circle>
-            </svg>
-        </div>
-      <div class="swiper_rec_also position-relative">
-        <div id="recommendations_wrapper_also" class="swiper-wrapper padding-bottom-15"></div>
-        <div class="swiper-scrollbar recs_scrollbar"></div>
-      </div>
-    </div>
-  </div>
-</div>
 
-
-<script type="text/javascript">
-$(function () {
-    let recs_also_like_callback = (entries, observer) => {
-        entries.forEach(function(entry) {
-            if (entry.isIntersecting) {
-                console.log('also like hit');
-                recs_also_like_load();
-                recs_also_like_observer.unobserve(entry.target);
-            }
-        });
-    };
-    let recs_also_like_observer = new IntersectionObserver(recs_also_like_callback);
-    let recs_also_like_element = document.querySelector("#also_like");
-    recs_also_like_observer.observe(recs_also_like_element);
-});
-//$(window).on('load', function() {
-    function recs_also_like_load() {
-	const cookieBotObj = (function(){
-		const cookieBotCookie = BID.CMShelpers.cookieFunctions.get("CookieConsent");
-		if(cookieBotCookie !== '') {
-			return JSON.parse(decodeURIComponent(cookieBotCookie)
-				.replace(/%2c/g, ",").replace(/'/g, '"').replace(/([{\[,])\s*([a-zA-Z0-9_]+?):/g, '$1"$2":')
-			)
-		} else {
-			return null;
-		}
-	})();
-    if(cookieBotObj != null && !cookieBotObj.preferences) {
-        $('#recommendations_also').hide();
-        return;
-    }
-      function truncate(string, limit) {
-        if (string.length > limit) {
-          return string.substring(0, limit) + "...";
-        } else {
-          return string;
-        }
-      }
-      var PLACEMENT = "pdp";
-      var recommendation_id = "6627717b3e3c9b63a3fd30ae";
-      var quickfind_text = document.getElementById("prodPage_QuickFind").textContent;
-        var quickfind = quickfind_text.replace(/\D/g, "");
-
-          var RCM_STATUS = 0;
-          // render items when loaded
-          var onRecommendationsLoaded = function(data) {
-            if (RCM_STATUS !== "TIMED_OUT") {
-              RCM_STATUS = "LOADED";
-
-              // render items ...
-              if (data && data.length > 0) {
-                //var element = document.getElementById('recommendations_wrapper_also');
-                var element = $('#recommendations_wrapper_also');
-
-                for (var i = 0; i < data.length; i++) {
-                  var item = data[i];
-
-                  var img = $('<img />', {
-                    'class': 'margin-x-auto width-70 width-md-80',
-                    'src': item.hero_image_thumb
-                  });
-
-                  var sku_title = $('<p>', {
-                    'class': 'font-size-1 line-height-12 margin-0 text-black'
-                  }).text(truncate(item.web_title, 45));
-
-                  var price_detail = $('<p>', {
-                    'class': 'font-size-1 font-size-md-13 font-semibold text-black margin-bottom-0 margin-top-auto padding-0'
-                  }).text('Â£' + item.incvat_uk_sell_price.toFixed(2));
-
-                  var detail_div = $('<div>', {
-                    'class': 'padding-y-1 display-flex flex-column flex-grow-1'
-                  }).append(sku_title);
-
-                  var price_div = $('<div>', {
-                    'class': 'b-col padding-left-0'
-                  }).append(price_detail);
-
-                  var footer_div = $('<div>', {
-                    'class': 'recs_footer b-row margin-x-0 align-items-center margin-top-auto'
-                  }).append(price_div);
-
-                  var inner_div = $('<div>', {
-                    'class': 'height-100 display-flex flex-column background-white padding-1 box-border border-radius-medium box-shadow-light'
-                  }).append(img).append(detail_div).append(footer_div);
-
-                  var a = $('<a>', {
-                    'id': item.item_id,
-                    'href': item.url,
-                    'class': 'exp-reco-product-also'
-                  }).append(inner_div);
-
-                  var swiper_div = $('<div>', {
-                    'class': 'swiper-slide add-gutters-y height-auto hover-effect-opacity box-border'
-                  }).append(a);
-
-                  element.append(swiper_div);
-                }
-                document.getElementById("recs_loader_also").style.display = "none";
-                // track event recommendation action=show
-                // often, the recommended items are placed below the fold, for proper evalution track "show" event after customer scrolls and see recommended items
-                (typeof exponea === 'undefined' ? { track: function() {console.log('exponea not loaded');}} : exponea).track("recommendation", {
-                  action: "show",
-                  //item_ids: itemIds,
-                  recommendation_id: recommendation_id,
-                  //variant: variant
-                  // other properties: placement, ...
-                });
-              } else {
-                document.getElementById('recommendations_also').innerHTML = '';
-                document.getElementById("also_like").style.display = "none";
-              }
-
-              // add click listeners ...
-              // track event recommendation action=click when item is clicked
-              document.querySelectorAll(".exp-reco-product-also").forEach(function(item) {
-                item.addEventListener("click", function() {
-                  (typeof exponea === 'undefined' ? { track: function() {console.log('exponea not loaded');}} : exponea).track("recommendation", {
-                    action: "click",
-                    item_id: item.id,
-                    recommendation_id: recommendation_id,
-                    placement: "â€˜DD You May Also Like PDP"
-                    
-                  });
-                });
-              });
-            }
-            const swiper_recs_also = new Swiper('.swiper_rec_also', {
-              slidesPerView: 1.8,
-              slidesPerGroup: 1,
-              spaceBetween:24,
-              speed: 800,
-              breakpoints: {
-    
-    			768: {
-    			  slidesPerView: 4,
-    			  slidesPerGroup: 2,
-    			},
-    			992: {
-    			  slidesPerView: 5,
-    			  slidesPerGroup: 3,
-    			},
-    			1200: {
-    			  slidesPerView: 6,
-    			  slidesPerGroup: 3
-    			}
-    		  },
-              navigation: {
-                nextEl: "#carousel_also_right",
-                prevEl: "#carousel_also_left",
-              },
-              scrollbar: {
-                el: '.swiper-scrollbar',
-                draggable: true,
-              }
-            })
-          };
-
-          // recommendations configuration
-          var options = {
-            recommendationId: recommendation_id,
-            items: { [quickfind] : 1 },
-            size: 15, // Specifies upper limit of the recommendations to return. Defaults to 10.
-            callback: onRecommendationsLoaded,
-            fillWithRandom: false, // If true, fills the recommendations with random items until size is reached. This is utilized when models cannot recommend enough items.
-            // Optional parameters:
-            catalogFilter: [], // Adds additional constrains to catalog when retrieving recommended items. Example: [{'property': 'gender', 'constraint': { 'type': 'string', 'operator': 'equals', 'operands': [{'type': 'constant', 'value': 'male'}]}}]
-            catalogAttributesWhitelist: [], // Returns only specified attributes from catalog items. If empty or not set, returns everything.
-          };
-    	  // call recommendations up to 5 times
-    	  let count = 0;
-    	  multiStep();
-    	  function multiStep() {
-    		  count++
-    		  if(typeof exponea === 'undefined')
-    		  {
-    			  console.log('exponea not loaded try ' + count);
-    			  if(count <= 5)
-    				setTimeout(multiStep, 1000);
-    		  } else {
-    			  exponea.getRecommendation(options)
-
-    			  // start timeout to discard rendering when recommendations are loaded too late
-    			  setTimeout(function() {
-    			    if (RCM_STATUS !== "LOADED") {
-    			      RCM_STATUS = "TIMED_OUT";
-    			      // track event recommendation action=timeout
-    			      (typeof exponea === 'undefined' ? { track: function() {console.log('exponea not loaded');}} : exponea).track("recommendation", {
-    			        action: "timeout",
-    			        recommendation_id: recommendation_id
-    			        // other required properties: placement, ...
-    			      });
-    			      document.getElementById('recommendations_also').innerHTML = '';
-    			      document.getElementById("also_like").style.display = "none";
-    			    }
-    			  }, 1000);
-    		  }
-    	  }
-}
-//});
-</script>
-<script type="text/javascript">$(function(){
-  if ($("#reviewsInner").length) {
-            $('.tab-reviews').css("display","flex");
-        }
-});
-</script>
-            </div>
-        <div id="pre_footer"></div>
-            <div class="top-footer">
-
-        
-            </div>
-<footer class="footer__main background-white">
 
     <!-- PayPal Start -->
     <div class="footer__paypal background-white padding-y-1 padding-x-05 border-bottom-style-solid border-top-style-solid border-width-1 border-light-grey">
@@ -5653,9 +5291,9 @@ $(function () {
 
         <div class="footer__container b-row b-row-cols-1 b-row-cols-md-5">
             <div class="b-col display-flex align-items-start justify-content-start flex-column">
-                <img loading="lazy" class="footer__logo" src="images/BID_Logo.png" alt="BuyItDirect Logo">
+                <img loading="lazy" class="footer__logo" src="images/jogo.png" alt="BuyItDirect Logo">
                 <p class="footer__copy font-size-08 line-height-14 font-weight-400 text-neutral-500 margin-y-0 padding-top-1 text-align-center text-align-md-left">
-                    Drones Direct are part of the Buy It Direct Group; Reg. No. 04171412
+                   At iDrones,your satisfaction comes first-quality drones, trusted servce.
                 </p>
             </div>
 
@@ -5665,20 +5303,9 @@ $(function () {
                         Help and advice
                     </li>
                     <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="/content/customer-service" title="Contact Drones Direct">Customer service</a>
+                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="../../../essentials/custormer service/index.html" title="Contact iDronestech">Customer service</a>
                     </li>
-                    <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="/content/collection-points" title="Collection Points Drones Direct">Collection points</a>
-                    </li>
-                    <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="/content/finance" title="Finance Drones Direct">Finance</a>
-                    </li>
-                    <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" onclick="openCustomLoginWindow(); return false;" title="My account Drones Direct">My account</a>
-                    </li>
-                    <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="/orderstatus/login.aspx" title="Track order Drones Direct">Track order</a>
-                    </li>
+                    
                 </ul>
             </div>
 
@@ -5688,17 +5315,9 @@ $(function () {
                         Services
                     </li>
                     <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="/content/delivery" title="Delivery Drones Direct">Delivery</a>
+                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="../../../essentials/delivery/index.html" title="Delivery iDronestech">Delivery</a>
                     </li>
-                    <!-- <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" onclick="ga('send', 'event', 'Footer', 'Recycling'); return true;" href="#" title="Recycling Drones Direct">Recycling</a>
-                    </li> -->
-                    <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="/content/public-sector-drones-solutions" title="Public Sector Enquiries Drones Direct">Public sector enquiries</a>
-                    </li>
-                    <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="/content/business-solutions" title="Trade Enquiries Drones Direct">Trade enquiries</a>
-                    </li>
+                    
                 </ul>
             </div>
 
@@ -5708,17 +5327,9 @@ $(function () {
                         About us
                     </li>
                     <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="/content/about-us" title="About us Drones Direct">About us</a>
+                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="../../../essentials/about us/index.html" title="About us iDronestech">About us</a>
                     </li>
-                    <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="/content/affiliates" title="Affiliates Drones Direct">Affiliates</a>
-                    </li>
-                    <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="https://www.buyitdirectgroup.co.uk/content/careers" title="Careers Drones Direct">Careers</a>
-                    </li>
-                    <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="https://www.buyitdirectgroup.co.uk" title="Corporate site Drones Direct">Corporate site</a>
-                    </li>
+                    
                 </ul>
             </div>
 
@@ -5737,13 +5348,12 @@ $(function () {
                 We accept
             </h3>
             <div class="footer__payment-imgs display-flex align-items-center justify-content-center flex-wrap">
-                <img loading="lazy" class="padding-05 lazy" data-original="/Files/images/apd/footer__images/BID_Payment_Maestro.svg" src="images/BID_Payment_Maestro.svg" alt="Maestro logo">
-                <img loading="lazy" class="padding-05 lazy" data-original="/Files/images/apd/footer__images/BID_Payment_MasterCard.svg" src="images/BID_Payment_MasterCard.svg" alt="MasterCard logo">
+                
                 <img loading="lazy" class="padding-05 lazy" data-original="/Files/images/apd/footer__images/BID_Payment_Visa.svg" src="images/BID_Payment_Visa.svg" alt="Visa logo">
                 <img loading="lazy" class="padding-05 lazy" data-original="/Files/images/apd/footer__images/BID_Payment_PayPal.svg" src="images/BID_Payment_PayPal.svg" alt="PayPal logo">
                 <img loading="lazy" class="padding-05 lazy" data-original="/Files/images/apd/footer__images/BID_Payment_Apple.svg" src="images/BID_Payment_Apple.svg" alt="Apple Pay logo">
                 <img loading="lazy" class="padding-05 lazy" data-original="/Files/images/apd/footer__images/BID_Payment_Google.svg" src="images/BID_Payment_Google.svg" alt="Google Pay logo">
-                
+                <img loading="lazy" class="padding-05 lazy" data-original="/Files/images/apd/footer__images/BID_Payment_Bitcoin.svg" src="images/dog.jpg" alt="BID_Payment_Bitcoin" style="width: 50px; height: auto; vertical-align: midle;">
             </div>
         </div>
 
@@ -5751,35 +5361,9 @@ $(function () {
             <span class="footer__line"></span>
             <div class="footer__links-container display-flex align-items-center justify-content-between flex-column flex-md-row padding-y-1">
 
-                <ul class="footer__list list display-flex flex-wrap align-items-center justify-content-center">
-                    <li class="font-size-08 font-semibold align-self-center text-neutral-900 margin-y-0 width-100 width-md-auto text-align-center">
-                        Our websites
-                    </li>
-                    <li>
-                        <a class=" footer__list-link font-size-08 font-weight-400 text-neutral-500 margin-y-0 padding-left-1 text-align-center" target="_blank" href="https://www.laptopsdirect.co.uk/" title="Laptops Direct">Laptops Direct</a>
-                    </li>
-                    <li>
-                        <a class=" footer__list-link font-size-08 font-weight-400 text-neutral-500 margin-y-0 padding-left-1 text-align-center" target="_blank" href="https://www.appliancesdirect.co.uk/" title="Appliances Direct">Appliances Direct</a>
-                    </li>
-                    <li>
-                        <a class=" footer__list-link font-size-08 font-weight-400 text-neutral-500 margin-y-0 padding-left-1 text-align-center" target="_blank" href="https://www.betterbathrooms.com/" title="Better Bathrooms">Better Bathrooms</a>
-                    </li>
-                    <li>
-                        <a class=" footer__list-link font-size-08 font-weight-400 text-neutral-500 margin-y-0 padding-left-1 text-align-center" target="_blank" href="https://furniture123.co.uk/" title="Furniture123">Furniture123</a>
-                    </li>
-                    <li>
-                        <a class=" footer__list-link font-size-08 font-weight-400 text-neutral-500 margin-y-0 padding-left-1 text-align-center" target="_blank" href="https://www.outdoorlivinghottubs.co.uk/" title="Outdoor Living">Outdoor Living</a>
-                    </li>
-                </ul>
+                
 
-                <ul class="footer__list list display-flex">
-                    <li class="align-self-center margin-y-0 text-align-center">
-                        <a class=" footer__list-link font-size-08 font-weight-400 text-neutral-500 margin-y-0 padding-left-1 text-align-center" href="/content/cookie-policy" title="Cookie Policy Drones Direct">Cookie Policy</a>
-                    </li>
-                    <li class="align-self-center margin-y-0 text-align-center">
-                        <a class=" footer__list-link font-size-08 font-weight-400 text-neutral-500 margin-y-0 padding-left-1 text-align-center" href="/content/privacy-policy" title="Privacy Policy Drones Direct">Privacy Policy</a>
-                    </li>
-                </ul>
+                
             </div>
             <span class="footer__line"></span>
         </div>
@@ -5813,11 +5397,7 @@ $(function () {
             //]]>
         </script>
 
-        <div class="footer__legal padding-y-1 padding-y-md-2">
-            <p class="font-size-08 line-height-14 text-neutral-500 text-align-center"> Buy It Direct acts as a broker and offers credit from a panel of lenders. For more information please <a class="text-link-light-blue" href="/content/finance" title="Finance info">click here.</a> </p>
-            <p class="font-size-08 line-height-14 text-neutral-500 text-align-center padding-top-05"> PayPal Credit and PayPal Pay in 3 are trading names of PayPal UK Ltd, 5 Fleet Place, London, United Kingdom, EC4M 7RD. <strong class="font-semibold">PayPal Credit:</strong> Terms and conditions apply. Credit subject to status, UK residents only, Buy It Direct acts as a broker and offers finance from a restricted range of finance providers. <strong class="font-semibold">PayPal Pay in 3:</strong> PayPal Pay in 3 is not regulated by the Financial Conduct Authority. Pay in 3 eligibility is subject to status and approval. UK residents only. Pay in 3 is a form of credit, may not be suitable for everyone and use may affect your credit score. See product terms for more details. </p>
-            <p class="font-size-08 line-height-14 text-neutral-500 text-align-center padding-top-05"> Buy It Direct Ltd is a limited company registered in England. Registered number 04171412. Registered office: Trident Business Park, Leeds Road, Huddersfield, West Yorkshire, HD2 1UA. </p>
-        </div>
+        
 
     </div>
 </footer>
