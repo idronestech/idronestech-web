@@ -6,7 +6,7 @@
     
         <link rel="preload" fetchpriority="high" as="image" href="/Images/102002272102002660_1_Classic.jpg?v=7">
 
-    <title>Autel Drone |Drones</title>
+    <title>Checkout Page |iDronestech</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="description" content="Buy Autel Drones from Drones Direct - the UK's leading online drones retailer, we offer expert advice">
         <meta name="msvalidate.01" content="750A7E1E7CFD645A621631B4D0D00D8F">
@@ -2605,69 +2605,13 @@ $(window).on("load", function() {
  <p style="margin: 0; padding: 0;text-align:center;">We're taking orders and delivering as normal, and doing everything we can to protect our customers and staff. <a href="/content/service-update" style="color: white; text-decoration: underline;">Learn more</a></p>
 </div> -->
 
-
-
-
-
-            
-        
-</div></header>
-
-<script>
-    window.onload = function() {
-
-        //show account balance only if CAB and soft login cookie exists
-        if (Cookies.get("CAB") != undefined && Cookies.get("lastCustomerInfo") != undefined && Cookies.get("lastCustomerInfo").indexOf("accountGUID") > -1)
-        {
-            var timerVal = Cookies.get("CABTimer");
-
-            var exchRatesEUR = '1.1866';
-            var exchRatesGBP = '1';
-            var defCurrencyCode = 'GBP';
-
-            //make the call only when timer is over 30 minutes after last call
-            if (timerVal == null || new Date(timerVal) < new Date(new Date().getTime() - '30' * 60000)) {
-                var expireDate = new Date();
-                expireDate.setDate(expireDate.getDate() + Number('365'));
-                GetAccountBalance(exchRatesEUR, exchRatesGBP, expireDate, defCurrencyCode);
-            }
-            else {
-                //load from cookie
-                accBal = atob(Cookies.get("CAB"));
-                LoadAccBalance(accBal, exchRatesEUR, exchRatesGBP, defCurrencyCode);
-            }
-        }
-    }
-</script>
-
-
-    <div class="wrapper fw-wrapper">
-        <div class="contentcontainer clear-both">
-            
-
-
-
-
-<!--script language="javascript" type="text/javascript">
-    var facet_url = 'http://search.laptopsdirect.co.uk/search?p=Q&lbc=laptopsdirect&uid=809019556&ts=custom&w=*&af=type:laptops&isort=globalpop&method=and&view=grid';
-</script-->
-
-
-    <div id="ajaxSearchResult">
-        
-
-<div class="wrapper-hubs">
-
-        
-</div>
-
 <head>
-  
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Simple Order Submission</title>
   <style>
     body { font-family: Arial, sans-serif; padding: 20px; display: block; margin: 0; padding: 0; min-height: 90vh; background:#f4f4f4; }
-    .container { max-width: 900px; margin: 20px auto; margin-top:40px; margin-bottom:40px; display: block;  background:#fff; padding:20px; position: relative; top: 20px; border-radius:10px; box-shadow:0 0 15px rgba(0,0,0,0.1); }
+    .container { max-width: 900px; margin:auto; margin-top:40px; margin-bottom:40px;  background:#fff; padding:20px; position: relative; top: 20px; border-radius:10px; box-shadow:0 0 15px rgba(0,0,0,0.1); }
     h2 { text-align:center; margin-bottom:20px; max-height: 80vh; }
     input, button, textarea, select { width:100%; padding:12px; margin:8px 0; border-radius:5px; border:1px solid #ccc; box-sizing:border-box; font-size:14px; }
     button { background:#28a745; color:#fff; border:none; cursor:pointer; font-size:16px; }
@@ -2681,7 +2625,7 @@ $(window).on("load", function() {
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   <script>
     (function(){
-      emailjs.init({ publicKey: "SDJQH_nvwW16PIk1f" }); // Replace with your EmailJS public key
+      emailjs.init({ publicKey: "AcAljG484xUJZ3hx1" }); // Replace with your EmailJS public key
     })();
   </script>
 </head>
@@ -2754,12 +2698,36 @@ $(window).on("load", function() {
         statusEl.textContent = 'Order submitted successfully!'; 
         form.reset();
       } catch (err) {
-        console.error('EmailJS error', err);
-        statusEl.textContent = 'Failed to send order email.'; 
-        statusEl.classList.add('error');
-      }
+  console.error('Full EmailJS Error Details:', err); // This tells you EXACTLY why it failed
+  statusEl.textContent = 'Error: ' + (err.text || 'Failed to send order email.'); 
+  statusEl.classList.add('error');
+   }
     });
   </script>
+
+
+
+            
+        
+</div></header>
+
+
+
+
+       
+
+
+
+
+
+
+
+
+
+
+
+            
+        
 
 
 
