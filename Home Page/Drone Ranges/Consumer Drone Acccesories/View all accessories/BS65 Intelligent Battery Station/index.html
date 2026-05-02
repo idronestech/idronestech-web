@@ -889,7 +889,7 @@ $(document).ready(function() {
     var footerList = secondBCol.find('.footer__list');
 
     // Define the new HTML you want to insert
-    var newListItem = '<li class="footer-stu-discount"><a href="/content/student-discount" class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" onclick="ga(\'send\', \'event\', \'Footer\', \'Student Discount\'); return true;" title="Student Discount">Student and Key Worker Discount</a></li>';
+    
 
     // Append the new list item after the last item in the UL
     footerList.append(newListItem);
@@ -1571,7 +1571,7 @@ else
         <div id="oursitetabs">
             <div class="apd-tab"><a title="Appliances Direct" target="_blank" rel="nofollow" href="https://www.appliancesdirect.co.uk/?tref=apdtabdrones"><img loading="lazy" src="images/APD-logo-masthead.svg" alt="Appliances Direct"></a></div>
             <div class="ld-tab"><a title="Laptops Direct" target="_blank" rel="nofollow" href="https://www.laptopsdirect.co.uk/?tref=ldtabdrones"><img loading="lazy" src="images/toptab-ld-logo-min.png" alt="Laptops Direct"></a></div>
-            <div class="dd-tab mainsitetab"><a title="Drones Direct" href="/"><img loading="lazy" src="images/toptab-dd-logo-min.png" alt="Drones Direct"></a></div>
+            <div class="dd-tab mainsitetab"><a title="Drones Direct" href="/"><img loading="lazy" src="images/jogo.png" width="100" height="50" alt="Drones Direct"></a></div>
             <div class="bb-tab"><a title="Better Bathrooms" target="_blank" rel="nofollow" href="https://www.betterbathrooms.com/?tref=bbtabdrones"><img loading="lazy" src="images/toptab-bb-logo-min.png" alt="Better Bathrooms"></a></div>
             <div class="f123-tab"><a title="Furniture 123" target="_blank" rel="nofollow" href="https://furniture123.co.uk/?tref=f123tabdrones"><img loading="lazy" alt="Furniture 123" src="images/toptab-F123-logo-min.png"></a></div>
             <div class="dehum-tab"><a title="Dehumidifiers" rel="nofollow" target="_blank" href="https://www.appliancesdirect.co.uk/ct/heating-and-air-conditioning/dehumidifiers?tref=apdtabacdrones"><img loading="lazy" alt="Dehumidifiers" src="images/top-tab-dehum-tab-new-min.png"></a></div>
@@ -1593,21 +1593,10 @@ else
 
         <div class="caccountheader">
                     <div class="acc-enabled float-left">
-                        <a class="accountheader" onclick="openCustomLoginWindow()"><strong><span class="customername" id="head_customer_greeting"></span> </strong><i class="fa-regular fa-user fa-lg text-black padding-right-05"></i><span class="manageaccount">My Account</span></a>
-                        <script> 
-                            $(function() {
-                                ShowCustomerGreeting("head_customer_greeting", "lastCustomerInfo");
-                            });
-                        </script>
-                        <p id="head_customer_balance" class="clear-both margin-0"></p>
+                       
                     </div>
 
-            <a class="ordertracker" href="https://www.dronesdirect.co.uk/orderstatus/login.aspx" title="Drones Direct Order Tracking"><i class="fa-regular fa-location-dot fa-lg text-black padding-right-05"></i><span>Track Order</span></a>
-
-            <a class="trade" href="/content/business-solutions" title="Business Enquiries"><i class="fa-regular fa-briefcase fa-lg text-black padding-right-05"></i><span>Business Enquiries</span></a>
-
-            <a class="trade" href="/content/public-sector-drones-solutions" title="Public Sector Enquiries"><i class="fa-regular fa-briefcase fa-lg text-black padding-right-05"></i><span>Public Sector Enquiries</span></a>
-
+            
         </div>
         
 
@@ -1615,10 +1604,7 @@ else
 
                     
 			
-                <div id="VATPrice" class="VATPRICENEW">
-                    <span id="VATPriceSpanon" class="VATPriceSpan" onclick="updateURLParameters('switcht','ex')"><span>Inc. VAT </span><img loading="lazy" class="headerswitch" src="images/apd-switch-off.png" alt="vat switch show inc"><span> Ex. VAT</span></span>
-                    <span id="VATPriceSpanoff" class="VATPriceSpan" onclick="updateURLParameters('switcht','inc')"><span>Inc. VAT </span><img loading="lazy" class="headerswitch" src="images/apd-switch-on.png" alt="vat switch show ex"><span> Ex. VAT</span></span>
-                </div>
+               
 
                 <div id="phCurrency">
 
@@ -1646,9 +1632,9 @@ else
     <div class="wrapper">
 
  <div id="header">
-		
-			<div id="logo" title="Drones Direct">
-				<a href="/">
+	<img src="images/jogo.png" width="350" height="150" alt="jogo" style="margin-right: 300px; padding: 0px; margin-top: 0px;" class="logo-max"> 
+			<div id="" title="Drones idronestech">	
+    <a href="/">
              <!--?xml version="1.0" encoding="utf-8"?-->
 <!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 156.9 24.7" style="enable-background:new 0 0 156.9 24.7;" xml:space="preserve">
@@ -1708,15 +1694,12 @@ else
 
                 <![endif]-->
                     
-                    <span class="hidden">Drones Direct</span>
+                    <span class="hidden">Drones idronestech</span>
 				</a>
 			</div>
 			<div id="headersearch">
                 <div id="prodsearch">
-    <form id="keywordSearchForm" action="" method="POST">
-       <input class="searchbox" id="searchCriteria" type="text" data-type="search" value="Search for Anything..." onblur="if (this.value == '') {this.value = 'Search for Anything...';}" onfocus="if (this.value == 'Search for Anything...') {this.value = '';}" name="searchCriteria" size="17" style="text-align: left;" aria-label="Search">
-       <button type="submit" value=" " class="headersearchbutton" title="Search" id="KeywordSearchSubmit" name="KeywordSearchSubmit" onclick="if($('#searchCriteria').val()  == 'Search for Anything...' || $('#searchCriteria').val() == '' ){return false;}"><i class="fa-solid fa-magnifying-glass fa-lg"></i></button>
-    </form>
+   
 
 <script type="text/javascript">
 
@@ -1930,15 +1913,7 @@ else
 		
             </div>
 		
-			<div id="phone-ap" onclick="location.href='/content/customer-service#openinghrs'">
-                <div id="phonenumber">
-
-                    <p>We’re not robots, get sales advice 7 days a week</p>
-                    <span class="SalesContactTelNo">08719713141</span>
-                    <div class="CallCostIdentifier">Calls cost 13p per min plus your network access charge</div>
-            </div>
-		
-		</div>
+			<img src="images/jogo.png" width="350" height="150" alt="jogo" style="margin-left: 150px; padding: 0px; margin-top: 0px;" class="logo-max">
 
     <script type="text/javascript">
         //function getRandomStrapLine(isNational) {
@@ -2588,7 +2563,7 @@ $(document).ready(function() {
     var footerList = secondBCol.find('.footer__list');
 
     // Define the new HTML you want to insert
-    var newListItem = '<li class="footer-stu-discount"><a href="/content/student-discount" class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" onclick="ga(\'send\', \'event\', \'Footer\', \'Student Discount\'); return true;" title="Student Discount">Student and Key Worker Discount</a></li>';
+   
 
     // Append the new list item after the last item in the UL
     footerList.append(newListItem);
@@ -3089,34 +3064,17 @@ $(function() {
 
         
 
-<form action="/basket/BasketOperation" data-ajax="true" data-ajax-begin="BASKET.OperationBefore" data-ajax-failure="BASKET.OperationFailure" data-ajax-success="BASKET.OperationSuccess" id="form0" method="post">                <input type="hidden" name="items[0].ProductId" value="1865528">
-                <input type="hidden" name="items[0].LineID" value="22c3b283-9500-4719-8a7b-1bb3aea8b080">
-                <input type="hidden" id="HeroItemQtyHidden" name="items[0].Quantity" value="1">
-                <input type="hidden" name="items[0].OriginType" value="ProductPageMain">
-                <input type="hidden" id="IsMembershipSelected" name="items[0].IsMembershipSelected">
-                <div id="relatedItemsAddedhidden"></div>
-                    <span class="atb"><input type="submit" value="Add to Basket »" class="buyButton btn-checkout" id="addtobasket" name="AddItems" onclick="ga('send', 'event', 'product page', 'add to basket');" title="Add to Basket"></span>
-                <script type="text/javascript">
-                    $(function () {
 
-                            
-                            // Mini-basket popup
-                            $("#addtobasket").on('click', BASKET.OperationWithPopup);                            
-                            
-                    });
-                </script>
-</form>    </div>
-
-                    <script type="text/javascript">
-                        $(function($) {
-                            var saveelement = $('.wasandsaving,.pp-was-price,.was-saving');
-                            if (saveelement.length > 0) {
-                                $( ".wasandsaving .VersionPrice, .saverrpmobile .VersionPrice" ).addClass( "savepriceimage" );
-
-                                $("<i class=\"fa-solid fa-circle-info font-size-08 text-neutral-300 margin-left-05\" data-tippy-placement=\"bottom\" data-tippy-theme=\"dark\" data-tippy-content=\"Previously sold at £1199.00 on 9th June\"></i>" ).insertAfter(".savepriceimage");
-                            }
-                        });
-                    </script>
+                   
+             <a href="../../../checkout page/index.html" style="font-size: 25px; font-weight: bold;">
+    <button class="button-t" 
+            style="background-color: green; width: 200px; text-align: center; padding: 12px 24px; color: white; border-radius: 6px; border: none; cursor: pointer;" 
+            onmouseover="this.style.background='blue', this.style.color='white'" 
+            onmouseout="this.style.background='green', this.style.color='white'" 
+            onclick="addToCart('BS65 Intelligent Battery Station', 1099.00)">
+        Add to Cart
+    </button>
+</a>
                 <div class="display-flex flex-column clear-both float-left">
                     <!-- -------------------------------------------------------------------------------------------------------------------------- -->
 
@@ -4351,248 +4309,7 @@ $(function() {
  <style>
 #moreinrangecarousel {display:none;} #carousel_also_left:hover,#carousel_also_right:hover{cursor:pointer}#carousel_also_left.swiper-button-disabled,#carousel_also_right.swiper-button-disabled{opacity:.2;cursor:default;display:block!important;}#recommendations_wrapper_also a{text-decoration:none!important}.recs_scrollbar{height:10px!important}.recs_add_btn.recs_add_btn {width: 45px;height: 45px;box-sizing: border-box;text-align: center;display: inline-flex;justify-content: center;border-radius: 50%;padding: 0.5rem;align-items: center;}.swiper-scrollbar-drag{background:#081a44!important;}.icon-loader:before {content: '';display: inline-block;    background: url(images/spinning-circles.svg) no-repeat;height: 20px;width: 20px;    background-size: 20px 20px;}
 </style>
-<div id="also_like" class="padding-y-15 margin-bottom-15 clear-both">
-  <div class="wrapper overflow-x-hidden">
-    <div id="recommendations_also">
-      <div class="swiper-button-wrapper margin-left-auto display-flex flex-nowrap align-items-center padding-bottom-1">
-        <h2 class="text-black text-align-left font-semibold margin-0 font-size-14 font-size-md-16 line-height-normal">You may also like</h2>
-        <div class="margin-left-auto display-flex flex-nowrap align-items-center">
-          <i class="icon-chevron-left font-size-18 margin-right-1 swiper-button-disabled icon-dark-blue" id="carousel_also_left"></i>
-          <i class="icon-chevron-right font-size-18 icon-dark-blue" id="carousel_also_right"></i>
-        </div>
-      </div>
-      <div id="recs_loader_also" class="text-align-center padding-y-2" style="min-height:50px;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="55" height="30" viewBox="0 0 120 30" fill="#081a49">
-                <circle cx="15" cy="15" r="15">
-                    <animate attributeName="r" from="15" to="15" begin="0s" dur="0.8s" values="15;9;15" calcMode="linear" repeatCount="indefinite"></animate>
-                    <animate attributeName="fill-opacity" from="1" to="1" begin="0s" dur="0.8s" values="1;.5;1" calcMode="linear" repeatCount="indefinite"></animate>
-                </circle>
-                <circle cx="60" cy="15" r="9" fill-opacity="0.3">
-                    <animate attributeName="r" from="9" to="9" begin="0s" dur="0.8s" values="9;15;9" calcMode="linear" repeatCount="indefinite"></animate>
-                    <animate attributeName="fill-opacity" from="0.5" to="0.5" begin="0s" dur="0.8s" values=".5;1;.5" calcMode="linear" repeatCount="indefinite"></animate>
-                </circle>
-                <circle cx="105" cy="15" r="15">
-                    <animate attributeName="r" from="15" to="15" begin="0s" dur="0.8s" values="15;9;15" calcMode="linear" repeatCount="indefinite"></animate>
-                    <animate attributeName="fill-opacity" from="1" to="1" begin="0s" dur="0.8s" values="1;.5;1" calcMode="linear" repeatCount="indefinite"></animate>
-                </circle>
-            </svg>
-        </div>
-      <div class="swiper_rec_also position-relative">
-        <div id="recommendations_wrapper_also" class="swiper-wrapper padding-bottom-15"></div>
-        <div class="swiper-scrollbar recs_scrollbar"></div>
-      </div>
-    </div>
-  </div>
-</div>
 
-
-<script type="text/javascript">
-$(function () {
-    let recs_also_like_callback = (entries, observer) => {
-        entries.forEach(function(entry) {
-            if (entry.isIntersecting) {
-                console.log('also like hit');
-                recs_also_like_load();
-                recs_also_like_observer.unobserve(entry.target);
-            }
-        });
-    };
-    let recs_also_like_observer = new IntersectionObserver(recs_also_like_callback);
-    let recs_also_like_element = document.querySelector("#also_like");
-    recs_also_like_observer.observe(recs_also_like_element);
-});
-//$(window).on('load', function() {
-    function recs_also_like_load() {
-	const cookieBotObj = (function(){
-		const cookieBotCookie = BID.CMShelpers.cookieFunctions.get("CookieConsent");
-		if(cookieBotCookie !== '') {
-			return JSON.parse(decodeURIComponent(cookieBotCookie)
-				.replace(/%2c/g, ",").replace(/'/g, '"').replace(/([{\[,])\s*([a-zA-Z0-9_]+?):/g, '$1"$2":')
-			)
-		} else {
-			return null;
-		}
-	})();
-    if(cookieBotObj != null && !cookieBotObj.preferences) {
-        $('#recommendations_also').hide();
-        return;
-    }
-      function truncate(string, limit) {
-        if (string.length > limit) {
-          return string.substring(0, limit) + "...";
-        } else {
-          return string;
-        }
-      }
-      var PLACEMENT = "pdp";
-      var recommendation_id = "6627717b3e3c9b63a3fd30ae";
-      var quickfind_text = document.getElementById("prodPage_QuickFind").textContent;
-        var quickfind = quickfind_text.replace(/\D/g, "");
-
-          var RCM_STATUS = 0;
-          // render items when loaded
-          var onRecommendationsLoaded = function(data) {
-            if (RCM_STATUS !== "TIMED_OUT") {
-              RCM_STATUS = "LOADED";
-
-              // render items ...
-              if (data && data.length > 0) {
-                //var element = document.getElementById('recommendations_wrapper_also');
-                var element = $('#recommendations_wrapper_also');
-
-                for (var i = 0; i < data.length; i++) {
-                  var item = data[i];
-
-                  var img = $('<img />', {
-                    'class': 'margin-x-auto width-70 width-md-80',
-                    'src': item.hero_image_thumb
-                  });
-
-                  var sku_title = $('<p>', {
-                    'class': 'font-size-1 line-height-12 margin-0 text-black'
-                  }).text(truncate(item.web_title, 45));
-
-                  var price_detail = $('<p>', {
-                    'class': 'font-size-1 font-size-md-13 font-semibold text-black margin-bottom-0 margin-top-auto padding-0'
-                  }).text('£' + item.incvat_uk_sell_price.toFixed(2));
-
-                  var detail_div = $('<div>', {
-                    'class': 'padding-y-1 display-flex flex-column flex-grow-1'
-                  }).append(sku_title);
-
-                  var price_div = $('<div>', {
-                    'class': 'b-col padding-left-0'
-                  }).append(price_detail);
-
-                  var footer_div = $('<div>', {
-                    'class': 'recs_footer b-row margin-x-0 align-items-center margin-top-auto'
-                  }).append(price_div);
-
-                  var inner_div = $('<div>', {
-                    'class': 'height-100 display-flex flex-column background-white padding-1 box-border border-radius-medium box-shadow-light'
-                  }).append(img).append(detail_div).append(footer_div);
-
-                  var a = $('<a>', {
-                    'id': item.item_id,
-                    'href': item.url,
-                    'class': 'exp-reco-product-also'
-                  }).append(inner_div);
-
-                  var swiper_div = $('<div>', {
-                    'class': 'swiper-slide add-gutters-y height-auto hover-effect-opacity box-border'
-                  }).append(a);
-
-                  element.append(swiper_div);
-                }
-                document.getElementById("recs_loader_also").style.display = "none";
-                // track event recommendation action=show
-                // often, the recommended items are placed below the fold, for proper evalution track "show" event after customer scrolls and see recommended items
-                (typeof exponea === 'undefined' ? { track: function() {console.log('exponea not loaded');}} : exponea).track("recommendation", {
-                  action: "show",
-                  //item_ids: itemIds,
-                  recommendation_id: recommendation_id,
-                  //variant: variant
-                  // other properties: placement, ...
-                });
-              } else {
-                document.getElementById('recommendations_also').innerHTML = '';
-                document.getElementById("also_like").style.display = "none";
-              }
-
-              // add click listeners ...
-              // track event recommendation action=click when item is clicked
-              document.querySelectorAll(".exp-reco-product-also").forEach(function(item) {
-                item.addEventListener("click", function() {
-                  (typeof exponea === 'undefined' ? { track: function() {console.log('exponea not loaded');}} : exponea).track("recommendation", {
-                    action: "click",
-                    item_id: item.id,
-                    recommendation_id: recommendation_id,
-                    placement: "‘DD You May Also Like PDP"
-                    
-                  });
-                });
-              });
-            }
-            const swiper_recs_also = new Swiper('.swiper_rec_also', {
-              slidesPerView: 1.8,
-              slidesPerGroup: 1,
-              spaceBetween:24,
-              speed: 800,
-              breakpoints: {
-    
-    			768: {
-    			  slidesPerView: 4,
-    			  slidesPerGroup: 2,
-    			},
-    			992: {
-    			  slidesPerView: 5,
-    			  slidesPerGroup: 3,
-    			},
-    			1200: {
-    			  slidesPerView: 6,
-    			  slidesPerGroup: 3
-    			}
-    		  },
-              navigation: {
-                nextEl: "#carousel_also_right",
-                prevEl: "#carousel_also_left",
-              },
-              scrollbar: {
-                el: '.swiper-scrollbar',
-                draggable: true,
-              }
-            })
-          };
-
-          // recommendations configuration
-          var options = {
-            recommendationId: recommendation_id,
-            items: { [quickfind] : 1 },
-            size: 15, // Specifies upper limit of the recommendations to return. Defaults to 10.
-            callback: onRecommendationsLoaded,
-            fillWithRandom: false, // If true, fills the recommendations with random items until size is reached. This is utilized when models cannot recommend enough items.
-            // Optional parameters:
-            catalogFilter: [], // Adds additional constrains to catalog when retrieving recommended items. Example: [{'property': 'gender', 'constraint': { 'type': 'string', 'operator': 'equals', 'operands': [{'type': 'constant', 'value': 'male'}]}}]
-            catalogAttributesWhitelist: [], // Returns only specified attributes from catalog items. If empty or not set, returns everything.
-          };
-    	  // call recommendations up to 5 times
-    	  let count = 0;
-    	  multiStep();
-    	  function multiStep() {
-    		  count++
-    		  if(typeof exponea === 'undefined')
-    		  {
-    			  console.log('exponea not loaded try ' + count);
-    			  if(count <= 5)
-    				setTimeout(multiStep, 1000);
-    		  } else {
-    			  exponea.getRecommendation(options)
-
-    			  // start timeout to discard rendering when recommendations are loaded too late
-    			  setTimeout(function() {
-    			    if (RCM_STATUS !== "LOADED") {
-    			      RCM_STATUS = "TIMED_OUT";
-    			      // track event recommendation action=timeout
-    			      (typeof exponea === 'undefined' ? { track: function() {console.log('exponea not loaded');}} : exponea).track("recommendation", {
-    			        action: "timeout",
-    			        recommendation_id: recommendation_id
-    			        // other required properties: placement, ...
-    			      });
-    			      document.getElementById('recommendations_also').innerHTML = '';
-    			      document.getElementById("also_like").style.display = "none";
-    			    }
-    			  }, 1000);
-    		  }
-    	  }
-}
-//});
-</script>
-            </div>
-        <div id="pre_footer"></div>
-            <div class="top-footer">
-
-        
-            </div>
 <footer class="footer__main background-white">
 
     <!-- PayPal Start -->
@@ -4612,9 +4329,9 @@ $(function () {
 
         <div class="footer__container b-row b-row-cols-1 b-row-cols-md-5">
             <div class="b-col display-flex align-items-start justify-content-start flex-column">
-                <img loading="lazy" class="footer__logo" src="images/BID_Logo.png" alt="BuyItDirect Logo">
+                <img loading="lazy" class="footer__logo" src="images/jogo.png" alt="BuyItDirect Logo">
                 <p class="footer__copy font-size-08 line-height-14 font-weight-400 text-neutral-500 margin-y-0 padding-top-1 text-align-center text-align-md-left">
-                    Drones Direct are part of the Buy It Direct Group; Reg. No. 04171412
+                   At iDrones,your satisfaction comes first-quality drones, trusted servce.
                 </p>
             </div>
 
@@ -4624,20 +4341,9 @@ $(function () {
                         Help and advice
                     </li>
                     <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="/content/customer-service" title="Contact Drones Direct">Customer service</a>
+                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="../../../essentials/custormer service/index.html" title="Contact iDronestech">Customer service</a>
                     </li>
-                    <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="/content/collection-points" title="Collection Points Drones Direct">Collection points</a>
-                    </li>
-                    <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="/content/finance" title="Finance Drones Direct">Finance</a>
-                    </li>
-                    <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" onclick="openCustomLoginWindow(); return false;" title="My account Drones Direct">My account</a>
-                    </li>
-                    <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="/orderstatus/login.aspx" title="Track order Drones Direct">Track order</a>
-                    </li>
+                    
                 </ul>
             </div>
 
@@ -4647,17 +4353,9 @@ $(function () {
                         Services
                     </li>
                     <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="/content/delivery" title="Delivery Drones Direct">Delivery</a>
+                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="../../../essentials/delivery/index.html" title="Delivery iDronestech">Delivery</a>
                     </li>
-                    <!-- <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" onclick="ga('send', 'event', 'Footer', 'Recycling'); return true;" href="#" title="Recycling Drones Direct">Recycling</a>
-                    </li> -->
-                    <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="/content/public-sector-drones-solutions" title="Public Sector Enquiries Drones Direct">Public sector enquiries</a>
-                    </li>
-                    <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="/content/business-solutions" title="Trade Enquiries Drones Direct">Trade enquiries</a>
-                    </li>
+                   
                 </ul>
             </div>
 
@@ -4667,17 +4365,9 @@ $(function () {
                         About us
                     </li>
                     <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="/content/about-us" title="About us Drones Direct">About us</a>
+                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="../../../essentials/about us/index.html" title="About us iDronestech">About us</a>
                     </li>
-                    <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="/content/affiliates" title="Affiliates Drones Direct">Affiliates</a>
-                    </li>
-                    <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="https://www.buyitdirectgroup.co.uk/content/careers" title="Careers Drones Direct">Careers</a>
-                    </li>
-                    <li>
-                        <a class="footer__list-link font-size-1 font-weight-400 text-neutral-500 margin-y-0" href="https://www.buyitdirectgroup.co.uk" title="Corporate site Drones Direct">Corporate site</a>
-                    </li>
+                    
                 </ul>
             </div>
 
@@ -4691,54 +4381,28 @@ $(function () {
             </div>
         </div>
 
-        <div class="footer__payment display-flex justify-content-center align-items-center flex-column padding-top-1 padding-top-md-2 ">
+<div class="footer__payment display-flex justify-content-center align-items-center flex-column padding-top-1 padding-top-md-2 ">
             <h3 class="footer__title font-size-1 font-semibold text-neutral-900 margin-y-0">
                 We accept
             </h3>
             <div class="footer__payment-imgs display-flex align-items-center justify-content-center flex-wrap">
-                <img loading="lazy" class="padding-05 lazy" data-original="/Files/images/apd/footer__images/BID_Payment_Maestro.svg" src="images/BID_Payment_Maestro.svg" alt="Maestro logo">
-                <img loading="lazy" class="padding-05 lazy" data-original="/Files/images/apd/footer__images/BID_Payment_MasterCard.svg" src="images/BID_Payment_MasterCard.svg" alt="MasterCard logo">
+                
                 <img loading="lazy" class="padding-05 lazy" data-original="/Files/images/apd/footer__images/BID_Payment_Visa.svg" src="images/BID_Payment_Visa.svg" alt="Visa logo">
                 <img loading="lazy" class="padding-05 lazy" data-original="/Files/images/apd/footer__images/BID_Payment_PayPal.svg" src="images/BID_Payment_PayPal.svg" alt="PayPal logo">
                 <img loading="lazy" class="padding-05 lazy" data-original="/Files/images/apd/footer__images/BID_Payment_Apple.svg" src="images/BID_Payment_Apple.svg" alt="Apple Pay logo">
                 <img loading="lazy" class="padding-05 lazy" data-original="/Files/images/apd/footer__images/BID_Payment_Google.svg" src="images/BID_Payment_Google.svg" alt="Google Pay logo">
-                
+                <img loading="lazy" class="padding-05 lazy" data-original="/Files/images/apd/footer__images/BID_Payment_Bitcoin.svg" src="images/dog.jpg" alt="BID_Payment_Bitcoin" style="width: 50px; height: auto; vertical-align: midle;">
             </div>
         </div>
-
+        </div>
         <div class="footer__links padding-top-1 padding-top-md-2">
             <span class="footer__line"></span>
             <div class="footer__links-container display-flex align-items-center justify-content-between flex-column flex-md-row padding-y-1">
 
-                <ul class="footer__list list display-flex flex-wrap align-items-center justify-content-center">
-                    <li class="font-size-08 font-semibold align-self-center text-neutral-900 margin-y-0 width-100 width-md-auto text-align-center">
-                        Our websites
-                    </li>
-                    <li>
-                        <a class=" footer__list-link font-size-08 font-weight-400 text-neutral-500 margin-y-0 padding-left-1 text-align-center" target="_blank" href="https://www.laptopsdirect.co.uk/" title="Laptops Direct">Laptops Direct</a>
-                    </li>
-                    <li>
-                        <a class=" footer__list-link font-size-08 font-weight-400 text-neutral-500 margin-y-0 padding-left-1 text-align-center" target="_blank" href="https://www.appliancesdirect.co.uk/" title="Appliances Direct">Appliances Direct</a>
-                    </li>
-                    <li>
-                        <a class=" footer__list-link font-size-08 font-weight-400 text-neutral-500 margin-y-0 padding-left-1 text-align-center" target="_blank" href="https://www.betterbathrooms.com/" title="Better Bathrooms">Better Bathrooms</a>
-                    </li>
-                    <li>
-                        <a class=" footer__list-link font-size-08 font-weight-400 text-neutral-500 margin-y-0 padding-left-1 text-align-center" target="_blank" href="https://furniture123.co.uk/" title="Furniture123">Furniture123</a>
-                    </li>
-                    <li>
-                        <a class=" footer__list-link font-size-08 font-weight-400 text-neutral-500 margin-y-0 padding-left-1 text-align-center" target="_blank" href="https://www.outdoorlivinghottubs.co.uk/" title="Outdoor Living">Outdoor Living</a>
-                    </li>
-                </ul>
+               
+                
 
-                <ul class="footer__list list display-flex">
-                    <li class="align-self-center margin-y-0 text-align-center">
-                        <a class=" footer__list-link font-size-08 font-weight-400 text-neutral-500 margin-y-0 padding-left-1 text-align-center" href="/content/cookie-policy" title="Cookie Policy Drones Direct">Cookie Policy</a>
-                    </li>
-                    <li class="align-self-center margin-y-0 text-align-center">
-                        <a class=" footer__list-link font-size-08 font-weight-400 text-neutral-500 margin-y-0 padding-left-1 text-align-center" href="/content/privacy-policy" title="Privacy Policy Drones Direct">Privacy Policy</a>
-                    </li>
-                </ul>
+                
             </div>
             <span class="footer__line"></span>
         </div>
@@ -4772,12 +4436,7 @@ $(function () {
             //]]>
         </script>
 
-        <div class="footer__legal padding-y-1 padding-y-md-2">
-            <p class="font-size-08 line-height-14 text-neutral-500 text-align-center"> Buy It Direct acts as a broker and offers credit from a panel of lenders. For more information please <a class="text-link-light-blue" href="/content/finance" title="Finance info">click here.</a> </p>
-            <p class="font-size-08 line-height-14 text-neutral-500 text-align-center padding-top-05"> PayPal Credit and PayPal Pay in 3 are trading names of PayPal UK Ltd, 5 Fleet Place, London, United Kingdom, EC4M 7RD. <strong class="font-semibold">PayPal Credit:</strong> Terms and conditions apply. Credit subject to status, UK residents only, Buy It Direct acts as a broker and offers finance from a restricted range of finance providers. <strong class="font-semibold">PayPal Pay in 3:</strong> PayPal Pay in 3 is not regulated by the Financial Conduct Authority. Pay in 3 eligibility is subject to status and approval. UK residents only. Pay in 3 is a form of credit, may not be suitable for everyone and use may affect your credit score. See product terms for more details. </p>
-            <p class="font-size-08 line-height-14 text-neutral-500 text-align-center padding-top-05"> Buy It Direct Ltd is a limited company registered in England. Registered number 04171412. Registered office: Trident Business Park, Leeds Road, Huddersfield, West Yorkshire, HD2 1UA. </p>
-        </div>
-
+       
     </div>
 </footer>
 
@@ -5234,117 +4893,7 @@ $(function () {
         </style>
     <![endif]-->
     
-
-    
-<script type="text/javascript">
-//<![CDATA[
-	
-
-	//$(function ($) {Now called at end of page rather than on "Document Ready" to minimise flashes of ineligible banners!
-		//console.log(CmsDateTimeEligibilityData);
-		const CmsDateTimeEligibilityData = {"CmsDateTimeEligibilityPageSectionWrapper":[{"CMSPageSectionID":298052,"CmsDateTimeEligibilityPageSection":{"Days":{"Day":[],"LookupList":{"Item":[{"ID":1,"DisplayName":null,"Sel":true,"SelSpecified":true,"Excluded":false,"ExcludedSpecified":false,"ImageID":0,"ImageIDSpecified":false},{"ID":2,"DisplayName":null,"Sel":true,"SelSpecified":true,"Excluded":false,"ExcludedSpecified":false,"ImageID":0,"ImageIDSpecified":false},{"ID":3,"DisplayName":null,"Sel":true,"SelSpecified":true,"Excluded":false,"ExcludedSpecified":false,"ImageID":0,"ImageIDSpecified":false},{"ID":4,"DisplayName":null,"Sel":true,"SelSpecified":true,"Excluded":false,"ExcludedSpecified":false,"ImageID":0,"ImageIDSpecified":false},{"ID":5,"DisplayName":null,"Sel":true,"SelSpecified":true,"Excluded":false,"ExcludedSpecified":false,"ImageID":0,"ImageIDSpecified":false},{"ID":6,"DisplayName":null,"Sel":true,"SelSpecified":true,"Excluded":false,"ExcludedSpecified":false,"ImageID":0,"ImageIDSpecified":false},{"ID":7,"DisplayName":null,"Sel":true,"SelSpecified":true,"Excluded":false,"ExcludedSpecified":false,"ImageID":0,"ImageIDSpecified":false}],"ListName":"Days","AllowMultipleSelections":false,"AllowMultipleSelectionsSpecified":false}},"Times":[],"Dates":[{"StartDate":"\/Date(1518998400000)\/","EndDate":"\/Date(1519171140000)\/"}]},"CmsDateTimeEligibilityCMSToTriggerRelationship":{"Days":{"Day":[],"LookupList":{"Item":[{"ID":1,"DisplayName":null,"Sel":true,"SelSpecified":true,"Excluded":false,"ExcludedSpecified":false,"ImageID":0,"ImageIDSpecified":false},{"ID":2,"DisplayName":null,"Sel":true,"SelSpecified":true,"Excluded":false,"ExcludedSpecified":false,"ImageID":0,"ImageIDSpecified":false},{"ID":3,"DisplayName":null,"Sel":true,"SelSpecified":true,"Excluded":false,"ExcludedSpecified":false,"ImageID":0,"ImageIDSpecified":false},{"ID":4,"DisplayName":null,"Sel":true,"SelSpecified":true,"Excluded":false,"ExcludedSpecified":false,"ImageID":0,"ImageIDSpecified":false},{"ID":5,"DisplayName":null,"Sel":true,"SelSpecified":true,"Excluded":false,"ExcludedSpecified":false,"ImageID":0,"ImageIDSpecified":false},{"ID":6,"DisplayName":null,"Sel":true,"SelSpecified":true,"Excluded":false,"ExcludedSpecified":false,"ImageID":0,"ImageIDSpecified":false},{"ID":7,"DisplayName":null,"Sel":true,"SelSpecified":true,"Excluded":false,"ExcludedSpecified":false,"ImageID":0,"ImageIDSpecified":false}],"ListName":"Days","AllowMultipleSelections":false,"AllowMultipleSelectionsSpecified":false}},"Times":[],"Dates":[]}}]};
-		var arrayOfDateTimeIneligibleCMSPSIDs = [];
-		if (CmsDateTimeEligibilityData.CmsDateTimeEligibilityPageSectionWrapper != null) {
-			var isBSTinEffect = isBSTinEffect();
-
-			for (var i = 0; i < CmsDateTimeEligibilityData.CmsDateTimeEligibilityPageSectionWrapper.length; i++) {
-				var CMSPageSectionInScope = IsDateTimeEligible(CmsDateTimeEligibilityData.CmsDateTimeEligibilityPageSectionWrapper[i].CmsDateTimeEligibilityPageSection);
-				var CMSToTriggerRelationshipInScope = IsDateTimeEligible(CmsDateTimeEligibilityData.CmsDateTimeEligibilityPageSectionWrapper[i].CmsDateTimeEligibilityCMSToTriggerRelationship);
-				if (CMSPageSectionInScope != true || CMSToTriggerRelationshipInScope != true)
-					arrayOfDateTimeIneligibleCMSPSIDs.push(CmsDateTimeEligibilityData.CmsDateTimeEligibilityPageSectionWrapper[i].CMSPageSectionID);
-			}
-		}
-		//loop DateTimeIneligibleCMS and hide using jquery
-		for (var i = 0; i < arrayOfDateTimeIneligibleCMSPSIDs.length; i++) {
-			$(".EligiblityDateTimeVisibility_" + arrayOfDateTimeIneligibleCMSPSIDs[i]).hide();
-		}
-		function IsDateTimeEligible(cmsDateTimeEligibilityPageSection) {
-			var eligible = true;
-			const d = new Date();
-			const offsetComparedToUK = d.getTimezoneOffset() + (isBSTinEffect ? 60 : 0);
-			const tzAdjustedDate = new Date(d.getTime() + offsetComparedToUK*60000);
-			const timeInMs = ((((tzAdjustedDate.getHours() * 60) + tzAdjustedDate.getMinutes()) * 60) + tzAdjustedDate.getSeconds()) * 1000 + tzAdjustedDate.getMilliseconds();
-			var datestest = true;
-			for (var i = 0; i < cmsDateTimeEligibilityPageSection.Dates.length; i++) {
-				datestest = (cmsDateTimeEligibilityPageSection.Dates[i].StartDate == null || new Date(parseInt(cmsDateTimeEligibilityPageSection.Dates[i].StartDate.substr(6))).getTime() <= tzAdjustedDate.getTime() && new Date(parseInt(cmsDateTimeEligibilityPageSection.Dates[i].EndDate.substr(6))).getTime() >= tzAdjustedDate.getTime());
-				if (datestest)
-					break;
-			}
-			if (!datestest) { eligible = false; return eligible; };//If failed datestest exit and return ineligible status
-
-			var timestest = true;
-			for (var i = 0; i < cmsDateTimeEligibilityPageSection.Times.length; i++) {
-				var tdStartDate = new Date(parseInt(cmsDateTimeEligibilityPageSection.Times[i].StartTime.substr(6)));
-				var tdStartTimeInMs = ((((tdStartDate.getHours() * 60) + tdStartDate.getMinutes()) * 60) + tdStartDate.getSeconds()) * 1000 + tdStartDate.getMilliseconds();
-				var tdEndDate = new Date(parseInt(cmsDateTimeEligibilityPageSection.Times[i].EndTime.substr(6)));
-				var tdEndTimeInMs = ((((tdEndDate.getHours() * 60) + tdEndDate.getMinutes()) * 60) + tdEndDate.getSeconds()) * 1000 + tdEndDate.getMilliseconds();
-				timestest = (tdStartDate == null || tdStartTimeInMs <= timeInMs && tdEndTimeInMs >= timeInMs);
-				if (timestest)
-					break;
-			}
-			if (!timestest) { eligible = false; return eligible; };//If failed timestest exit and return ineligible status
-
-			var daytest = true;
-			for (var i = 0; i < cmsDateTimeEligibilityPageSection.Days.LookupList.Item.length; i++) {
-				daytest = cmsDateTimeEligibilityPageSection.Days.LookupList.Item[i].Sel == true && (cmsDateTimeEligibilityPageSection.Days.LookupList.Item[i].ID == tzAdjustedDate.getDay() || cmsDateTimeEligibilityPageSection.Days.LookupList.Item[i].ID == 7 && tzAdjustedDate.getDay() == 0);
-				if (daytest)
-					break;
-			}
-			if (!daytest) { eligible = false; return eligible; };//If failed daytest exit and return ineligible status
-
-			return eligible;
-	}
-		/*
-			A function that determines whether BST is currently in effect in London,
-			based on the date on the user's PC, but regardless of whether the user
-			is in London, or somewhere else. BST runs between the last Sunday of
-			March, and the last Sunday of October, with a varying date each year.
-		*/
-		function isBSTinEffect()
-		{
-			var d = new Date();
-
-			// Loop over the 31 days of March for the current year
-			for(var i=31; i>0; i--)
-			{
-				var tmp = new Date(d.getFullYear(), 2, i);
-
-				// If it's Sunday
-				if(tmp.getDay() == 0)
-				{
-					// last Sunday of March
-					lSoM = tmp;
-
-					// And stop the loop
-					break;
-				}
-			}
-
-			// Loop over the 31 days of October for the current year
-			for(var i=31; i>0; i--)
-			{
-				var tmp = new Date(d.getFullYear(), 9, i);
-
-				// If it's Sunday
-				if(tmp.getDay() == 0)
-				{
-					// last Sunday of October
-					lSoO = tmp;
-
-					// And stop the loop
-					break;
-				}
-			}
-
-			// 0 = DST off (GMT)
-			// 1 = DST on  (BST)
-			if(d < lSoM || d > lSoO) return 0;
-			else return 1;
-		}
-	//});
-
-//]]>
-</script>
+<script src="../../../js/cart.js"></script>
 
 
 </body></html>
