@@ -2925,7 +2925,15 @@ $(function() {
 
         
 
-<a href="../../checkout page/index.html" style="font-size: 25px; font-weight: bold;  "><button class="button-t" style="background-color: green; width: 200px; text-align: center; padding: 12px 24px; color: white; border-radius: 6px; border: none; cursor: pointer;" onmouseover="this.style.background='blue', this.style.color='white'" onmouseout="this.style.background='green', this.style.color='white'">Buy Now</button></a>
+<a href="../../checkout page/index.html" style="font-size: 25px; font-weight: bold;">
+    <button class="button-t" 
+            style="background-color: green; width: 200px; text-align: center; padding: 12px 24px; color: white; border-radius: 6px; border: none; cursor: pointer;" 
+            onmouseover="this.style.background='blue', this.style.color='white'" 
+            onmouseout="this.style.background='green', this.style.color='white'" 
+            onclick="addToCart('DJI Matrice 350 RTK with H30T Payload Kit', 9949.00)">
+        Add to Cart
+    </button>
+</a>
 
 
                 <div class="display-flex flex-column clear-both float-left">
@@ -5159,187 +5167,7 @@ $(function() {
         <i class="fa-solid fa-circle-chevron-up fa-2xl text-dark-blue-500 margin-bottom-05"></i><br>Back to top
     </a>
 
-    <script>
-
-        $(function ($) {
-            BASKET.RefreshMicrobasket();
-
-            //Check to see if the window is top if not then display button
-            $(window).on('scroll',function () {
-                if ($(this).scrollTop() > 100) {
-                    $('.scrollToTop').fadeIn();
-                } else {
-                    $('.scrollToTop').fadeOut();
-                }
-            });
-
-            //Click event to scroll to top
-            $('.scrollToTop').on('click',function () {
-                $('html, body').animate({ scrollTop: 0 }, 800);
-                return false;
-            });
-
-            // Show account type pricing banner for search page and product page
-            if (("False" == "True" || "True" == "True") && "False" == "True") {
-                $('.accpricemessage').show();
-                $(".accpricemessage").text('Hey, BID member - ' + '' + ' pricing is being applied while you browse');
-                $('.staffperformancemessage').show();
-                $(".staffperformancemessage").html('Site speed will be slower whilst logged in to a staff account. If you do not need to see staff pricing and would like to reduce page load time, please <a class="text-link" onclick="openCustomLogoutWindow()">log out</a>');
-
-                // Add margin-top to the body when messages are visible
-                $('body').css('margin-top', '27px');
-            } else {
-                $(".accpricemessage").hide();
-                $(".accpricemessage").text('');
-                $(".staffperformancemessage").hide();
-                $(".staffperformancemessage").text('');
-
-                // Remove the margin-top from the body when messages are hidden
-                $('body').css('margin-top', '');
-            }
-
-            if ('False' == 'True' && '' == 'True') {
-
-                $("#accPricingHomeBanner").trigger('click');
-            }
-
-
-            // Set tracking cookie
-            setTrackingCookie('adwords,kelkoo,dealtime,nextag,prunner,pgrabber,shopzilla,awin,yahoo,afuture,submit,paid,webgain,adcenters');
-            setPermanentPromoCookie();
-
-            let basketCountCookie = getCookie('basketQty')
-             let basketCount = (basketCountCookie == null || basketCountCookie == undefined) ? 0 : parseInt(basketCountCookie);
-
-             if (basketCount > 0) {
-                 $(".basketbox").css('display', 'flex');
-                 $(".microBasket span").first().html(basketCount);
-             }
-             else {
-                 //$(".basketbox").css('display', 'none');
-             }
-        });
-    </script>
-
-    
-    <!--[if lt IE 8]>
-        <style type='text/css'>
-          div#wishlist {display:none;}
-            .showwl {display:none;}
-        </style>
-    <![endif]-->
-    
-
-    
-<script type="text/javascript">
-//<![CDATA[
-	
-
-	//$(function ($) {Now called at end of page rather than on "Document Ready" to minimise flashes of ineligible banners!
-		//console.log(CmsDateTimeEligibilityData);
-		const CmsDateTimeEligibilityData = {"CmsDateTimeEligibilityPageSectionWrapper":[{"CMSPageSectionID":298052,"CmsDateTimeEligibilityPageSection":{"Days":{"Day":[],"LookupList":{"Item":[{"ID":1,"DisplayName":null,"Sel":true,"SelSpecified":true,"Excluded":false,"ExcludedSpecified":false,"ImageID":0,"ImageIDSpecified":false},{"ID":2,"DisplayName":null,"Sel":true,"SelSpecified":true,"Excluded":false,"ExcludedSpecified":false,"ImageID":0,"ImageIDSpecified":false},{"ID":3,"DisplayName":null,"Sel":true,"SelSpecified":true,"Excluded":false,"ExcludedSpecified":false,"ImageID":0,"ImageIDSpecified":false},{"ID":4,"DisplayName":null,"Sel":true,"SelSpecified":true,"Excluded":false,"ExcludedSpecified":false,"ImageID":0,"ImageIDSpecified":false},{"ID":5,"DisplayName":null,"Sel":true,"SelSpecified":true,"Excluded":false,"ExcludedSpecified":false,"ImageID":0,"ImageIDSpecified":false},{"ID":6,"DisplayName":null,"Sel":true,"SelSpecified":true,"Excluded":false,"ExcludedSpecified":false,"ImageID":0,"ImageIDSpecified":false},{"ID":7,"DisplayName":null,"Sel":true,"SelSpecified":true,"Excluded":false,"ExcludedSpecified":false,"ImageID":0,"ImageIDSpecified":false}],"ListName":"Days","AllowMultipleSelections":false,"AllowMultipleSelectionsSpecified":false}},"Times":[],"Dates":[{"StartDate":"\/Date(1518998400000)\/","EndDate":"\/Date(1519171140000)\/"}]},"CmsDateTimeEligibilityCMSToTriggerRelationship":{"Days":{"Day":[],"LookupList":{"Item":[{"ID":1,"DisplayName":null,"Sel":true,"SelSpecified":true,"Excluded":false,"ExcludedSpecified":false,"ImageID":0,"ImageIDSpecified":false},{"ID":2,"DisplayName":null,"Sel":true,"SelSpecified":true,"Excluded":false,"ExcludedSpecified":false,"ImageID":0,"ImageIDSpecified":false},{"ID":3,"DisplayName":null,"Sel":true,"SelSpecified":true,"Excluded":false,"ExcludedSpecified":false,"ImageID":0,"ImageIDSpecified":false},{"ID":4,"DisplayName":null,"Sel":true,"SelSpecified":true,"Excluded":false,"ExcludedSpecified":false,"ImageID":0,"ImageIDSpecified":false},{"ID":5,"DisplayName":null,"Sel":true,"SelSpecified":true,"Excluded":false,"ExcludedSpecified":false,"ImageID":0,"ImageIDSpecified":false},{"ID":6,"DisplayName":null,"Sel":true,"SelSpecified":true,"Excluded":false,"ExcludedSpecified":false,"ImageID":0,"ImageIDSpecified":false},{"ID":7,"DisplayName":null,"Sel":true,"SelSpecified":true,"Excluded":false,"ExcludedSpecified":false,"ImageID":0,"ImageIDSpecified":false}],"ListName":"Days","AllowMultipleSelections":false,"AllowMultipleSelectionsSpecified":false}},"Times":[],"Dates":[]}}]};
-		var arrayOfDateTimeIneligibleCMSPSIDs = [];
-		if (CmsDateTimeEligibilityData.CmsDateTimeEligibilityPageSectionWrapper != null) {
-			var isBSTinEffect = isBSTinEffect();
-
-			for (var i = 0; i < CmsDateTimeEligibilityData.CmsDateTimeEligibilityPageSectionWrapper.length; i++) {
-				var CMSPageSectionInScope = IsDateTimeEligible(CmsDateTimeEligibilityData.CmsDateTimeEligibilityPageSectionWrapper[i].CmsDateTimeEligibilityPageSection);
-				var CMSToTriggerRelationshipInScope = IsDateTimeEligible(CmsDateTimeEligibilityData.CmsDateTimeEligibilityPageSectionWrapper[i].CmsDateTimeEligibilityCMSToTriggerRelationship);
-				if (CMSPageSectionInScope != true || CMSToTriggerRelationshipInScope != true)
-					arrayOfDateTimeIneligibleCMSPSIDs.push(CmsDateTimeEligibilityData.CmsDateTimeEligibilityPageSectionWrapper[i].CMSPageSectionID);
-			}
-		}
-		//loop DateTimeIneligibleCMS and hide using jquery
-		for (var i = 0; i < arrayOfDateTimeIneligibleCMSPSIDs.length; i++) {
-			$(".EligiblityDateTimeVisibility_" + arrayOfDateTimeIneligibleCMSPSIDs[i]).hide();
-		}
-		function IsDateTimeEligible(cmsDateTimeEligibilityPageSection) {
-			var eligible = true;
-			const d = new Date();
-			const offsetComparedToUK = d.getTimezoneOffset() + (isBSTinEffect ? 60 : 0);
-			const tzAdjustedDate = new Date(d.getTime() + offsetComparedToUK*60000);
-			const timeInMs = ((((tzAdjustedDate.getHours() * 60) + tzAdjustedDate.getMinutes()) * 60) + tzAdjustedDate.getSeconds()) * 1000 + tzAdjustedDate.getMilliseconds();
-			var datestest = true;
-			for (var i = 0; i < cmsDateTimeEligibilityPageSection.Dates.length; i++) {
-				datestest = (cmsDateTimeEligibilityPageSection.Dates[i].StartDate == null || new Date(parseInt(cmsDateTimeEligibilityPageSection.Dates[i].StartDate.substr(6))).getTime() <= tzAdjustedDate.getTime() && new Date(parseInt(cmsDateTimeEligibilityPageSection.Dates[i].EndDate.substr(6))).getTime() >= tzAdjustedDate.getTime());
-				if (datestest)
-					break;
-			}
-			if (!datestest) { eligible = false; return eligible; };//If failed datestest exit and return ineligible status
-
-			var timestest = true;
-			for (var i = 0; i < cmsDateTimeEligibilityPageSection.Times.length; i++) {
-				var tdStartDate = new Date(parseInt(cmsDateTimeEligibilityPageSection.Times[i].StartTime.substr(6)));
-				var tdStartTimeInMs = ((((tdStartDate.getHours() * 60) + tdStartDate.getMinutes()) * 60) + tdStartDate.getSeconds()) * 1000 + tdStartDate.getMilliseconds();
-				var tdEndDate = new Date(parseInt(cmsDateTimeEligibilityPageSection.Times[i].EndTime.substr(6)));
-				var tdEndTimeInMs = ((((tdEndDate.getHours() * 60) + tdEndDate.getMinutes()) * 60) + tdEndDate.getSeconds()) * 1000 + tdEndDate.getMilliseconds();
-				timestest = (tdStartDate == null || tdStartTimeInMs <= timeInMs && tdEndTimeInMs >= timeInMs);
-				if (timestest)
-					break;
-			}
-			if (!timestest) { eligible = false; return eligible; };//If failed timestest exit and return ineligible status
-
-			var daytest = true;
-			for (var i = 0; i < cmsDateTimeEligibilityPageSection.Days.LookupList.Item.length; i++) {
-				daytest = cmsDateTimeEligibilityPageSection.Days.LookupList.Item[i].Sel == true && (cmsDateTimeEligibilityPageSection.Days.LookupList.Item[i].ID == tzAdjustedDate.getDay() || cmsDateTimeEligibilityPageSection.Days.LookupList.Item[i].ID == 7 && tzAdjustedDate.getDay() == 0);
-				if (daytest)
-					break;
-			}
-			if (!daytest) { eligible = false; return eligible; };//If failed daytest exit and return ineligible status
-
-			return eligible;
-	}
-		/*
-			A function that determines whether BST is currently in effect in London,
-			based on the date on the user's PC, but regardless of whether the user
-			is in London, or somewhere else. BST runs between the last Sunday of
-			March, and the last Sunday of October, with a varying date each year.
-		*/
-		function isBSTinEffect()
-		{
-			var d = new Date();
-
-			// Loop over the 31 days of March for the current year
-			for(var i=31; i>0; i--)
-			{
-				var tmp = new Date(d.getFullYear(), 2, i);
-
-				// If it's Sunday
-				if(tmp.getDay() == 0)
-				{
-					// last Sunday of March
-					lSoM = tmp;
-
-					// And stop the loop
-					break;
-				}
-			}
-
-			// Loop over the 31 days of October for the current year
-			for(var i=31; i>0; i--)
-			{
-				var tmp = new Date(d.getFullYear(), 9, i);
-
-				// If it's Sunday
-				if(tmp.getDay() == 0)
-				{
-					// last Sunday of October
-					lSoO = tmp;
-
-					// And stop the loop
-					break;
-				}
-			}
-
-			// 0 = DST off (GMT)
-			// 1 = DST on  (BST)
-			if(d < lSoM || d > lSoO) return 0;
-			else return 1;
-		}
-	//});
-
-//]]>
-</script>
+  <script src="../../js/cart.js"></script>
 
 
 </body></html>
