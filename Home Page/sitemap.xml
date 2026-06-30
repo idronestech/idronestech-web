@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- 1. Primary Storefront Homepage -->
+  <url>
+    <loc>https://idronestech.com/</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- 2. Consumer Drones Hub (Skärmbild 2026-06-30 010044.png) -->
+  <url>
+    <loc>https://idronestech.com/Consumer%20Drones/index.html</loc>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- 3. Commercial Drones Hub (Skärmbild 2026-06-30 010023.png) -->
+  <url>
+    <loc>https://idronestech.com/Commercial%20Drones/index.html</loc>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- 4. Drone Accessories Hub (Skärmbild 2026-06-30 010110.png) -->
+  <url>
+    <loc>https://idronestech.com/Drone%20Accessories/index.html</loc>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 5. Gimbals & Cameras / Cinematography (Skärmbild 2026-06-30 010127.png) -->
+  <url>
+    <loc>https://idronestech.com/Gimbals%20&amp;%20Cameras/index.html</loc>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 6. Electric Scooters Hub (Skärmbild 2026-06-30 005954.png) -->
+  <url>
+    <loc>https://idronestech.com/Electric%20Scooters/index.html</loc>
+    <priority>0.85</priority>
+  </url>
+</urlset>
