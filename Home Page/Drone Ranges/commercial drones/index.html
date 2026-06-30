@@ -45,113 +45,8 @@
 			"https://digital-reseller.com/version-live": "/proxy.html"
 		});
 	 });</script>
-<script type="text/javascript">
-            function setGeoIPDependentBehavioursDD() {
-                $(function() {
-                    try {
-                        var strSalesContactTelephone = '0871 971 3141';
-                        var strSalesContactTelephoneEU = '0871 971 3141';
-                        //display local rotating banner
-                        var searchString = "united kingdom";
-                        var geoipCountry = getGeoipCountry();
-                        if (searchString.indexOf(geoipCountry.toLowerCase()) > -1 || geoipCountry == 'nullCountry') {
-                            $('.SalesContactTelNo').html(strSalesContactTelephone);
-                        }
-                        else {
-                            //display phone number outside UK
-                            $('.SalesContactTelNo').html(strSalesContactTelephoneEU);
-                            $(".SalesContactTelNo").css("font-size", "1.7em");
-                        }
-                        // Replace Sales Number with Customer Contact Number
-                        if (getCookie('lastCustomerInfo') && true) {
-                            if (BID.isMemberLoggedIn()) {
-                                $('.SalesContactTelNo').html('0330 041 2733');
-                            }
-                            else {
-                                $('.SalesContactTelNo').html('0330 041 2733');
-                            }
-                        }
-                    }
-                    catch (err) { }
-                    $(".SalesContactTelNo").css("visibility", "visible");
-                });
-            }
-</script>
 
-
-	<script type="text/javascript">
-        $(function() {
-			var geoipSciptLoadStateChange = false;
-			if (getGeoIPCookieContents() == null) {
-				var a = document.createElement("script");
-				var b = document.getElementsByTagName('script')[0];
-				a.src = "//api.buyitdirect.co.uk/geolocation/geoip/jsdetails";
-				a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b);
-				// IE
-				a.onreadystatechange = function () {
-					if ((a.readyState === 'loaded' || a.readyState === 'complete') && geoipSciptLoadStateChange == false) {
-						geoipSciptLoadStateChange = true;
-						setGeoIPDependentBehaviours();
-						try {
-							setGeoIPCookieContents(geoip_city(), geoip_region_name(), geoip_country_name(), 2);
-						}
-						catch (err) { }
-					}
-				};
-				// Mozilla & IE9+
-				a.onload = function () {
-					if (geoipSciptLoadStateChange == false) {
-						geoipSciptLoadStateChange = true;
-						setGeoIPDependentBehaviours();
-						try {
-							setGeoIPCookieContents(geoip_city(), geoip_region_name(), geoip_country_name(), 2);
-						}
-						catch (err) { }
-					}
-				};
-				// Async Script call has 3 seconds to respond otherwise response will be ignored so we don't block dependencies
-				setTimeout(function () {
-					if (geoipSciptLoadStateChange == false) {
-						geoipSciptLoadStateChange = true;
-						setGeoIPDependentBehaviours();
-						setGeoIPCookieContents("nullCity", "nullRegion", "nullCountry", null); // Set GeopIP cookie values to empty for duration of session
-					}
-				}, 3000);
-
-			}
-			else {
-				//alert(getGeoIPCookieContents());
-				setGeoIPDependentBehaviours();
-			}
-
-			function setPhoneNumberCostText() {
-				const helpline = $('.SalesContactTelNo').text().trim().replaceAll(' ','');
-				let callCostTxt = "";
-				if (helpline.startsWith("0871"))
-				{
-					callCostTxt = "Calls cost 13p per min plus your network access charge";
-				}
-				else if (helpline.startsWith("0330"))
-				{
-					callCostTxt = "Calls charged at local rate";
-				}
-
-				$(".CallCostIdentifier").html(callCostTxt);
-			}
-
-			function setGeoIPDependentBehaviours() {
-			
-				if (typeof setGeoIPDependentBehavioursDD == 'function') {
-					setGeoIPDependentBehavioursDD();
-					// Schedule setPhoneNumberCostText to run after DOM is ready
-					$(function() {
-						setPhoneNumberCostText();
-					});
-				}
-			
-			}
-		});
-	</script>
+	
 
 
 	
@@ -209,14 +104,7 @@
 			return false;
 		}					
 
-		var THISWEBSITE = THISWEBSITE || {};
-		THISWEBSITE.prefix = 'DD';
-        THISWEBSITE.brandID = 47;
-	    THISWEBSITE.siteID = 2;
-	    THISWEBSITE.contentURL = '//contentdd.buyitdirect.co.uk';
-	    THISWEBSITE.scriptsURL = '//scriptsdd.buyitdirect.co.uk';
-        THISWEBSITE.RequestVerificationToken = 'Q4n6d1B9-T-8SZ59PV8ZVTP3E6uud90WGS0thKJ1asXdB2W5q2iEjwh_SMmjr3HIdahThMdaiRNW7uQT6mQEGPpVRkJf0K7rasT3VEUGApQ1:YtX6MbZNhlT7mKHQm-xXj5YS1GLuH02665vALym1rO5A-I9Rvn5pmb_tN1MLw0-MtKgzTbEhbPIJAX4rGRabWWfLBsAG8t4Sh2tFRezi2601';
-		//]]>
+		
 	</script>
 
     
@@ -1852,7 +1740,7 @@ function ()
     && (nowHour < endHour || (nowHour == endHour && nowMin <= endMin))
     )
 {
-$("div#livechatcsbox").replaceWith("<div id=\"livechatcsbox\" class=\"contact-option livechat\"> <h4>Live chat</h4> <!--button here --> <span id=\"webchatanc_1\" style=\"float: left; z-index: 5;\"><a href=\"javascript:void(0)\" onclick=\"chatWindow = window.open('https://chat.buyitdirect.co.uk/dd/Code/webchatLogin.php', 'WebChat', 'width=430, height=400, resizable=0');\"><img id=\"offlinelcimg\" title=\"Chat with a customer agent.\" alt=\"Chat icon.\" src=\"https://www.appliancesdirect.co.uk/files/images/lcimages/chat-desktop.png\" border=\"0\" /></a></span> <br /> <p style=\"margin-left: 8px;\"><strong>Our live chat team are available:</strong></p> <div class=\"openinghours\" id=\"csline\"><ul class=\"days\"><li>Monday:</li><li>Tuesday - Friday:</li><li>Saturday:</li><li>Sunday:</li></ul><ul class=\"cstimes\"><li>10am - 5pm</li><li>10am - 4.30pm</li><li>10am - 2.30pm</li><li>Closed</li></ul></div>");
+$("div#livechatcsbox").replaceWith("<div id=\"livechatcsbox\" class=\"contact-option livechat\"> <h4>Live chat</h4> <!--button here --> <span id=\"webchatanc_1\" style=\"float: left; z-index: 5;\"><a href=\"javascript:void(0)\" onclick=\"chatWindow = window.open('', 'WebChat', 'width=430, height=400, resizable=0');\"><img id=\"offlinelcimg\" title=\"Chat with a customer agent.\" alt=\"Chat icon.\" src=\"https://www.appliancesdirect.co.uk/files/images/lcimages/chat-desktop.png\" border=\"0\" /></a></span> <br /> <p style=\"margin-left: 8px;\"><strong>Our live chat team are available:</strong></p> <div class=\"openinghours\" id=\"csline\"><ul class=\"days\"><li>Monday:</li><li>Tuesday - Friday:</li><li>Saturday:</li><li>Sunday:</li></ul><ul class=\"cstimes\"><li>10am - 5pm</li><li>10am - 4.30pm</li><li>10am - 2.30pm</li><li>Closed</li></ul></div>");
   
 }
     });
@@ -2181,7 +2069,7 @@ $(window).on("load", function() {
             select: function (event, ui) {
                 //Redirect directly to product if a product chosen
                 if(ui.item.value.URL !== undefined)
-                    window.location.href='https://www.dronesdirect.co.uk' + '/' + ui.item.value.URL;
+                    window.location.href='' + '/' + ui.item.value.URL;
                 else
                     $(event.target).data("category", ui.item.category).val(ui.item.value).closest("form").submit();
                 return false;
@@ -3052,7 +2940,7 @@ $(window).on("load", function() {
     "@type": "CollectionPage",
     "name": "Commercial Drone | Drones Direct ",
     "description": "Buy Commercial Drones from Drones Direct - the UK's leading online drones retailer, we offer expert advice",
-    "url": "https://www.dronesdirect.co.uk/ct/uavs/drones/commercial",
+    "url": "",
     "breadcrumb": {
         "@type": "BreadcrumbList",
         "itemListElement": [
@@ -3061,7 +2949,7 @@ $(window).on("load", function() {
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Home",
-                "item": "https://www.dronesdirect.co.uk"
+                "item": ""
             },
             
             
@@ -3069,7 +2957,7 @@ $(window).on("load", function() {
                 "@type": "ListItem",
                 "position": 2,
                 "name": "UAVs",
-                "item": "https://www.dronesdirect.co.uk/c/uavs"
+                "item": ""
             },
             
             
@@ -3077,7 +2965,7 @@ $(window).on("load", function() {
                 "@type": "ListItem",
                 "position": 3,
                 "name": "Drones",
-                "item": "https://www.dronesdirect.co.uk/ct/uavs/drones"
+                "item": ""
             }
             
 
@@ -6788,7 +6676,7 @@ $(window).on("load", function() {
                                 }
                                 //,
                                 //'eventCallback': function () {
-                                //    document.location = "https://www.dronesdirect.co.uk" + "/" + url
+                                //    document.location = "https://idronestech.com" + "/" + url
                                 //}
                             });
 
@@ -6977,7 +6865,7 @@ jQuery("div.sr_container").attr("ID", "sr_404");
                         setMetaProperty("ogu", "https://www.dronesdirect.co.uk/ct/uavs/drones/commercial");
 
                     setMetaProperty("twc", "summary");
-                    setMetaProperty("twt", "Commercial Drone | Drones Direct");
+                    setMetaProperty("twt", "Commercial Drone | ");
                     setMetaProperty("twd", "Buy Commercial Drones from Drones Direct - the UK's leading online drones retailer, we offer expert advice");
                     setMetaProperty("twst", "@DronesDirectUK");
                     setMetaProperty("twim", "https://www.dronesdirect.co.uk/Images/BUNCP.EN.00000411.0192858_2_Classic.jpg?width=390&height=390&v=82");
@@ -7166,35 +7054,7 @@ jQuery("div.sr_container").attr("ID", "sr_404");
             <span class="footer__line"></span>
         </div>
 
-        <script type="text/javascript">
-            //<![CDATA[
-
-            // Do we show the mobile switcher ?
-            $(function() {
-                if (readCookieBD("overridetodesktop") == "showswitch") {
-                    document.getElementById("showMobile").style.display = "block";
-                }
-            });
-
-            function ClearOverrideCookie() {
-                eraseCookie("overridetodesktop", "www.dronesdirect.co.uk");
-                eraseCookie("overridetodesktop", ".www.dronesdirect.co.uk");
-                eraseCookie("overridetodesktop", ".dronesdirect.co.uk");
-                eraseCookie(".ASPXBrowserOverride", "www.dronesdirect.co.uk");
-                eraseCookie(".ASPXBrowserOverride", ".www.dronesdirect.co.uk");
-                eraseCookie(".ASPXBrowserOverride", ".dronesdirect.co.uk");
-            }
-
-            $(function() {
-                $("a#anhThawte").fancybox({
-                    'width': 500,
-                    'height': 590
-                });
-            });
-
-            //]]>
-        </script>
-
+       
       
 
     </div>
@@ -7316,7 +7176,7 @@ jQuery("div.sr_container").attr("ID", "sr_404");
         setFullscreenLoader('/api/compare');
         $.ajax({
             type: "GET",
-            url: '//webapidd.buyitdirect.co.uk' + '/api/compare',
+            url: '' + '/api/compare',
             cache: true,
             data: requestParams,
             success: function (data) {
