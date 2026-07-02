@@ -79,7 +79,7 @@
 
     var BidGlobalCookie = BidGlobalCookie || {};
     BidGlobalCookie.cookieDefinition = ["lastCustomerInfo|120"];
-    BidGlobalCookie.globalDomain = "contentap.buyitdirect.co.uk";
+    BidGlobalCookie.globalDomain = "";
     BidGlobalCookie.globalURI = location.protocol.toLowerCase() === 'https:' ? "https://" + BidGlobalCookie.globalDomain : "http://" + BidGlobalCookie.globalDomain;
     BidGlobalCookie.iframeId = "if_mdc";
     //BidGlobalCookie.synch = function (overwriteGlobal) { BidGlobalCookie.runSynch = { 'overwriteGlobal': overwriteGlobal}; };
@@ -1778,7 +1778,7 @@ $(window).on("load", function() {
 
     
 
-    <iframe src="//contentap.buyitdirect.co.uk/MDC/gsmdc.html" id="if_mdc" name="if_mdc_name" width="0" height="0" style="display:none;visibility:hidden"></iframe>
+    <iframe src="" id="if_mdc" name="if_mdc_name" width="0" height="0" style="display:none;visibility:hidden"></iframe>
     <script type="text/javascript">
 
         window.onload = function () {
@@ -6698,13 +6698,13 @@ $(window).on("load", function() {
         
 
         //GetProductAvailabilityQuickByProductIDsSiteIDWithServerCacheRequestAngular($(".Availability"), '2', BIDAPPSERVICESCONSTANTS);
-        ////GetProductAvailabilityQuickByProductIDsSiteIDWithServerCacheRequestNew($(".Availability"), 2, '//webapidd.buyitdirect.co.uk');
+        ////GetProductAvailabilityQuickByProductIDsSiteIDWithServerCacheRequestNew($(".Availability"), 2, '');
 
         //BID.refurbs.bindShowContentEvents();
         //getAvailability();
     //});
     function getAvailability() {
-        BID.availability.GetProductAvailabilityMulti($(".Availability"), 2, '//webapidd.buyitdirect.co.uk');
+        BID.availability.GetProductAvailabilityMulti($(".Availability"), 2, '');
 
         BID.refurbs.bindShowContentEvents();
         BID.attached.bindShowContentEvents();
@@ -6861,14 +6861,14 @@ jQuery("div.sr_container").attr("ID", "sr_404");
                     setMetaProperty("ogd", "Buy Commercial Drones from Drones Direct - the UK's leading online drones retailer, we offer expert advice");
                     setMetaProperty("ogsn", "DronesDirect");
                     setMetaProperty("ogty", "website");
-                    setMetaProperty("ogim", "https://www.dronesdirect.co.uk/SiteContent/images/dd-logo.jpg");
-                        setMetaProperty("ogu", "https://www.dronesdirect.co.uk/ct/uavs/drones/commercial");
+                    setMetaProperty("ogim", "https://idronestech.com/SiteContent/images/dd-logo.jpg");
+                        setMetaProperty("ogu", "https://idronestech.com/ct/uavs/drones/commercial");
 
                     setMetaProperty("twc", "summary");
                     setMetaProperty("twt", "Commercial Drone | ");
                     setMetaProperty("twd", "Buy Commercial Drones from Drones Direct - the UK's leading online drones retailer, we offer expert advice");
                     setMetaProperty("twst", "@DronesDirectUK");
-                    setMetaProperty("twim", "https://www.dronesdirect.co.uk/Images/BUNCP.EN.00000411.0192858_2_Classic.jpg?width=390&height=390&v=82");
+                    setMetaProperty("twim", "https://idronestech.com/Images/BUNCP.EN.00000411.0192858_2_Classic.jpg?width=390&height=390&v=82");
 
         $("#internalStyles").replaceWith(decodeString(""));
     }
