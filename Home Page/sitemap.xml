@@ -26,7 +26,7 @@
 
   <!-- 5. Gimbals & Cameras / Cinematography  -->
   <url>
-    <loc>https://idronestech.com/drone%20ranges/gimbals%20&%20cameras/</loc>
+    <loc>https://idronestech.com/drone%20ranges/gimbals%20&amp;%20cameras/</loc>
     <priority>0.85</priority>
   </url>
 
@@ -38,7 +38,7 @@
 
   <!-- 7. Action Cameras Hub  --> 
    <url>
-   <loc>https://idronestech.com/drone%20ranges/gimbals%20&%20cameras/action%20cameras/</loc>
+   <loc>https://idronestech.com/drone%20ranges/gimbals%20&amp;%20cameras/action%20cameras/</loc>
       <priority>0.85</priority>
   </url>
 
@@ -128,7 +128,7 @@
 
   <!-- 20. Premium Consumer Drone Parts & Accessories Hub  -->
   <url>
-    <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/consumer%20drone%20parts%20&%20accessories/</loc>
+    <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/consumer%20drone%20parts%20&amp;%20accessories/</loc>
     <priority>0.85</priority>
   </url>
 
@@ -230,7 +230,7 @@
 
 <!-- 37. Commercial Drone Cameras & Payloads Hub  -->
   <url>
-    <loc>https://idronestech.com/drone%20ranges/commercial%20drones/commercial%20drone%20cameras%20&%20payloads/</loc>
+    <loc>https://idronestech.com/drone%20ranges/commercial%20drones/commercial%20drone%20cameras%20&amp;%20payloads/</loc>
     <priority>0.85</priority>
   </url>
 
@@ -441,7 +441,7 @@
 
   <!-- 68. Essential Drone Setup Service - Firmware Update - Test Flight & 7 Point Inspection - DJI & Yuneec Drones Only  -->
   <url>
-    <loc>https://idronestech.com/drone%20ranges/toy%20drones/essential%20drone%20setup%20service%20-%20firmware%20update%20-%20test%20flight%20&%207%20point%20inspection%20-%20dji%20&%20yuneec%20drones%20only/</loc>
+    <loc>https://idronestech.com/drone%20ranges/toy%20drones/essential%20drone%20setup%20service%20-%20firmware%20update%20-%20test%20flight%20&amp;%207%20point%20inspection%20-%20dji%20&amp;%20yuneec%20drones%20only/</loc>
     <priority>0.85</priority>
   </url>
 
@@ -484,7 +484,7 @@
 
   <!-- 75. DJI 65W Car Charger    -->
   <url>
-    <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/consumer%20drone%20parts%20&%20accessories/dji%C2%A065w%20car%20charger/</loc>
+    <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/consumer%20drone%20parts%20&amp;%20accessories/dji%C2%A065w%20car%20charger/</loc>
     <priority>0.85</priority>
   </url>
 
@@ -544,7 +544,7 @@
 
   <!-- 85. DJI Air 3 Battery Charging Hub   -->
   <url>
-    <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/consumer%20drone%20parts%20&%20accessories/dji%20air%203%20battery%20charging%20hub/</loc>
+    <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/consumer%20drone%20parts%20&amp;%20accessories/dji%20air%203%20battery%20charging%20hub/</loc>
     <priority>0.85</priority>
   </url>
 
