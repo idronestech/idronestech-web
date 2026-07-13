@@ -12,7 +12,7 @@
     <priority>0.90</priority>
   </url>
 
-  <!-- 3. Commercial Drones Hub  -->
+  <!-- 3. commercial-drones Hub  -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/Commercial%20Drones/index.html</loc>
     <priority>0.90</priority>
@@ -126,7 +126,7 @@
     <priority>0.85</priority>
   </url>
 
-  <!-- 20. Premium Consumer Drone Parts & Accessories Hub  -->
+  <!-- 20. Premium consumerdronepartsaccessories Hub  -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/consumer%20drone%20parts%20&amp;%20accessories/</loc>
     <priority>0.85</priority>
@@ -150,7 +150,7 @@
     <priority>0.85</priority>
   </url>
 
-  <!-- 24.Top Drone Camera Lens Filters  Hub  -->
+  <!-- 24.Top dronecameralensfilters  Hub  -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/filters/</loc>
     <priority>0.85</priority>
@@ -168,12 +168,12 @@
     <priority>0.85</priority>
   </url>
 
-  <!-- 27. Top DJI Inspire 3 High Altitude Propellers Pair Hub  -->
+  <!-- 27. Top djiInspire3highaltitudepropellerspair Hub  -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/commercial%20drones/dji%20inspire%203%20high%20altitude%20propellers%20pair/</loc>
     <priority>0.85</priority>
   </url>
-  <!-- 28. Autel EVO MAX 4T Standard Bundle with Battery Hub  -->
+  <!-- 28. auteleomax4tstandardbundlewithbattery Hub  -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/commercial%20drones/autel%20evo%20max%204t%20standard%20bundle%20with%20battery/</loc>
     <priority>0.85</priority>
@@ -203,7 +203,7 @@
     <priority>0.85</priority>
   </url>
 
-  <!-- 33. DJI Mavic 3 Multispectral Drone Hub  -->
+  <!-- 33. djimavic3multispectraldrone Hub  -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/commercial%20drones/dji%20mavic%203%20multispectral%20drone/</loc>
     <priority>0.85</priority>
@@ -215,20 +215,20 @@
     <priority>0.85</priority>
   </url>
 
-  <!-- 35. Autel EVO MAX 4T Standard Bundle with Battery Hub  -->
+  <!-- 35. auteleomax4tstandardbundlewithbattery Hub  -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/commercial%20drones/autel%20evo%20max%204t%20standard%20bundle%20with%20battery/</loc>
     <priority>0.85</priority>
   </url>
 
-  <!-- 36. premium Top Commercial Dji Drones Hub  -->
+  <!-- 36. premium Top commercialdjidrones Hub  -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/commercial%20drones/commercial%20dji%20drones/</loc>
     <priority>0.85</priority>
   </url>
 
 
-<!-- 37. Commercial Drone Cameras & Payloads Hub  -->
+<!-- 37. commercialdronecameraspayloads Hub  -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/commercial%20drones/commercial%20drone%20cameras%20&amp;%20payloads/</loc>
     <priority>0.85</priority>
@@ -256,21 +256,21 @@
   </url>
 
 
-<!-- 41. Dji Drone Chargers Hub  -->
+<!-- 41. djidronechargers Hub  -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/commercial%20drones/dji%20drone%20chargers/</loc>
     <priority>0.85</priority>
   </url>
 
 
-<!-- 42. Commercial Drone Rtk  -->
+<!-- 42. commercialdronertk  -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/commercial%20drones/commercial%20drone%20rtk/</loc>
     <priority>0.85</priority>
   </url>
 
 
-<!-- 43. Consumer Drone Camera Lens Filters  -->
+<!-- 43. Consumer dronecameralensfilters  -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/filters/</loc>
     <priority>0.85</priority>
@@ -305,77 +305,77 @@
   </url>
 
 
-<!-- 48. DJI Zenmuse H30T  -->
+<!-- 48. djizenmuseh30t  -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/dji%20zenmuse%20h30t/</loc>
     <priority>0.85</priority>
   </url>
 
 
-<!-- 49. DJI Zenmuse X7 DL 24mm F2.8 LS ASPH Lens  -->
+<!-- 49. djizenmusex7dl24mmf2.8lsasphlens  -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/dji%20zenmuse%20x7%20dl%2024mm%20f2.8%20ls%20asph%20lens/</loc>
     <priority>0.85</priority>
   </url>
 
 
-<!-- 50. DJI Zenmuse X7 DL 35mm F2.8 LS ASPH Lens  -->
+<!-- 50. djizenmusex7dl35mmf2.8lsasphlens  -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/dji%20zenmuse%20x7%20dl%2035mm%20f2.8%20ls%20asph%20lens/</loc>
     <priority>0.85</priority>
   </url>
 
 
-<!-- 51. Autel EVO MAX 4T Standard Bundle with Battery Hub  -->
+<!-- 51. auteleomax4tstandardbundlewithbattery Hub  -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/commercial%20drones/autel%20evo%20max%204t%20standard%20bundle%20with%20battery/</loc>
     <priority>0.85</priority>
   </url>
 
 
-<!-- 52. DJI Zenmuse P1  -->
+<!-- 52. djizenmusep1  -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/dji%20zenmuse%20p1/</loc>
     <priority>0.85</priority>
   </url>
 
 
-<!-- 53. DJI Mini 2 Series Propellers Pair  -->
+<!-- 53. djimini2seriespropellerspair  -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/propellers/dji%20mini%202%20series%20propellers%20pair/</loc>
     <priority>0.85</priority>
   </url>
 
 
-<!-- 54. DJI Inspire 3 High Altitude Propellers Pair  -->
+<!-- 54. djiInspire3highaltitudepropellerspair  -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/propellers/dji%20inspire%203%20high%20altitude%20propellers%20pair/</loc>
     <priority>0.85</priority>
   </url>
 
 
-<!-- 55. DJI Flip Propellers Pair  -->
+<!-- 55. djiflippropellerspair  -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/propellers/dji%20flip%20propellers%20pair/</loc>
     <priority>0.85</priority>
   </url>
 
 
-<!-- 56. DJI Mini 3 Pro Propellers  -->
+<!-- 56. djimini3propropellers  -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/propellers/dji%20mini%203%20pro%20propellers/</loc>
     <priority>0.85</priority>
   </url>
 
 
-<!-- 57. DJI RC Plus  -->
+<!-- 57. djircplus  -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/controllers/dji%20rc%20plus/</loc>
     <priority>0.85</priority>
   </url>
 
 
-<!-- 58. DJI RC Plus  -->
+<!-- 58. djircplus  -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/controllers/dji%20rc%20plus/</loc>
     <priority>0.85</priority>
@@ -389,21 +389,21 @@
   </url>
 
 
-<!-- 60. DJI Mini 3 Series Two-Way Charging Hub  -->
+<!-- 60. djimini3seriestwoWaycharginghub  -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/chargers/dji%20mini%203%20series%20two-way%20charging%20hub/</loc>
     <priority>0.85</priority>
   </url>
 
 
-<!-- 61. DJI 18W USB Charger for Mini Series   -->
+<!-- 61. dji18wusbchargerforminiseries   -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/commercial%20drones/dji%20drone%20chargers/dji%2018w%20usb%20charger%20for%20mini%20series/</loc>
     <priority>0.85</priority>
   </url>
 
 
-<!-- 62. DJI RoboMaster S1 Intelligent Battery Charger  -->
+<!-- 62. djirobomasters1intelligentbatterycharger  -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/chargers/dji%20robomaster%20s1%20intelligent%20battery%20charger/</loc>
     <priority>0.85</priority>
@@ -415,7 +415,7 @@
     <priority>0.85</priority>
   </url>
 
-  <!-- 64. Samsung EVO Plus microSDXC Card 256GB   -->
+  <!-- 64. samsungevoplusmicrosdxccard256gb   -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/view%20all%20accessories/samsung%20evo%20plus%20microsdxc%20card%20256gb/</loc>
     <priority>0.85</priority>
@@ -433,7 +433,7 @@
     <priority>0.85</priority>
   </url>
 
-  <!-- 67. DJI Mini 4 Pro Intelligent Flight Battery  -->
+  <!-- 67. djimini4Prointelligentflightbattery  -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/batteries/dji%20mini%204%20pro%20intelligent%20flight%20battery/</loc>
     <priority>0.85</priority>
@@ -445,7 +445,7 @@
     <priority>0.85</priority>
   </url>
 
-  <!-- 69. DJI Mavic 3 Enterprise Series Battery Kit    -->
+  <!-- 69. djimavic3enterpriseseriesbatterykit    -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/view%20all%20accessories/dji%20mavic%203%20enterprise%20series%20battery%20kit/</loc>
     <priority>0.85</priority>
@@ -458,37 +458,37 @@
     <priority>0.85</priority>
   </url>
  
-  <!-- 71. DJI Mavic 3 Enterprise Series RTK Module    -->
+  <!-- 71. djiImavic3enterpriseseriesrtkmodule    -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/view%20all%20accessories/dji%20mavic%203%20enterprise%20series%20rtk%20module/</loc>
     <priority>0.85</priority>
   </url>
 
-  <!-- 72. DJI D-RTK 2 GNSS Mobile Station    -->
+  <!-- 72. djidrtk2gnssmobilestation    -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/view%20all%20accessories/dji%20d-rtk%202%20gnss%20mobile%20station/</loc>
     <priority>0.85</priority>
   </url>
 
-  <!-- 73. DJI D-RTK 2 Base Station Tripod    -->
+  <!-- 73. djidrtk2basestationtripod    -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/view%20all%20accessories/dji%20d-rtk%202%20base%20station%20tripod/</loc>
     <priority>0.85</priority>
   </url>
 
-  <!-- 74. DJI Mavic 3 Series Intelligent Flight Battery    -->
+  <!-- 74. djimavic3seriesintelligentflightbattery    -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/batteries/dji%20mavic%203%20series%20intelligent%20flight%20battery/</loc>
     <priority>0.85</priority>
   </url>
 
-  <!-- 75. DJI 65W Car Charger    -->
+  <!-- 75. dji65wcarcharger    -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/consumer%20drone%20parts%20&amp;%20accessories/dji%C2%A065w%20car%20charger/</loc>
     <priority>0.85</priority>
   </url>
 
-  <!-- 76. DJI TB65 Intelligent Flight Battery    -->
+  <!-- 76. dJItb65intelligentflightbattery    -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/commercial%20drones/commercial%20drone%20batteries/dji%20tb65%20intelligent%20flight%20battery/</loc>
     <priority>0.85</priority>
@@ -500,55 +500,55 @@
     <priority>0.85</priority>
   </url>
 
-  <!-- 78. DJI D-RTK 2 GNSS Mobile Station with D-RTK 2 Base Station Tripod    -->
+  <!-- 78. djidrtk2gnssmobilestation with D-RTK 2 Base Station Tripod    -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/view%20all%20accessories/dji%20d-rtk%202%20gnss%20mobile%20station%20with%20d-rtk%202%20base%20station%20tripod1/</loc>
     <priority>0.85</priority>
   </url>
 
-  <!-- 79. D-RTK 2 Base Station Power Adapter Cable    -->
+  <!-- 79. drtk2basestationpoweradaptercable    -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/view%20all%20accessories/d-rtk%202%20base%20station%20power%20adapter%20cable/</loc>
     <priority>0.85</priority>
   </url>
 
-  <!-- 80. DJI AS1 Speaker    -->
+  <!-- 80. djias1speaker    -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/view%20all%20accessories/dji%20as1%20speaker/</loc>
     <priority>0.85</priority>
   </url>
 
-  <!-- 81. DJI AL1 SpotLight    -->
+  <!-- 81. djial1spotlight    -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/view%20all%20accessories/dji%20al1%20spotlight/</loc>
     <priority>0.85</priority>
   </url>
 
-  <!-- 82. DJI Phantom 4 Pro Forward Vision Module P4P V2    -->
+  <!-- 82. djiphantom    -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/view%20all%20accessories/dji%20phantom%204%20pro%20forward%20vision%20module%20p4p%20v2/</loc>
     <priority>0.85</priority>
   </url>
 
-  <!-- 83. DJI FPV Battery Charging Hub    -->
+  <!-- 83. djifpvbatterycharginghub    -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/view%20all%20accessories/dji%20fpv%20battery%20charging%20hub/</loc>
     <priority>0.85</priority>
   </url>
 
-  <!-- 84. DJI Matrice 4 Series Battery Charging Hub 100W    -->
+  <!-- 84. djimatrice4seriesbatterycharginghub100w    -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/view%20all%20accessories/dji%20matrice%204%20series%20battery%20charging%20hub%20100w/</loc>
     <priority>0.85</priority>
   </url>
 
-  <!-- 85. DJI Air 3 Battery Charging Hub   -->
+  <!-- 85. djiair3batterycharginghub   -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/consumer%20drone%20parts%20&amp;%20accessories/dji%20air%203%20battery%20charging%20hub/</loc>
     <priority>0.85</priority>
   </url>
 
-  <!-- 86. BS65 Intelligent Battery Station    -->
+  <!-- 86. bs65ntelligentbatterystation    -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/view%20all%20accessories/bs65%20intelligent%20battery%20station/</loc>
     <priority>0.85</priority>
@@ -560,49 +560,49 @@
     <priority>0.85</priority>
   </url>
 
-  <!-- 88. DJI Air 3S Wide-Angle Lens    -->
+  <!-- 88. djiair3swideanglelens    -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/view%20all%20accessories/dji%20air%203s%20wide-angle%20lens/</loc>
     <priority>0.85</priority>
   </url>
 
-  <!-- 89. DJI Matrice 30 Series Fast Charge Cable    -->
+  <!-- 89. djimatrice30seriesfastchargecable    -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/view%20all%20accessories/dji%20matrice%2030%20series%20fast%20charge%20cable/</loc>
     <priority>0.85</priority>
   </url>
 
-  <!-- 90. DJI Zenmuse H30    -->
+  <!-- 90. djizenmuseh30    -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/view%20all%20accessories/dji%20zenmuse%20h30/</loc>
     <priority>0.85</priority>
   </url>
 
-  <!-- 91. DJI Matrice 3D Series Charging Kit    -->
+  <!-- 91. djimatricedserieschargingkit    -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/view%20all%20accessories/dji%20matrice%203d%20series%20charging%20kit/</loc>
     <priority>0.85</priority>
   </url>
 
-  <!-- 92. DJI Mavic 2 ESC Board Module    -->
+  <!-- 92. djimavic2escboardmodule    -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/view%20all%20accessories/dji%20mavic%202%20esc%20board%20module/</loc>
     <priority>0.85</priority>
   </url>
   
-  <!-- 93. DJI D-RTK 2 Base Station Tripod   -->
+  <!-- 93. djidrtk2basestationtripod   -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/view%20all%20accessories/dji%20d-rtk%202%20base%20station%20tripod2/</loc>
     <priority>0.85</priority>
   </url>
 
-  <!-- 94. DJI Matrice 30 Series 4G Dongle Kit    -->
+  <!-- 94. djimatrice30series4gdonglekit    -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/view%20all%20accessories/dji%20matrice%2030%20series%204g%20dongle%20kit/</loc>
     <priority>0.85</priority>
   </url>
 
-  <!-- 95. Matrice 350 RTK Gimbal Damper    -->
+  <!-- 95. matrice350rtkgimbaldamper    -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/view%20all%20accessories/matrice%20350%20rtk%20gimbal%20damper/</loc>
     <priority>0.85</priority>
@@ -614,7 +614,7 @@
     <priority>0.85</priority>
   </url>
 
-  <!-- 97. DJI Matrice 30 Series 1676 High Altitude Propeller    -->
+  <!-- 97. djimatrice30series1676highaltitudepropeller    -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/view%20all%20accessories/dji%20matrice%2030%20series%201676%20high%20altitude%20propeller/</loc>
     <priority>0.85</priority>
@@ -627,31 +627,31 @@
   </url>
 
 
-<!-- 100. PSDK Mounting Bracket    -->
+<!-- 100. apsdkmountingbracket    -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/view%20all%20accessories/psdk%20mounting%20bracket/</loc>
     <priority>0.85</priority>
   </url>
 
-  <!-- 96. DJI Matrice 30 Series 1671 Propeller    -->
+  <!-- 96. djimatrice30series1671propeller    -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/view%20all%20accessories/dji%20matrice%2030%20series%201671%20propeller/</loc>
     <priority>0.85</priority>
   </url>
 
-  <!-- 96. DJI Matrice 30 Series 1671 Propeller    -->
+  <!-- 96. djimatrice30series1671propeller    -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/view%20all%20accessories/dji%20matrice%2030%20series%201671%20propeller/</loc>
     <priority>0.85</priority>
   </url>
 
-  <!-- 96. DJI Matrice 30 Series 1671 Propeller    -->
+  <!-- 96. djimatrice30series1671propeller    -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/view%20all%20accessories/dji%20matrice%2030%20series%201671%20propeller/</loc>
     <priority>0.85</priority>
   </url>
 
-  <!-- 96. DJI Matrice 30 Series 1671 Propeller    -->
+  <!-- 96. djimatrice30series1671propeller    -->
   <url>
     <loc>https://idronestech.com/drone%20ranges/consumer%20drone%20acccesories/view%20all%20accessories/dji%20matrice%2030%20series%201671%20propeller/</loc>
     <priority>0.85</priority>
